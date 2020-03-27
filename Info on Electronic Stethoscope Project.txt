@@ -1,0 +1,163 @@
+---Overview---------------------------------------------------------------------
+
+    https://helpwithcovid.com/projects/252-bluetooth-stethoscope-pulse-oximeter
+
+Scope:
+    We're looking for a functional stethoscope that a doctor can use to listen
+    to a patient's vitals, while wearing full protective gear.  A stethoscope on
+    a hose is clumsy, not helpful with protective gear (facemask, hooded garment);
+    additionally its ackward to disinfect a stethoscope between patients.  An ideal
+    solution would be a device that could be wrapped in a disposable covering (perhaps
+    a rubber glove?) between patients.
+
+---Open Source Hardware Repos---------------------------------------------------
+
+    https://en.wikipedia.org/wiki/List_of_open-source_hardware_projects
+
+    https://en.wikipedia.org/wiki/List_of_open-source_health_software
+
+---Listening to heart rate---------------------------------------------------------
+
+    https://forum.allaboutcircuits.com/threads/best-microphone-to-detect-heartbeat.155369/
+
+    oops.  Heart rate isn't our primary objective.. its listening to a patient's
+    lungs.
+
+---what about listening to lungs?-----------------------------------------------
+
+    Nice overview paper.
+    https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6101681/
+    Respiratory sound analysis in the era of evidence-based medicine and the
+    world of medicine 2.0
+    E Andrès,* R Gass,** A Charloux,*** C Brandt,**** and A Hentzler*****
+
+    Kraman et al. [17] studied the effects of different microphones and concluded
+    that the most effective one was the electret microphone with conical coupler,
+    10-15mm in diameter;
+
+    Frick, the Kraman study was done in 1995.  Way before cell phones high volume MEMS
+    mikes... https://www.ncbi.nlm.nih.gov/pubmed/7555110/
+    Measurement of respiratory acoustic signals. Effect of microphone air cavity
+    width, shape, and venting.  Kraman SS1, Wodicka GR, Oh Y, Pasterkamp H.
+
+    (oops. I only have mems microphone...)
+
+    Electret vs mems?
+    https://forum.digikey.com/t/electret-condenser-ecm-vs-mems-microphone/447
+    Electret condenser microphone (ECM microphone) apply the principle of capacitor
+    charge/discharge for operation. The diaphragm acts as one plate of a capacitor,
+    the vibration is generated due to the sound, then produce the changes of
+    charge between the plates to make the signal transmission.
+
+    Since the vibration is purely an electromechanical mechanism, it has the
+    whole acoustic frequency response (0-20kHZ) and low distortion in the signal
+    transmission, generally used in external portable microphone. Its shortcoming
+    is being unable to undertake a re-flow soldering, so there is a specific
+    soldering process and tools for manual soldering.
+
+---ESP-32-----------------------------------------------------------------------
+
+    https://www.aliexpress.com/item/32801296418.html?src=google&src=google&albch=shopping&acnt=768-202-3196&isdl=y&aff_short_key=UneMJZVf&slnk=&plac=&mtctp=&albbt=Google_7_shopping&aff_platform=google&&albcp=9603941227&albag=96253190102&trgt=297309937605&crea=en32801296418&netw=g&device=c&albpg=297309937605&albpd=en32801296418&gclid=Cj0KCQjwpfHzBRCiARIsAHHzyZr4OGfWuGPSdq0CqLSSRd4H_1mqvi2yu0oduqNAtVLHI9zTAtB1Z9saAvgIEALw_wcB&gclsrc=aw.ds
+
+    Power Consumption?
+    https://esp32.com/viewtopic.php?t=2662
+    VCC=5V     N. CORES ACTIVE: DEFAULT
+
+    SCENARIO-------------------------------CPU80MHz-----------CPU160MHz---------CPU240MHz
+    - CPU + ELECTRONICS + BT----------------113mA----------------123mA------------141mA
+    - CPU + ELECTRONICS----------------------38mA---------------- 51mA ------------73mA
+    - CPU (deep sleep) + ELECTRONICS--------3.5mA----------------3.5mA------------3.5mA
+
+    AA battery (1.5v) life: 2400 mAhours
+    AAA battery: 1000 mAhours
+
+
+    While executing WiFi.scanNetworks() function very first time, module consumes
+    average current of 0.5A for 10 ms with four peaks of approx. 0.7A during that
+    period.  After that module consumes average 130 mA with 0.6A current spikes.
+    The spikes have duration of 0.5 ms and appear in bursts with spike rate of 100 ms.
+
+    Apparently it is about 2 times worse than promised in the ESP-32 data sheet.
+    I expected to see about 0.3A max (50 mA for CPU and 240 mA max for WiFi
+    transmitter).
+
+    Can ESP32 handle I2S?  Can it perform A to D?
+    https://demo-dijiudu.readthedocs.io/en/latest/api-reference/peripherals/i2s.html
+    ESP32 contains two I2S peripherals. These peripherals can be configured to
+    input and output sample data via the I2S driver.  The I2S peripheral supports
+    DMA meaning it can stream sample data without requiring each sample to be
+    read or written by the CPU.  I2S output can also be routed directly to the
+    Digital/Analog Converter output channels (GPIO 25 & GPIO 26) to produce
+    analog output directly, rather than via an external I2S codec.
+
+    https://github.com/espressif/esp-idf  (Is this all ESP32's?)
+    https://docs.espressif.com/projects/esp-idf/en/latest/esp32/hw-reference/index.html
+
+---ESP32 General Specs----------------------------------------------------------
+
+    https://en.wikipedia.org/wiki/ESP32
+    Features of the ESP32 include the following:[3]
+
+    Processors:
+    CPU: Xtensa dual-core (or single-core) 32-bit LX6 microprocessor, operating
+        at 160 or 240 MHz and performing at up to 600 DMIPS
+    Ultra low power (ULP) co-processor
+    Memory: 520 KiB SRAM
+    Wireless connectivity:
+    Wi-Fi: 802.11 b/g/n
+    Bluetooth: v4.2 BR/EDR and BLE (shares the radio with Wi-Fi)
+    Peripheral interfaces:
+    12-bit SAR ADC up to 18 channels
+    2 × 8-bit DACs
+    10 × touch sensors (capacitive sensing GPIOs)
+    4 × SPI
+    2 × I²S interfaces
+    2 × I²C interfaces
+    3 × UART
+    SD/SDIO/CE-ATA/MMC/eMMC host controller
+    SDIO/SPI slave controller
+    Ethernet MAC interface with dedicated DMA and IEEE 1588 Precision Time Protocol support
+    CAN bus 2.0
+    Infrared remote controller (TX/RX, up to 8 channels)
+    Motor PWM
+    LED PWM (up to 16 channels)
+    Hall effect sensor
+    Ultra low power analog pre-amplifier
+
+---WebBlueTooth-----------------------------------------------------------------
+
+    https://www.smashingmagazine.com/2019/02/introduction-to-webbluetooth/
+
+    https://webbluetoothcg.github.io/web-bluetooth/
+    Web Bluetooth -- Draft Community Group Report, 20 March 2020
+
+    https://github.com/opengatt/registry
+
+    Nordic Uart
+    A generic service for reading and writing streams of bytes
+    https://github.com/opengatt/registry/tree/master/services/uart
+    Peripheral Implementations -- BLEStream Arduino
+    Client Implementations -- ble-serial JavaScript (Node.js and Browser)
+
+    Current status of audio over BLE (Android, iOS)
+    https://www.silabs.com/community/wireless/bluetooth/forum.topic.html/current_status_ofau-u3gE
+
+    LBC note: After looking closely at some of these details, I cannot imagine
+    WebBlueTooth will manage a decent audio stream.  too much data.
+
+    Never mind that this discussion was for the remote Telemedicine out of scope
+    proposal.   A doctor needs to use a stethoscope to manage tube insertions to
+    a patient right in from of them.  this is not a telemedicine conversation.
+
+---Deals tied to the helpwithcovid.com site-------------------------------------
+
+    https://www.mygatorwatch.com/Default.asp
+    Free watch (cell phone, geo locator) for elders in need. Interesting, but
+    doesn't fit our proposal.  Might be a contact when it comes time for manufacturing...
+
+    SMS texting from Chatbox...
+    could be nice, not needed here. Ha.  Lost your stethoscope, send a text page.
+    Er... no. just no...
+
+    I was actually looking for server space.. and with current scope that's
+    unnecessary.
