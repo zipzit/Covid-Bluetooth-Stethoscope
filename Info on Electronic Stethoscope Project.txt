@@ -16,6 +16,26 @@ Scope:
 
     https://en.wikipedia.org/wiki/List_of_open-source_health_software
 
+    Screw it.. Github for the win.
+
+---Resources on hand------------------------------------------------------------
+
+    LBC notes:
+
+    3d printer makerbot, heated bed, working envelope:  225x145x150 millimeters or 8.9 x 5.7 x 5.9 inches
+    material PLC (a small bit left) ABS (brand new unopened box)
+    https://www.cnet.com/reviews/makerbot-replicator-review/
+    https://picclick.com/MakerBot-Replicator-Dual-Extrusion-2-color-printing-3D-Printer-162737354718.html
+
+    Access to Orange Pi's, Raspberry Pi's, ESP32 (with both Wifi and BT)
+
+    At one point in time I started an inventory of my electronic parts.
+    https://docs.google.com/spreadsheets/d/1TP7NCWNiXR75lc__cfYYinlH-1VoV7KbM1oV_g3vnZg/edit?usp=sharing
+    I only have one microphone chip, a AdaFruit Mems development board (I2S)
+    I'm going to check my buddies stock & steal (er, borrow) what he has available.
+    He thinks he may have some electret condenser microphone elements available.
+    I'm pretty sure he has a huge quantity of resistors and capacitors for most needs.
+
 ---Listening to heart rate---------------------------------------------------------
 
     https://forum.allaboutcircuits.com/threads/best-microphone-to-detect-heartbeat.155369/
@@ -151,6 +171,8 @@ Scope:
 
 ---Deals tied to the helpwithcovid.com site-------------------------------------
 
+    See listing at: https://helpwithcovid.com/offers
+
     https://www.mygatorwatch.com/Default.asp
     Free watch (cell phone, geo locator) for elders in need. Interesting, but
     doesn't fit our proposal.  Might be a contact when it comes time for manufacturing...
@@ -159,5 +181,13 @@ Scope:
     could be nice, not needed here. Ha.  Lost your stethoscope, send a text page.
     Er... no. just no...
 
-    I was actually looking for server space.. and with current scope that's
+    I was actually looking for server space.. and with current project scope that's
     unnecessary.
+
+---Blood Oxygen level measurement?----------------------------------------------
+
+    https://en.wikipedia.org/wiki/Pulse_oximetry
+
+    Not quite sure how to make one of these (either for finger or earlobe) that
+    easy to disinfect between users.  That would be ugly.  Cheaper to buy a
+    battery operated one, one per patient.  Review needed.
