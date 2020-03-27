@@ -220,4 +220,29 @@ Scope:
     hackathon for a mining project, using a microphone / pi system to monitor
     pending mineshaft pump failures.  Great idea, i didn't really understand the
     nuances of Fast Fourier Transforms for live monitoring.  The class was
-    really good at forcing you to understand what's going on.  
+    really good at forcing you to understand what's going on.
+
+---BlueTooth Linkup-------------------------------------------------------------
+
+    The topic started as a conversation with my research scientist buddy Dirk,
+    do we really need a visible screen?  And it gets down to how do you pair
+    a digital stethoscope with a Bluetooth headset, if neither of them has a
+    visible screen.  What if you are in a location that has lots of other
+    Bluetooth devices present?
+
+    One way is to lock the devices together using a dedicated "mac" address.
+    You can permanently link the headset to a particular Bluetooth stethoscope.
+    Easy to do when you are just making one set, not so easy to do when you need
+    fifty or a 1000 of these.  And then if permanently paired, what happens
+    when there is a problem with either (expensive) device?  You have to throw
+    both pieces away.
+
+    I think that means a OLED display screen is required, to manage the Bluetooth
+    pairing process, sigh.  And momentary buttons for up / down / select.
+
+    An exceptional reference on this stuff?  (ESP32, IOT stuff, Bluetooth) 
+
+    https://randomnerdtutorials.com/   From Rui and Sara Santos
+
+    see:  Dedicated mac addresses for bluetooth devices.
+          Blue tooth Advertising
