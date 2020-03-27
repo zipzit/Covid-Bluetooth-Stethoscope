@@ -18,6 +18,14 @@ Scope:
 
     Screw it.. Github for the win.
 
+---stupid dumb question for team - Stereo ?-------------------------------------
+
+    LBC note: I was looking at the spec sheet for the AdaFruit MEMS microphone.
+    You can use two for stereo.  Wow.  We each have two ears.  Is there any advantage
+    to the quality of stethoscope use by providing true stereo performance?
+    Perhaps an oval shaped cone? That would increase power usage, but it might
+    be a big improvement in the quality of the device's output (?)
+
 ---Resources on hand------------------------------------------------------------
 
     LBC notes:
@@ -26,6 +34,9 @@ Scope:
     material PLC (a small bit left) ABS (brand new unopened box)
     https://www.cnet.com/reviews/makerbot-replicator-review/
     https://picclick.com/MakerBot-Replicator-Dual-Extrusion-2-color-printing-3D-Printer-162737354718.html
+
+    Hakko Fx-888 soldering iron.
+    old skool power supply, old skool analog oscilloscope
 
     Access to Orange Pi's, Raspberry Pi's, ESP32 (with both Wifi and BT)
 
@@ -191,3 +202,22 @@ Scope:
     Not quite sure how to make one of these (either for finger or earlobe) that
     easy to disinfect between users.  That would be ugly.  Cheaper to buy a
     battery operated one, one per patient.  Review needed.
+
+---High Tech Question-----------------------------------------------------------
+
+    Once you've gone digital, are there other tools we're interested in?
+    e.g. Digital Signal Processing including filtering, Frequency domain analysis?
+
+    LBC Note: I've recently finished the Coursera class (Mar 2018)--
+    Audio Signal Processing For Music Applications
+    https://www.coursera.org/learn/audio-signal-processing
+    https://online.stanford.edu/courses/sohs-ymusic0001-audio-signal-processing-music-applications
+
+    Meghana... the code work was all done in Python!
+
+    At the time I wanted to use raspberry pi microphone for an interactive dynamic
+    outdoor art project in downtown Las Vegas.  I also got bashed hard at a
+    hackathon for a mining project, using a microphone / pi system to monitor
+    pending mineshaft pump failures.  Great idea, i didn't really understand the
+    nuances of Fast Fourier Transforms for live monitoring.  The class was
+    really good at forcing you to understand what's going on.  
