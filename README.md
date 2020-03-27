@@ -4,9 +4,9 @@
 
 ### Team  ###
 
-Dr. Brian
-Meghana
-LB 
+- Dr. Brian
+- Meghana
+- LB 
 
 ### Description ###
  
