@@ -240,9 +240,21 @@ Scope:
     I think that means a OLED display screen is required, to manage the Bluetooth
     pairing process, sigh.  And momentary buttons for up / down / select.
 
-    An exceptional reference on this stuff?  (ESP32, IOT stuff, Bluetooth) 
+    An exceptional reference on this stuff?  (ESP32, IOT stuff, Bluetooth)
 
     https://randomnerdtutorials.com/   From Rui and Sara Santos
 
     see:  Dedicated mac addresses for bluetooth devices.
           Blue tooth Advertising
+
+---membrane?--------------------------------------------------------------------
+
+    What to use for a stethoscope membrane?
+    Ideas: sheet plastic
+           plastic lid from a can of peanuts
+           clean bottom of steel can
+           Thin aluminum sheet (Coke Can)
+
+---Open Source Licenses---------------------------------------------------------
+
+    https://choosealicense.com/licenses/
