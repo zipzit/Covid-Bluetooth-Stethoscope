@@ -1,0 +1,29 @@
+This file is for discussions of product requirements and design decisions.  There are a number of different ways we could go with
+this design depending on the use cases and requirements for both the stethoscope and pulse oximetry devices.  I would ask the
+medical professionals to review assumptions and clarify.
+
+From the original project description we have:
+  -Inexpensive
+  -Patient-contacting portions either need one device per patient, *or* need to be easily sterilized between patients, or both.
+  -Avoid having to get/stay close to the patient if possible. (Bluetooth specified, but guessing any short-range wireless solution would do)
+  -If possible, combine stethoscope and pulse oximetry.
+
+
+
+General usage questions:
+  Is it important that the device conform to a traditional stethoscope format?  For instance, is it important that there be
+  earpieces?  Would it work to create a battery-powered cup with a speaker on the back?  (A microphone, small amplifier and a
+  speaker would be about the simplest design possible).  Do we need in-ear earphones, or would big over-the-ear-and-hood headphones
+  be acceptable?
+
+  I assume that *someone* will need to get close enough to the patient to hold the device to different areas of the patient's chest/back.
+  Is that correct?  Does that person need to be the doctor? How important is it really to have a wireless connection vs. an
+  arms-length cable?
+
+  How would the pulse oximiter be used if it was built into the stethoscope cup?  Can readings be taken at the same locations on the
+  patient while you're listening to the heart/lungs, or does it need to be attached to a finger/extremity?
+
+  Would it work to have a device you could hold in your hand and put a rubber glove over both the device and the hand at the same time? 
+
+  How inexpensive is inexpensive?  There are finger-attached pulse oximiter devices on Amazon for $25 each.  Is that too expensive
+  on a per-patient basis?  What would be target and maximum costs for the "stethoscope" if we had to have one per patient?

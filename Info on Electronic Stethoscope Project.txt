@@ -203,6 +203,13 @@ Scope:
     easy to disinfect between users.  That would be ugly.  Cheaper to buy a
     battery operated one, one per patient.  Review needed.
 
+    I found this Maxim Max30100 pulse oximiter/heartrate module and a review:
+      https://www.teachmemicro.com/max30100-arduino-heart-rate-sensor/
+
+    There are a couple different board versions, one is cheaper but harder to work with.
+    The more expensive one is about $6/unit on Alibaba, don't know about availability.
+
+
 ---High Tech Question-----------------------------------------------------------
 
     Once you've gone digital, are there other tools we're interested in?
