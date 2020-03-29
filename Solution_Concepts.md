@@ -48,7 +48,8 @@ As long as the sound quality is acceptable for the doctor's use,  the doctor (an
 Less equipment to charge, carry around, and sterilize.
 
 Picture something like this, except smoother and flatter:
-  ![Speaker Puck](/images/Microphone and Speaker in One.jpg)
+
+  ![Speaker Puck](/images/Microphone%20and%20Speaker%20in%20One.jpg)
 
 Questions:
   - Would the sound level be acceptable in a hospital environment?  Or conversely, would a noisy hospital environment drown out the speaker?
@@ -75,22 +76,19 @@ Pros:
 
 Questions:
   Instead of being sterilized, could it be enclosed in a plastic bag that could be sterilized?  Would this work in a hospital environment?
-  ![Plastic Bag](/images/Headset and Sandwich Bag Proposal.jpg)
+  
+  ![Plastic Bag](/images/Headset%20and%20Sandwich%20Bag%20Proposal.jpg)
 
 Notes:
   vjmichael/mvang said they would contact Stemoscope to see about collaboration possibilities. (3/28)
 
 
-### Solution Space 3:   Create Our Own Puck ###
+### Solution Space 3:   Reuse the stethoscope/cup ###
 
-If Stemoscope (or other similar option) doesn't work, we can create our own puck.  The puck would master the system, connecting via
-  a wireless link to a pair of headphones worn by the doctor.  It would likely need a small screen and a couple buttons to select/pair
-  with the headphones.
-
-####3a:  Already Existing Pieces ####
 
 Idea:  Use an existing stethoscope cup.  There are devices on the market that attach to the tube/cup of an
 existing stethoscope, like this:
+
 ![Attach-to-Stethoscope Wireless Transmitter](/images/attach-to-stethoscope-concept.jpg)
 
 They are, however, very expensive (that one is $200/unit).  If this general solution is workable, we could possibly negotiate with
@@ -102,11 +100,18 @@ Pros:
   
 Cons:
   - Looks unwieldy, hard to operate with one hand?
+  - Limited to 
 
 
-Optional:  We wouldn't even need the rest of the stethoscope.  We could use existing stethoscopes and just cut off the headpiece (wasteful)
-We could source stand-alone stethoscope cups and attach our own tubes, or create a similar solution like:
-![Proof-of-Concept Cup and Transmitter](/images/POC-Cup-and-Transmitter.png)
+Optional:  We wouldn't even need the rest of the stethoscope.  We could use existing stethoscopes and just cut off the headpiece (although that's wasteful), or just source stand-alone stethoscope cups and attach our own tubes,
+
+
+
+### Solution Space 4:   Create Our Own Puck with integrated cup ###
+
+If Stemoscope (or other similar option) doesn't work, we can create our own puck.  The puck would master the system, connecting via
+  a wireless link to a pair of headphones worn by the doctor.  It would likely need a small screen and a couple buttons to select/pair
+  with the headphones.
 
 
 ####3b:  Puck Master ####
@@ -120,6 +125,9 @@ Pros:
   
 Cons:
   Custom solution - requires custom case and custom software development.
+  
+Could end up looking something like this, or maybe a more compact puck-shaped solution:
+![Proof-of-Concept Cup and Transmitter](/images/POC-Cup-and-Transmitter.png)
 
 
 ####Miscellaneous Ideas:####
