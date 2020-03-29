@@ -18,14 +18,14 @@ General usage questions:
 
   Will either a speaker or over the ears studio style headphones work with full protective gear, including hood without PPE removal?
 
-  Can a standard off the shelf Ziploc sandwich bag be used as a disposable sterilizing protective shield between patients?
+  Can a standard off-the-shelf Ziploc sandwich bag be used as a disposable sterilizeable protective shield between patients?
   Can a surgical rubber glove (tied in a knot) be used as a disposable protective shield on the device between patients?
 
   I assume that *someone* will need to get close enough to the patient to hold the device to different areas of the patient's chest/back.
   Is that correct?  Does that person need to be the doctor? How important is it really to have a wireless connection vs. an
   arms-length cable?
 
-  How would the pulse oximeter be used if it was built into the stethoscope cup?  Can readings be taken at the same locations on the patient while you're listening to the heart/lungs, or does it need to be attached to a finger/extremity?
+  How would the pulse oximeter be used if it was built into the stethoscope cup?  Can readings be taken at the same locations on the patient while you're listening to the heart/lungs, or does it need to be attached to a finger/extremity?  Apparently fingertip/earlobe oximetry is "transmissive mode" oximetry.  "Reflective mode" oximetry is possible at the wrists or other sites, so this could theoretically be integrated into a stethoscope puck. The hardware is likely different than current market solutions, more research is necessary.
 
   How is a $20 oximeter sterilized between patients now?
   How important is it that the oximeter and the stethoscope be one and the same device?
