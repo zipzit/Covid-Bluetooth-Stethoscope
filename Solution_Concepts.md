@@ -87,7 +87,7 @@ Questions:
 
 
 Notes:
-  vjmichael/mvang said they would contact Stemoscope to see about collaboration possibilities. (3/28)
+  Michael Vang/mvang said they would contact Stemoscope to see about collaboration possibilities. (3/28)
 
 
 ### Solution Space 3:   Reuse the stethoscope/cup - Stethoscope Only ###
