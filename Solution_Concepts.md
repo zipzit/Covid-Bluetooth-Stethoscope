@@ -32,15 +32,21 @@ These solution ideas are mainly to see what sorts of things would work *practica
 - If something works or doesn't work in the hospital setting currently, there's probably a really good reason for it.
 - Don't re-engineer anything we don't have to.
 
-
 ### Questions: ###
 - Do hospitals deal well with things that require batteries or charging?  Would it be better if the puck/microphone device could be
   plugged in and left on/near the patient as part of the station?
 - Do doctors regularly use phones/tablets for per-patient equipment in emergency situations? In other words, are there existing
   phones/tablets in this environment already that we could use to pair with a cup/puck and headphones?
+- Can a standard off-the-shelf Ziploc sandwich bag be used as a quick-and-dirty disposable sterilizeable protective shield on the device between patients?
+- Can a surgical rubber glove (tied in a knot) be used as a quick-and-dirty disposable protective shield on the device between patients?
+- I assume that *someone* will need to get close enough to the patient to hold the device to different areas of the patient's 
+  chest/back. Is that correct? Does that person need to be the doctor? How important is it really to have a wireless connection vs.
+  an arms-length cable?
+- Would the doctor desire to tape a cup/puck unit to the patient and leave it there to free up hands while listening?
+- What do doctors currently use for pulse oximetry, and how is it sterilized between patients?
 
 
-### Solution Space 1:   Quick and Simple and Dirty ###
+### Solution Space 1:   Quick and Simple and Dirty - Stethoscope Only ###
 
 Why do we need headphones? The absolute simplest design would be a puck with a microphone, a battery-powered amp, and a speaker.
 Lowest level of technology, more fool-proof, no configuration.  Could be taped in place while the patient is being intubated.
@@ -49,7 +55,7 @@ Less equipment to charge, carry around, and sterilize.
 
 Picture something like this, except smoother and flatter:
 
-  ![Speaker Puck](/images/Microphone%20and%20Speaker%20in%20One.jpg)
+<img src="/images/Microphone%20and%20Speaker%20in%20One.jpg" data-canonical-src="/images/Microphone%20and%20Speaker%20in%20One.jpg" width="400" >
 
 Questions:
   - Would the sound level be acceptable in a hospital environment?  Or conversely, would a noisy hospital environment drown out the speaker?
@@ -57,7 +63,7 @@ Questions:
   - What if these were used mainly during intubating, but we had a more traditional stethoscope-type solution for lower-stress procedures?
   
 
-### Solution Space 2:   Existing Stethoscope Solutions ###
+### Solution Space 2:   Existing Stethoscope Solutions - Stethoscope Only ###
 
 This is the Stemoscope:  https://www.stemoscope.com/
 
@@ -77,19 +83,20 @@ Pros:
 Questions:
   Instead of being sterilized, could it be enclosed in a plastic bag that could be sterilized?  Would this work in a hospital environment?
   
-  ![Plastic Bag](/images/Headset%20and%20Sandwich%20Bag%20Proposal.jpg)
+<img src="/images/Headset%20and%20Sandwich%20Bag%20Proposal.jpg" data-canonical-src="/images/Headset%20and%20Sandwich%20Bag%20Proposal.jpg" width="600" >
+
 
 Notes:
   vjmichael/mvang said they would contact Stemoscope to see about collaboration possibilities. (3/28)
 
 
-### Solution Space 3:   Reuse the stethoscope/cup ###
+### Solution Space 3:   Reuse the stethoscope/cup - Stethoscope Only ###
 
 
 Idea:  Use an existing stethoscope cup.  There are devices on the market that attach to the tube/cup of an
 existing stethoscope, like this:
 
-![Attach-to-Stethoscope Wireless Transmitter](/images/attach-to-stethoscope-concept.jpg)
+<img src="/images/attach-to-stethoscope-concept.jpg" data-canonical-src="/images/attach-to-stethoscope-concept.jpg" width="400" >
 
 They are, however, very expensive (that one is $200/unit).  If this general solution is workable, we could possibly negotiate with
   the company or create our own similar solution.
@@ -107,7 +114,7 @@ Optional:  We wouldn't even need the rest of the stethoscope.  We could use exis
 
 
 
-### Solution Space 4:   Create Our Own Puck with integrated cup ###
+### Solution Space 4:   Create Our Own Puck with integrated cup - optional Oximeter ###
 
 If Stemoscope (or other similar option) doesn't work, we can create our own puck.  The puck would master the system, connecting via
   a wireless link to a pair of headphones worn by the doctor.  It would likely need a small screen and a couple buttons to select/pair
@@ -124,23 +131,29 @@ Cons:
   Custom solution - requires custom case and custom software development.
   
 Could end up looking something like this, or maybe a more compact puck-shaped solution:
-![Proof-of-Concept Cup and Transmitter](/images/POC-Cup-and-Transmitter.png)
+<img src="/images/POC-Cup-and-Transmitter.png" data-canonical-src="/images/POC-Cup-and-Transmitter.png" width="400" >
+
+There are ESP32 microcontroller boards with built-in Bluetooth mastering that could be used, that come with a microphone and battery charging controller.  These could also control the reflective-mode oximeter logic if we go that route.
 
 
-### Solution Space 5:   Integrated Blood Oximeter ###
+### Solution Space 5:   Puck with Integrated Blood Oximeter ###
  
- Clarify the original problem statement/use models - we need more information about how having an integrated blood oximeter would work.
- This would seem to make it impossible to use both the stethoscope puck and the oximeter at the same time, as the oximiter
- needs to be clipped to a finger or earlobe.
+Clarify the original problem statement/use models - we need more information about how having an integrated blood oximeter would work.  Would the doctor generally read the oximeter *while* listening to the patient?  Would the puck have a digital readout, or provide some audio queue?  Are there times when you would want to listen and use the oximeter on the patient at different sites at the same time?
 
- Existing finger-clip oximiters on Amazon are around $20.  Is this too expensive?  Are these models useable in a hospital or are there
-   reasons these are not acceptable?  Do you know what models are currently in use?
+Existing finger-clip oximiters on Amazon are around $20.  Are they too expensive, hard to disinfect, or why are these not a good hospital solution?  Do you know what models are currently in use?
 
+This is a good article on relective-mode oximetry:  https://www.sciencedirect.com/science/article/pii/S2405959516301205
 
+Apparently fingertip/earlobe oximetry is "transmissive mode" oximetry.  "Reflective mode" oximetry is possible at the wrists or other sites, so this could theoretically be integrated into a stethoscope puck. The hardware is different than transmissive-mode solutions, I don't see any commercially available.  The circuit doesn't look that hard, could possibly prototype using the ESP32 as the microcontroller:
+
+From https://core.ac.uk/download/pdf/81961664.pdf, page 2:
+
+<img src="/images/reflective-pulse-oximetry_circuit.png" data-canonical-src="/images/reflective-pulse-oximetry_circuit.png" width="350" >
 
 ### Other interesting data points:###
   - Cheap bluetooth converters are all over the market that let you plug in a pair of *wired* headphones.  Like [these](https://smile.amazon.com/APEKX-Bluetooth-Headphones-Wireless-Hands-Free/dp/B01MUXYVOA/ref=sr_1_3?crid=8LU8JAFJEWS0&keywords=bluetooth+adapter+headphones&qid=1585470679&sprefix=bluetooth+adapter+head%2Caps%2C211&sr=8-3):
   - There are reasonable-looking 3D-printer plans for stethoscopes, such as:  https://all3dp.com/3d-printed-stethoscope/
   - There are reasonable-looking 3D-printer plans for over-the-ear headphones, such as:  https://www.instructables.com/id/3D-Printed-Bluetooth-Headphones/
-  
+
+
  
