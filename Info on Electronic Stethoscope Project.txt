@@ -389,3 +389,11 @@ https://www.harriscomm.com/eko-stethoscope-with-core-attachment.html
     Lots of reference stuff available at https://grabcad.com/library
     including a whole bunch of Covid PPE devices and related work of others.  
 
+---Idea------------------------------------------------------------------------------
+
+    ESP32 devices have multiple wireless Inputs/output systems.  We could use 
+    bluetooth for heart/lungs audio, and use an other channel for battery life 
+    monitoring (I'm thinking a hospital has 20 of these things.. How many have low 
+    batteries?)  LoRa band can easily handle that little bit of IoT (internet of things)
+    traffic, reminding hospital folks that units 1, 9 and 13 are running low and need 
+    to be charged...
