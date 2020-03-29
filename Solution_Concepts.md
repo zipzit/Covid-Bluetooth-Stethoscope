@@ -1,6 +1,6 @@
 These solution ideas are mainly to see what sorts of things would work *practically* in a hospital environment.
 
-Problems with current disposable-stethoscope solution:
+### Problems with current disposable-stethoscope solution: ###
   - Stethoscopes are expensive and hard to disinfect, resulting in a situation where cheap, disposable stethoscopes are often left with
       a single patient for the duration of their stay (in developed countries). 
   - Disposable stethoscopes are low-quality (poorer sound).
@@ -8,7 +8,7 @@ Problems with current disposable-stethoscope solution:
   - Disposable stethoscopes are quite short, forcing the doctor closer to the patient, and for a longer time, than necessary.
   - A doctor in PPE gear like this will have a hard time getting a stethoscope into their ears.
 
-The goals for the "stethoscope" are:
+### The goals for the "stethoscope" are: ###
   - A simple "stethoscope" where the cup/puck/microphone is a separate unit, wirelessly and authentically transmitting patient
       sounds to the doctor's ears.
   - Around-the-ear headphones to fit over hoods and PPE gear, although any style headphones could be used in non-pandemic situations.
@@ -16,11 +16,11 @@ The goals for the "stethoscope" are:
   - Made of parts we can source to make a sizeable quantity.
   - Get it done - as quick a turnaround as possible.
   
-Conjectures (need clarification/correction):
+### Conjectures (need clarification/correction): ###
   - A small microphone/transmitter puck that could be taped to the patient while they are being intubated frees up one of the doctors' hands.
 
 
-Constraints:
+### Constraints: ###
   - Relatively inexpensive.  Such as, in the range where parts of the device(s) that come in contact with the patient
     are effectively disposable.
   - Easily sterilizeable, or be placed in a container/wrapping that is easily sterilizeable while still functioning.
@@ -28,12 +28,12 @@ Constraints:
   - Dead simple to configure, as few failure points as possible.
   - Maximizes the distance from the patient, and/or minimizes the amount of time spent near the patient.
 
-Other:
+### Other: ###
 - If something works or doesn't work in the hospital setting currently, there's probably a really good reason for it.
 - Don't re-engineer anything we don't have to.
 
 
-Questions:
+### Questions: ###
 - Do hospitals deal well with things that require batteries or charging?  Would it be better if the puck/microphone device could be
   plugged in and left on/near the patient as part of the station?
 - Do doctors regularly use phones/tablets for per-patient equipment in emergency situations? In other words, are there existing
@@ -46,6 +46,9 @@ Why do we need headphones? The absolute simplest design would be a puck with a m
 Lowest level of technology, more fool-proof, no configuration.  Could be taped in place while the patient is being intubated.
 As long as the sound quality is acceptable for the doctor's use,  the doctor (and anyone else) wouldn't need headphones to hear.
 Less equipment to charge, carry around, and sterilize.
+
+Picture something like this, except smoother and flatter:
+  ![Speaker Puck](/images/Microphone and Speaker in One.jpg)
 
 Questions:
   - Would the sound level be acceptable in a hospital environment?  Or conversely, would a noisy hospital environment drown out the speaker?
@@ -96,9 +99,10 @@ They are, however, very expensive (that one is $200/unit).  If this general solu
 Pros:
   - This re-uses the tried-and-true stethoscope so we don't have to re-engineer.
   - Exists physically as an FDA-cleared product.
-
-
   
+Cons:
+  - Looks unwieldy, hard to operate with one hand?
+
 
 Optional:  We wouldn't even need the rest of the stethoscope.  We could use existing stethoscopes and just cut off the headpiece (wasteful)
 We could source stand-alone stethoscope cups and attach our own tubes, or create a similar solution like:
