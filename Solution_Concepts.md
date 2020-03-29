@@ -100,7 +100,7 @@ Pros:
   
 Cons:
   - Looks unwieldy, hard to operate with one hand?
-  - Limited to 
+  - Dependent on existing stocks of stethoscopes.
 
 
 Optional:  We wouldn't even need the rest of the stethoscope.  We could use existing stethoscopes and just cut off the headpiece (although that's wasteful), or just source stand-alone stethoscope cups and attach our own tubes,
@@ -112,9 +112,6 @@ Optional:  We wouldn't even need the rest of the stethoscope.  We could use exis
 If Stemoscope (or other similar option) doesn't work, we can create our own puck.  The puck would master the system, connecting via
   a wireless link to a pair of headphones worn by the doctor.  It would likely need a small screen and a couple buttons to select/pair
   with the headphones.
-
-
-####3b:  Puck Master ####
 
 Idea:  Create our own stethoscope puck that can be a bluetooth master.  There are existing [ESP32](https://smile.amazon.com/gp/product/B076KJZ5QM/ref=ox_sc_act_title_1?smid=A1N6DLY3NQK2VM&psc=1) controller boards that we could source
 for development, and possibly even for production.  These contain a bluetooth master, a lithium battery controller, and a small screen
@@ -130,11 +127,7 @@ Could end up looking something like this, or maybe a more compact puck-shaped so
 ![Proof-of-Concept Cup and Transmitter](/images/POC-Cup-and-Transmitter.png)
 
 
-####Miscellaneous Ideas:####
-  - Cheap bluetooth converters are all over the market that let you plug in a pair of *wired* headphones.  Like [these](https://smile.amazon.com/APEKX-Bluetooth-Headphones-Wireless-Hands-Free/dp/B01MUXYVOA/ref=sr_1_3?crid=8LU8JAFJEWS0&keywords=bluetooth+adapter+headphones&qid=1585470679&sprefix=bluetooth+adapter+head%2Caps%2C211&sr=8-3):
-
- 
- ### Solution Space 4:   Integrated Blood Oximeter ###
+### Solution Space 5:   Integrated Blood Oximeter ###
  
  Clarify the original problem statement/use models - we need more information about how having an integrated blood oximeter would work.
  This would seem to make it impossible to use both the stethoscope puck and the oximeter at the same time, as the oximiter
@@ -145,7 +138,8 @@ Could end up looking something like this, or maybe a more compact puck-shaped so
 
 
 
-###Other interesting data points:###
+### Other interesting data points:###
+  - Cheap bluetooth converters are all over the market that let you plug in a pair of *wired* headphones.  Like [these](https://smile.amazon.com/APEKX-Bluetooth-Headphones-Wireless-Hands-Free/dp/B01MUXYVOA/ref=sr_1_3?crid=8LU8JAFJEWS0&keywords=bluetooth+adapter+headphones&qid=1585470679&sprefix=bluetooth+adapter+head%2Caps%2C211&sr=8-3):
   - There are reasonable-looking 3D-printer plans for stethoscopes, such as:  https://all3dp.com/3d-printed-stethoscope/
   - There are reasonable-looking 3D-printer plans for over-the-ear headphones, such as:  https://www.instructables.com/id/3D-Printed-Bluetooth-Headphones/
   
