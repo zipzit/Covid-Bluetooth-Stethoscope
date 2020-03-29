@@ -198,17 +198,31 @@ Scope:
 ---Blood Oxygen level measurement?----------------------------------------------
 
     https://en.wikipedia.org/wiki/Pulse_oximetry
+    
+    Reflective Mode:
+    
+    These are good articles/papers about reflective-mode oximetry:
+    https://www.sciencedirect.com/science/article/pii/S2405959516301205
+    https://web.wpi.edu/Pubs/E-project/Available/E-project-042413-160152/unrestricted/Final_MQP_Report.pdf
 
-    Not quite sure how to make one of these (either for finger or earlobe) that
-    easy to disinfect between users.  That would be ugly.  Cheaper to buy a
-    battery operated one, one per patient.  Review needed.
+    I don't see any currently available commercial reflective-mode solutions though.
+    This article:  https://core.ac.uk/download/pdf/81961664.pdf  (page 2) shows a prototype reflective-mode circuit.  This has a
+     microcontroller but otherwise doesn't look very complicated, we could possibly prototype one.
+
+    Transmissive Mode:
+    
+    Apparently fingertip-or-earlobe oximetry is "transmissive mode" oximetry.  "Reflective mode" oximetry is possible at the
+    wrists, chest or other sites, so this could theoretically be integrated into a stethoscope puck. The hardware is likely different
+    than current market solutions, more research is necessary.
+
+     If transmissive mode (fingertip) sensors would work, it's cheaper to source battery-operated units, one per patient.
+     They look difficult to sterilize though.
 
     I found this Maxim Max30100 pulse oximiter/heartrate module and a review:
       https://www.teachmemicro.com/max30100-arduino-heart-rate-sensor/
 
-    There are a couple different board versions, one is cheaper but harder to work with.
-    The more expensive one is about $6/unit on Alibaba, don't know about availability.
-
+    There are a couple different transmissive-mode board versions, one is cheaper but harder to work with.
+    The more expensive one is about $6/unit on Alibaba.
 
 ---High Tech Question-----------------------------------------------------------
 
