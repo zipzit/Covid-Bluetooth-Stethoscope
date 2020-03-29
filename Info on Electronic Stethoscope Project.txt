@@ -265,6 +265,7 @@ Scope:
 ---Open Source Licenses---------------------------------------------------------
 
     https://choosealicense.com/licenses/
+    https://opensource.guide/legal/#which-open-source-license-is-appropriate-for-my-project
 
 ---Design of Experiments / Analysis of Variance---------------------------------
 
