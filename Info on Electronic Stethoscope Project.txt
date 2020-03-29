@@ -304,3 +304,11 @@ Scope:
 
     Interesting reference:
     https://superuser.com/questions/324469/spectrum-analyzer-that-shows-live-input-from-the-microphone
+
+-------------------------------
+
+3D-Printed stethoscope:
+https://all3dp.com/3d-printed-stethoscope/
+
+Attach-to-stethoscope page:  (removes all re-engineering of stethoscope)
+https://www.harriscomm.com/eko-stethoscope-with-core-attachment.html
