@@ -122,7 +122,9 @@ If Stemoscope (or other similar option) doesn't work, we can create our own puck
 
 Idea:  Create our own stethoscope puck that can be a bluetooth master.  There are existing [ESP32](https://smile.amazon.com/gp/product/B076KJZ5QM/ref=ox_sc_act_title_1?smid=A1N6DLY3NQK2VM&psc=1) controller boards that we could source
 for development, and possibly even for production.  These contain a bluetooth master, a lithium battery controller, and a small screen
-for ~$17 single-unit price.
+for ~$17 single-unit price plus some cost for an antenna - I assume we could get cheaper antennas than this.
+
+<img src="images/Heltec_WIFI-LoRa-32_v2.jpg" data-canonical-src="/images/POC-Cup-and-Transmitter.png" width="400" >
 
 Pros:
   Solution requires only the puck and headphones.
