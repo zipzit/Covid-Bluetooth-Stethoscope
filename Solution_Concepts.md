@@ -31,7 +31,8 @@ These solution ideas are mainly to see what sorts of things would work *practica
 - If something works or doesn't work in the hospital setting currently, there's probably a really good reason for it.
 - Don't re-engineer anything we don't have to.
 
-### Questions: ###
+### Questions for Brian: ###
+- Could you tell us about your experience with the proof-of-concept device you sent a picture of?  What works or doesn't work about that?
 - Do hospitals deal well with things that require batteries or charging?  Would it be better if the puck/microphone device could be
   plugged in and left on/near the patient as part of the station?
 - Do doctors regularly use phones/tablets for per-patient equipment in emergency situations? In other words, are there existing
@@ -67,6 +68,8 @@ Questions:
 
 This is the Stemoscope:  https://www.stemoscope.com/
 
+<img src="/images/stemoscope.png" data-canonical-src="/images/stemoscope.png" width="400" >
+
 It's functionally everything we want in a puck - picks up sounds with a good microphone and transmits them wirelessly to a
   headphone/speaker.  If we go the wireless headphone route we should absolutely use this if we can solve or waive the following issues:
 - The current cover can't be effectively sterilized - too many slots and holes.  Would need to buy coverless and make new
@@ -90,31 +93,7 @@ Notes:
   Michael Vang/mvang said they would contact Stemoscope to see about collaboration possibilities. (3/28)
 
 
-### Solution Space 3:   Reuse the stethoscope/cup - Stethoscope Only ###
-
-
-Idea:  Use an existing stethoscope cup.  There are devices on the market that attach to the tube/cup of an
-existing stethoscope, like this:
-
-<img src="/images/attach-to-stethoscope-concept.jpg" data-canonical-src="/images/attach-to-stethoscope-concept.jpg" width="400" >
-
-They are, however, very expensive (that one is $200/unit).  If this general solution is workable, we could possibly negotiate with
-  the company or create our own similar solution.
-
-Pros:
-  - This re-uses the tried-and-true stethoscope so we don't have to re-engineer.
-  - Exists physically as an FDA-cleared product.
-  
-Cons:
-  - Looks unwieldy, hard to operate with one hand?
-  - Dependent on existing stocks of stethoscopes.
-
-
-Optional:  We wouldn't even need the rest of the stethoscope.  We could use existing stethoscopes and just cut off the headpiece (although that's wasteful), or just source stand-alone stethoscope cups and attach our own tubes,
-
-
-
-### Solution Space 4:   Create Our Own Puck with integrated cup - optional Oximeter ###
+### Solution Space 3:   Create Our Own Puck with integrated cup - optional Oximeter ###
 
 If Stemoscope (or other similar option) doesn't work, we can create our own puck.  The puck would master the system, connecting via
   a wireless link to a pair of headphones worn by the doctor.  It would likely need a small screen and a couple buttons to select/pair
@@ -136,6 +115,30 @@ Could end up looking something like this, or maybe a more compact puck-shaped so
 <img src="/images/POC-Cup-and-Transmitter.png" data-canonical-src="/images/POC-Cup-and-Transmitter.png" width="400" >
 
 There are ESP32 microcontroller boards with built-in Bluetooth mastering that could be used, that come with a microphone and battery charging controller.  These could also control the reflective-mode oximeter logic if we go that route.
+
+
+### Solution Space 4:   Reuse the stethoscope/cup - Stethoscope Only ###
+
+
+Idea:  Use an existing stethoscope cup.  There are devices on the market that attach to the tube/cup of an
+existing stethoscope, like this:
+
+<img src="/images/attach-to-stethoscope-concept.jpg" data-canonical-src="/images/attach-to-stethoscope-concept.jpg" width="400" >
+
+They are, however, very expensive (that one is $200/unit).  If this general solution is workable, we could possibly negotiate with
+  the company or create our own similar solution.
+
+Pros:
+  - This re-uses the tried-and-true stethoscope so we don't have to re-engineer.
+  - Exists physically as an FDA-cleared product.
+  
+Cons:
+  - Looks unwieldy, hard to operate with one hand?
+  - Dependent on existing stocks of stethoscopes.
+
+
+Optional:  We wouldn't even need the rest of the stethoscope.  We could use existing stethoscopes and just cut off the headpiece (although that's wasteful), or just source stand-alone stethoscope cups and attach our own tubes,
+
 
 
 ### Solution Space 5:   Puck with Integrated Blood Oximeter ###
