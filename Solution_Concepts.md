@@ -9,13 +9,9 @@ These solution ideas are mainly to see what sorts of things would work *practica
   - A doctor in PPE gear like this will have a hard time getting a stethoscope into their ears.
 
 ### The goals for the "stethoscope" are: ###
-  - ~~A simple "stethoscope" where the cup/puck/microphone is a separate unit, wirelessly and authentically transmitting patient
-      ~~sounds to the doctor's ears.
   - A doctor needs to hear a patient's lungs and heart in a hospital setting.
   - This needs to be easily functional while the doctor is fully dressed in PPE.
-  - ~~Around-the-ear headphones to fit over hoods and PPE gear, although any style headphones could be used in non-pandemic situations.
   - Easily sterilizeable.
-
   - Made of parts we can source to make a sizeable quantity.
   - Get it done - as quick a turnaround as possible.
   
@@ -47,6 +43,7 @@ These solution ideas are mainly to see what sorts of things would work *practica
   an arms-length cable?
 - Would the doctor desire to tape a cup/puck unit to the patient and leave it there to free up hands while listening?
 - What do doctors currently use for pulse oximetry, and how is it sterilized between patients?
+- Does the Doctor need both oximetry and lung audio info at exactly the same time?
 
 
 ### Solution Space 1:   Quick and Simple and Dirty - Stethoscope Only ###
