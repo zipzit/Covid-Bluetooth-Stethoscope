@@ -109,6 +109,13 @@ Scope:
     AA battery (1.5v) life: 2400 mAhours
     AAA battery: 1000 mAhours
 
+    Mike Vang's comment: https://www.tinycircuits.com sells lithium batteries.
+        https://tinycircuits.com/collections/batteries
+            All 3.7v; 70 mAH to 2500 mAH
+           70 mAH   150 mAH     290 mAH     500 mAH     850 mAH     1000 mAH    1100 mAH    2500 maH
+           $3.49    $3.95       $5.95       $6.95       $8.49       $9.95       $$9.95      $5.95
+        
+        Micro USB batter charger---$6.95
 
     While executing WiFi.scanNetworks() function very first time, module consumes
     average current of 0.5A for 10 ms with four peaks of approx. 0.7A during that
@@ -228,8 +235,25 @@ Scope:
     I found this Maxim Max30100 pulse oximiter/heartrate module and a review:
       https://www.teachmemicro.com/max30100-arduino-heart-rate-sensor/
 
-    There are a couple different transmissive-mode board versions, one is cheaper but harder to work with.
-    The more expensive one is about $6/unit on Alibaba.
+    There are a couple different board versions, one is cheaper but harder to work with.
+    The more expensive one is about $6/unit on Alibaba, don't know about availability.
+    
+    Mike Vang's comment:
+        One could combine an electronic stethoscope with an oximeter.
+        
+        The paper that is shared below says that a reflectory pulse oximeter has more 
+        diverse locations it could take like from the feet, head, chest and wrist.
+        Accuracy becomes an issue though.
+        
+        Reflectory pulse oximeter's has two LED's on one side (red and infrared). I
+        think that many pulse oximeter like the Max30100 is a reflectory pulse
+        oximeter.
+        
+        But we run into an issue: the base that touches the client is enlarged to
+        include both a stethoscope and a pulse oximeter.
+        
+        Ref:
+            https://www.sciencedirect.com/science/article/pii/S1877705812022060
 
 ---High Tech Question-----------------------------------------------------------
 
@@ -333,3 +357,32 @@ https://all3dp.com/3d-printed-stethoscope/
 
 Attach-to-stethoscope page:  (removes all re-engineering of stethoscope)
 https://www.harriscomm.com/eko-stethoscope-with-core-attachment.html
+
+---Stemoscope - a commericiall avialable Bluetooth listening device------------------------
+    https://www.stemoscope.com/
+    
+    A quick run down: Stemoscope is not a medical device. It is marketed for STEM purposes. 
+    Features:
+        Two listening modes:
+            Bell mode (20-200 Hz) used for listening to heart beats
+            Diaphram mode (100-500 Hz) used for listening to breathing
+        Bluetooth
+            Only works through phone app cannot be used with headphones/headsets
+            Does not feature pairing
+        App
+            Supports: 
+                iPhones, iPads, iPad Touch w/iOS v7.0+ that supports BLE (Bluetooth Low Energy)
+                Android 5.0+ devices that supports BLE 
+        Record samples into .WAV formats.
+        Physical dimensions:
+            38 mm in diameter and 11 mm thick
+            ~1.5 inches in diameter and ~0.43 inches thick
+         
+    Stemoscope and it's role against COVID-19: 
+        https://www.stemoscope.com/stemoscope-in-fighting-covid-19-disease-lung-sounds/
+    
+    Stemoscope FAQ:
+        https://www.stemoscope.com/faqs/
+        
+
+
