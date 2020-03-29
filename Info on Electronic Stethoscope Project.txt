@@ -53,6 +53,13 @@ Scope:
 
     oops.  Heart rate isn't our primary objective.. its listening to a patient's
     lungs.
+    
+    Mike Vang's comment:
+        Some of the boards out there like the MAX30100 can serve dual purpose such as 
+        getting SpO2 measurement and heart rate sensor.
+        
+        Including heart rate measurement is a feature that could always be adding if
+        using something like a MAX30100 board.
 
 ---what about listening to lungs?-----------------------------------------------
 
