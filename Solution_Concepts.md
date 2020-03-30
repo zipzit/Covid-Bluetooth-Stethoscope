@@ -173,7 +173,7 @@ From https://core.ac.uk/download/pdf/81961664.pdf, page 2:
 <img src="/images/reflective-pulse-oximetry_circuit.png" data-canonical-src="/images/reflective-pulse-oximetry_circuit.png" width="350" >
 
 Mike Vang's comment:
-  From what I have read so far, accuracy plays a significant role in how effectively a pulse oximeter can read SpO2 levels.  From the literature I have read, I concluded the optimal spots are the hands and/or fingers. A patient could extend their arms to the physician, if they can, either in front or to the side.
+  From what I have read so far, accuracy plays a significant role in how effectively a pulse oximeter can read SpO2 levels.  From the literature I have read, I concluded the optimal spots are the hands and/or fingers. A patient could extend his/her arm to the physician, if they can, either in front or to the side.
 
 ### Other interesting data points:###
   - Cheap bluetooth converters are all over the market that let you plug in a pair of *wired* headphones.  Like [these](https://smile.amazon.com/APEKX-Bluetooth-Headphones-Wireless-Hands-Free/dp/B01MUXYVOA/ref=sr_1_3?crid=8LU8JAFJEWS0&keywords=bluetooth+adapter+headphones&qid=1585470679&sprefix=bluetooth+adapter+head%2Caps%2C211&sr=8-3):
