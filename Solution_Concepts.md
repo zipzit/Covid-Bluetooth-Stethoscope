@@ -15,6 +15,9 @@ These solution ideas are mainly to see what sorts of things would work *practica
   - Made of parts we can source to make a sizeable quantity.
   - Get it done - as quick a turnaround as possible.
   
+  Mike Vang's notes from 3/29/20 meeting:
+  - Pick up sound range between 20Hz to 1kHz.
+  
 ### Conjectures (need clarification/correction): ###
   - A small microphone/transmitter puck that could be taped to the patient while they are being intubated frees up one of the doctors' hands.
 
@@ -49,6 +52,17 @@ These solution ideas are mainly to see what sorts of things would work *practica
 Mike Vang's question:
 - When working with a patient incubating covid-19 (test positive and can spread it; not familiar with medical jargon), which area around the patient is most dangerous? (I assume the a cone shape in the front of the patient.) And can you determine the shape & size of that area? I assume taking a patients breath from the back and taking a person's SpO2 reading, say from the side, is the safest for HCP's?
 
+Feedback from Brian 3/29/20
+  Mike Vang's notes (addition and correction to these notes are welcomed):
+    - One stethosocope throughout the day could be shared by multiple HCP (healthcare providers)
+      - The ones who goes into the patient's room are more likely nurses than doctors.
+      - Anyone who needs to listen to a patient's breathing could go into a room.
+    - Sterilization lessens if there was one device per patient.
+      - Issue: Will scaling for higher number of patients become an issue?
+    - Stethoscopes are used about 30s to 1 min.
+    - Brian has been sterilizing his stethoscope with alcohol.
+    - Listening protocol is to lay patient on back with chin adjusted. Then listening is conducted.
+      - Bags are sometimes placed over the patient's head to reduce exposure of covid-19 to HCP.
 
 ### Solution Space 1:   Quick and Simple and Dirty - Stethoscope Only ###
 
@@ -90,7 +104,7 @@ Pros:
 - Software development is done.
 
 Cons:
-- Requires ad addition device for use
+- Requires an addition device for use
   - iPhone, iPad, iPod Touch with iOS 7+ or Android 5.0+ with Bluetooth Low Energy (BLE) support
   - Headphones connect through device; headphones cannot connect directly to Stemoscope
 - Stemoscope cannot pair
@@ -173,7 +187,7 @@ From https://core.ac.uk/download/pdf/81961664.pdf, page 2:
 <img src="/images/reflective-pulse-oximetry_circuit.png" data-canonical-src="/images/reflective-pulse-oximetry_circuit.png" width="350" >
 
 Mike Vang's comment:
-  From what I have read so far, accuracy plays a significant role in how effectively a pulse oximeter can read SpO2 levels.  From the literature I have read, I concluded the optimal spots are the hands and/or fingers. A patient could extend his/her arm to the physician, if they can, either in front or to the side.
+  From what I have read so far, accuracy plays a significant role in how effectively a pulse oximeter can read SpO2 levels.  From the literature I have read, I concluded the optimal spots are the hands, wrists and/or fingers. 
 
 ### Other interesting data points:###
   - Cheap bluetooth converters are all over the market that let you plug in a pair of *wired* headphones.  Like [these](https://smile.amazon.com/APEKX-Bluetooth-Headphones-Wireless-Hands-Free/dp/B01MUXYVOA/ref=sr_1_3?crid=8LU8JAFJEWS0&keywords=bluetooth+adapter+headphones&qid=1585470679&sprefix=bluetooth+adapter+head%2Caps%2C211&sr=8-3):
