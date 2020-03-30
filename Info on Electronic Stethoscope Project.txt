@@ -318,11 +318,14 @@ Scope:
 
     Design Factors?
         --microphone type MEMS vs Electret Condenser microphone element
-        --bell shape (parabola vs cone)?
-        --Membrane material? (thin plastic sheet, thick plastic sheet, thin steel)
+        --bell shape (parabola vs cone)? (see edit note)
+        --Membrane material? (thin plastic sheet, thick plastic sheet, thin steel) (See edit note)
         --size of bell (big or small)
         --recording test master (what are we listening to?  Anybody have a
         master recording of the chest of someone with pneumonia? )
+        
+        Edit.  Don't reinvent the wheel.  Not necessary.  Use existing designs where ever 
+        possible. 
 
     Response (What's the measure of success?)
         idea: find a master recording of XYZ at a fixed volume level.
@@ -545,6 +548,6 @@ Scope:
     filtering?  Not sure ESP32 is the best choice, but its available and 
     relatively inexpensive.  
 
-    Heck yeah.  Wow.  I'm blown away that this library exists.
+    Wow.  I'm surprised that this library exists.
     https://github.com/espressif/esp-dsp
     https://hackaday.io/project/166122-esp32-as-bt-receiver-with-dsp-capabilities
