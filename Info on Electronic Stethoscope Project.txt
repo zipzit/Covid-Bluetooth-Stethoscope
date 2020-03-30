@@ -538,3 +538,13 @@ Scope:
     batteries?)  LoRa band can easily handle that little bit of IoT (internet of things)
     traffic, reminding hospital folks that units 1, 9 and 13 are running low and need
     to be charged...
+    
+---Digital Signal Processing on a DSP32. Possible?------------------------------
+
+    I was thinking about the simple in/out audio box design.  What if we needed DSP 
+    filtering?  Not sure ESP32 is the best choice, but its available and 
+    relatively inexpensive.  
+
+    Heck yeah.  Wow.  I'm blown away that this library exists.
+    https://github.com/espressif/esp-dsp
+    https://hackaday.io/project/166122-esp32-as-bt-receiver-with-dsp-capabilities
