@@ -432,6 +432,66 @@ Scope:
     enabled digital recorder, intended to allow a physician to send a recording
     to a nearby computer for further analysis.
 
+    US$399 -- Littmann Electronic Stethoscope 3200
+    US$299 -- Eko CORE Digital Stethoscope
+    US$499 -- Thinklabs One Digital Stethoscope
+
+    https://www.thinklabs.com/
+    This is the stethoscope in the image with the wifi adapter and the apple earbuds.
+    Thinklabs One solves auscultation via PPE. See Johns Hopkins preparation for COVID-19.
+
+---Thinklabs and Covid 19-------------------------------------------------------
+
+    https://www.thinklabs.com/covid19
+    https://www.cbsnews.com/news/coronavirus-containment-dr-jon-lapook-60-minutes-2020-03-08/
+    https://www.thinklabs.com/infectious-disease-and-biocontainment
+
+    Biocontainment presents a unique challenge for auscultation. With the Centers
+    for Disease Control calling for personal protective equipment (PPE) in treating
+    patients for the coronavirus, how does the clinician place stethoscope eartips
+    in the ears for listening? Auscultation at the bedside using a conventional
+    style stethoscope with tubing becomes impossible.
+
+    Thinklabs One's unique stethoscope design allows healthcare workers to perform
+    ausculation while being protected in an isolation environment, and can be
+    used with protective covers in the ED to reduce contamination when pre-screening
+    admissions.
+
+    The One can be used directly using earbuds or headphones, via bluetooth
+    transmitters within the isolation room or to a consultant outside the room,
+    connected to a loudspeaker, or send sounds via email or instant messaging on
+    iPhone or iPad.
+
+    PPE
+    -Personnel are donning disposable earbud headphones inside PPE or headsets
+     over PPE.
+    -If inside, the earbud/headphone cable is then snaked out of the protective
+     clothing, to be connected, external to the clothing, to the Thinklabs One
+     Digital Stethoscope. The clinician can then listen clearly to patient sounds
+     while being fully suited up.  (LBC notes...Ugh...  Really?  A bluetooth radio
+     chip costs like $1.00 in production. Opinion: any manufacturer of anything
+     with electrons, who doesn't include a bluetooth or wifi chip these days is
+     dumb, if not just purely for marketing buzz and hype.)
+
+    Ziploc Protection for Primary Care and ED
+    -One group of researchers developed a simple and practical way to treat multiple
+     infectious patients using resealable Ziploc plastic bags. They connected the
+     stethoscope to a Bluetooth transmitter and then placed the device inside of
+     up to ten-yes, ten-resealable Ziploc plastic bags. The bags were sequentially
+     removed to reveal a clean surface for listening to patients.
+
+    -The Ziploc method is a novel way to take advantage of the Thinklabs One form
+     factor. The entire stethoscope and Bluetooth transmitter fit inside a sealed
+     bag.
+
+    -This is ideal for ED and primary care use, where protection is highly
+     desirable, but PPE impractical.
+
+    terms:
+    ausculation - the action of listening to sounds from the heart, lungs, or
+    other organs, typically with a stethoscope, as a part of medical diagnosis.
+    ED - Emergency Department (?)
+
 ---GrabCad Stuff----------------------------------------------------------------
 
     Lots of reference stuff available at https://grabcad.com/library
