@@ -53,6 +53,13 @@ Scope:
 
     oops.  Heart rate isn't our primary objective.. its listening to a patient's
     lungs.
+    
+    Mike Vang's comment:
+        Some of the boards out there like the MAX30100 can serve dual purpose such as 
+        getting SpO2 measurement and heart rate sensor.
+        
+        Including heart rate measurement is a feature that could always be adding if
+        using something like a MAX30100 board.
 
 ---what about listening to lungs?-----------------------------------------------
 
@@ -102,6 +109,13 @@ Scope:
     AA battery (1.5v) life: 2400 mAhours
     AAA battery: 1000 mAhours
 
+    Mike Vang's comment: https://www.tinycircuits.com sells lithium batteries.
+        https://tinycircuits.com/collections/batteries
+            All 3.7v; 70 mAH to 2500 mAH
+           70 mAH   150 mAH     290 mAH     500 mAH     850 mAH     1000 mAH    1100 mAH    2500 maH
+           $3.49    $3.95       $5.95       $6.95       $8.49       $9.95       $$9.95      $5.95
+        
+        Micro USB batter charger---$6.95
 
     While executing WiFi.scanNetworks() function very first time, module consumes
     average current of 0.5A for 10 ms with four peaks of approx. 0.7A during that
@@ -198,17 +212,48 @@ Scope:
 ---Blood Oxygen level measurement?----------------------------------------------
 
     https://en.wikipedia.org/wiki/Pulse_oximetry
+    
+    Reflective Mode:
+    
+    These are good articles/papers about reflective-mode oximetry:
+    https://www.sciencedirect.com/science/article/pii/S2405959516301205
+    https://web.wpi.edu/Pubs/E-project/Available/E-project-042413-160152/unrestricted/Final_MQP_Report.pdf
 
-    Not quite sure how to make one of these (either for finger or earlobe) that
-    easy to disinfect between users.  That would be ugly.  Cheaper to buy a
-    battery operated one, one per patient.  Review needed.
+    I don't see any currently available commercial reflective-mode solutions though.
+    This article:  https://core.ac.uk/download/pdf/81961664.pdf  (page 2) shows a prototype reflective-mode circuit.  This has a
+     microcontroller but otherwise doesn't look very complicated, we could possibly prototype one.
+
+    Transmissive Mode:
+    
+    Apparently fingertip-or-earlobe oximetry is "transmissive mode" oximetry.  "Reflective mode" oximetry is possible at the
+    wrists, chest or other sites, so this could theoretically be integrated into a stethoscope puck. The hardware is likely different
+    than current market solutions, more research is necessary.
+
+     If transmissive mode (fingertip) sensors would work, it's cheaper to source battery-operated units, one per patient.
+     They look difficult to sterilize though.
 
     I found this Maxim Max30100 pulse oximiter/heartrate module and a review:
       https://www.teachmemicro.com/max30100-arduino-heart-rate-sensor/
 
     There are a couple different board versions, one is cheaper but harder to work with.
     The more expensive one is about $6/unit on Alibaba, don't know about availability.
-
+    
+    Mike Vang's comment:
+        One could combine an electronic stethoscope with an oximeter.
+        
+        The paper that is shared below says that a reflectory pulse oximeter has more 
+        diverse locations it could take like from the feet, head, chest and wrist.
+        Accuracy becomes an issue though.
+        
+        Reflectory pulse oximeter's has two LED's on one side (red and infrared). I
+        think that many pulse oximeter like the Max30100 is a reflectory pulse
+        oximeter.
+        
+        But we run into an issue: the base that touches the client is enlarged to
+        include both a stethoscope and a pulse oximeter.
+        
+        Ref:
+            https://www.sciencedirect.com/science/article/pii/S1877705812022060
 
 ---High Tech Question-----------------------------------------------------------
 
@@ -313,3 +358,50 @@ https://all3dp.com/3d-printed-stethoscope/
 
 Attach-to-stethoscope page:  (removes all re-engineering of stethoscope)
 https://www.harriscomm.com/eko-stethoscope-with-core-attachment.html
+
+---Stemoscope - a commericiall avialable Bluetooth listening device------------------------
+    https://www.stemoscope.com/
+    
+    A quick run down: Stemoscope is not a medical device. It is marketed for STEM purposes. 
+    Features:
+        Two listening modes:
+            Bell mode (20-200 Hz) used for listening to heart beats
+            Diaphram mode (100-500 Hz) used for listening to breathing
+        Bluetooth
+            Only works through phone app cannot be used with headphones/headsets
+            Does not feature pairing
+        App
+            Supports: 
+                iPhones, iPads, iPad Touch w/iOS v7.0+ that supports BLE (Bluetooth Low Energy)
+                Android 5.0+ devices that supports BLE 
+        Record samples into .WAV formats.
+        Physical dimensions:
+            38 mm in diameter and 11 mm thick
+            ~1.5 inches in diameter and ~0.43 inches thick
+         
+    Stemoscope and it's role against COVID-19: 
+        https://www.stemoscope.com/stemoscope-in-fighting-covid-19-disease-lung-sounds/
+    
+    Stemoscope FAQ:
+        https://www.stemoscope.com/faqs/
+        
+---GrabCad Stuff-----------------------------------------------------------------------
+
+    Lots of reference stuff available at https://grabcad.com/library
+    including a whole bunch of Covid PPE devices and related work of others.  
+    
+    https://grabcad.com/library/digital-stethoscope-1
+    digital stethoscope
+    Adriano Ordoz Barissa (Cravinhos, Brazil)
+    October 11th, 2017
+    The idea for this product is to make a stethoscope easy to use in order to be used in hospitals and residences.
+    (LBC note.  I sent a note to Adriano thru grabcad, asking for input, perhaps get him to join team. 3/29/2020, 4:30PM PST)
+
+---Idea------------------------------------------------------------------------------
+
+    ESP32 devices have multiple wireless Inputs/output systems.  We could use 
+    bluetooth for heart/lungs audio, and use an other channel for battery life 
+    monitoring (I'm thinking a hospital has 20 of these things.. How many have low 
+    batteries?)  LoRa band can easily handle that little bit of IoT (internet of things)
+    traffic, reminding hospital folks that units 1, 9 and 13 are running low and need 
+    to be charged...
