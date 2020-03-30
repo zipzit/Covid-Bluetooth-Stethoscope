@@ -53,11 +53,11 @@ Scope:
 
     oops.  Heart rate isn't our primary objective.. its listening to a patient's
     lungs.
-    
+
     Mike Vang's comment:
-        Some of the boards out there like the MAX30100 can serve dual purpose such as 
+        Some of the boards out there like the MAX30100 can serve dual purpose such as
         getting SpO2 measurement and heart rate sensor.
-        
+
         Including heart rate measurement is a feature that could always be adding if
         using something like a MAX30100 board.
 
@@ -114,7 +114,7 @@ Scope:
             All 3.7v; 70 mAH to 2500 mAH
            70 mAH   150 mAH     290 mAH     500 mAH     850 mAH     1000 mAH    1100 mAH    2500 maH
            $3.49    $3.95       $5.95       $6.95       $8.49       $9.95       $$9.95      $5.95
-        
+
         Micro USB batter charger---$6.95
 
     While executing WiFi.scanNetworks() function very first time, module consumes
@@ -212,9 +212,9 @@ Scope:
 ---Blood Oxygen level measurement?----------------------------------------------
 
     https://en.wikipedia.org/wiki/Pulse_oximetry
-    
+
     Reflective Mode:
-    
+
     These are good articles/papers about reflective-mode oximetry:
     https://www.sciencedirect.com/science/article/pii/S2405959516301205
     https://web.wpi.edu/Pubs/E-project/Available/E-project-042413-160152/unrestricted/Final_MQP_Report.pdf
@@ -224,7 +224,7 @@ Scope:
      microcontroller but otherwise doesn't look very complicated, we could possibly prototype one.
 
     Transmissive Mode:
-    
+
     Apparently fingertip-or-earlobe oximetry is "transmissive mode" oximetry.  "Reflective mode" oximetry is possible at the
     wrists, chest or other sites, so this could theoretically be integrated into a stethoscope puck. The hardware is likely different
     than current market solutions, more research is necessary.
@@ -237,21 +237,21 @@ Scope:
 
     There are a couple different board versions, one is cheaper but harder to work with.
     The more expensive one is about $6/unit on Alibaba, don't know about availability.
-    
+
     Mike Vang's comment:
         One could combine an electronic stethoscope with an oximeter.
-        
-        The paper that is shared below says that a reflectory pulse oximeter has more 
+
+        The paper that is shared below says that a reflectory pulse oximeter has more
         diverse locations it could take like from the feet, head, chest and wrist.
         Accuracy becomes an issue though.
-        
+
         Reflectory pulse oximeter's has two LED's on one side (red and infrared). I
         think that many pulse oximeter like the Max30100 is a reflectory pulse
         oximeter.
-        
+
         But we run into an issue: the base that touches the client is enlarged to
         include both a stethoscope and a pulse oximeter.
-        
+
         Ref:
             https://www.sciencedirect.com/science/article/pii/S1877705812022060
 
@@ -351,18 +351,58 @@ Scope:
     Interesting reference:
     https://superuser.com/questions/324469/spectrum-analyzer-that-shows-live-input-from-the-microphone
 
--------------------------------
+---3D printed Stethoscope-------------------------------------------------------
 
-3D-Printed stethoscope:
-https://all3dp.com/3d-printed-stethoscope/
+    3D-Printed stethoscope:
+    https://all3dp.com/3d-printed-stethoscope/
 
-Attach-to-stethoscope page:  (removes all re-engineering of stethoscope)
-https://www.harriscomm.com/eko-stethoscope-with-core-attachment.html
+---Stethoscope with Core Attachment---------------------------------------------
 
----Stemoscope - a commericiall avialable Bluetooth listening device------------------------
+    Attach-to-stethoscope page:  (removes all re-engineering of stethoscope)
+    https://www.harriscomm.com/eko-stethoscope-with-core-attachment.html
+
+---Stethoscope Design Information-----------------------------------------------
+
+    How does a stethoscope work?
+    https://www.scientificamerican.com/article/bring-science-home-stethoscope/ (kids basic info)
+
+    https://en.wikipedia.org/wiki/Stethoscope
+    oops. --> Rappaport and Sprague designed a new stethoscope in the 1940s, which
+    became the standard by which other stethoscopes are measured, consisting of
+    two sides, one of which is used for the respiratory system, the other for the
+    cardiovascular system  (LBC note, which bell is for which?)
+
+    And this -->  The simplest and least effective method of sound detection is
+    achieved by placing a microphone in the chestpiece. This method suffers from
+    ambient noise interference and has fallen out of favor. Another method, used
+    in Welch-Allyn's Meditron stethoscope, comprises placement of a piezoelectric
+    crystal at the head of a metal shaft, the bottom of the shaft making contact
+    with a diaphragm. 3M also uses a piezo-electric crystal placed within foam
+    behind a thick rubber-like diaphragm. The Thinklabs' Rhythm 32 uses an
+    electromagnetic diaphragm with a conductive inner surface to form a capacitive
+    sensor. This diaphragm responds to sound waves, with changes in an electric
+    field replacing changes in air pressure. The Eko Core enables wireless
+    transmission of heart sounds to a smartphone or tablet.
+
+    https://insidefirstaid.com/diagnosis/the-best-littman-stethoscope-master-cardiology-and-classic-comparison
+    Bells work similarly to diaphragms, but the hollow cavity in a bell has no
+    membrane across it. Traditionally bells are used to listen to low frequency
+    sounds.
+
+    Although many stethoscopes come with a bell, there is disagreement in the
+    medical community whether bells are useful or obsolete. Bells are traditionally
+    thought to be better for hearing low-frequency sounds like some heart murmurs
+    and bowel sounds while diaphragms are better for high frequency murmurs and
+    lung sounds
+
+    See also https://en.wikipedia.org/wiki/Pinard_horn
+
+---Stemoscope-------------------------------------------------------------------
+
     https://www.stemoscope.com/
-    
-    A quick run down: Stemoscope is not a medical device. It is marketed for STEM purposes. 
+    Stemoscope - a commercially available Bluetooth listening device
+
+    A quick run down: Stemoscope is not a medical device. It is marketed for STEM purposes.
     Features:
         Two listening modes:
             Bell mode (20-200 Hz) used for listening to heart beats
@@ -371,25 +411,32 @@ https://www.harriscomm.com/eko-stethoscope-with-core-attachment.html
             Only works through phone app cannot be used with headphones/headsets
             Does not feature pairing
         App
-            Supports: 
+            Supports:
                 iPhones, iPads, iPad Touch w/iOS v7.0+ that supports BLE (Bluetooth Low Energy)
-                Android 5.0+ devices that supports BLE 
+                Android 5.0+ devices that supports BLE
         Record samples into .WAV formats.
         Physical dimensions:
             38 mm in diameter and 11 mm thick
             ~1.5 inches in diameter and ~0.43 inches thick
-         
-    Stemoscope and it's role against COVID-19: 
+
+    Stemoscope and it's role against COVID-19:
         https://www.stemoscope.com/stemoscope-in-fighting-covid-19-disease-lung-sounds/
-    
+
     Stemoscope FAQ:
         https://www.stemoscope.com/faqs/
-        
----GrabCad Stuff-----------------------------------------------------------------------
+
+---Digital Recording Stethoscope------------------------------------------------
+
+    https://multimedia.3m.com/mws/media/116424O/full-line-product-catalog-3m-littmann-stethoscopes.pdf
+    This not exactly the same thing.  Its a stethoscope with a built in bluetooth
+    enabled digital recorder, intended to allow a physician to send a recording
+    to a nearby computer for further analysis.
+
+---GrabCad Stuff----------------------------------------------------------------
 
     Lots of reference stuff available at https://grabcad.com/library
-    including a whole bunch of Covid PPE devices and related work of others.  
-    
+    including a whole bunch of Covid PPE devices and related work of others.
+
     https://grabcad.com/library/digital-stethoscope-1
     digital stethoscope
     Adriano Ordoz Barissa (Cravinhos, Brazil)
@@ -397,11 +444,11 @@ https://www.harriscomm.com/eko-stethoscope-with-core-attachment.html
     The idea for this product is to make a stethoscope easy to use in order to be used in hospitals and residences.
     (LBC note.  I sent a note to Adriano thru grabcad, asking for input, perhaps get him to join team. 3/29/2020, 4:30PM PST)
 
----Idea------------------------------------------------------------------------------
+---Idea-------------------------------------------------------------------------
 
-    ESP32 devices have multiple wireless Inputs/output systems.  We could use 
-    bluetooth for heart/lungs audio, and use an other channel for battery life 
-    monitoring (I'm thinking a hospital has 20 of these things.. How many have low 
+    ESP32 devices have multiple wireless Inputs/output systems.  We could use
+    bluetooth for heart/lungs audio, and use an other channel for battery life
+    monitoring (I'm thinking a hospital has 20 of these things.. How many have low
     batteries?)  LoRa band can easily handle that little bit of IoT (internet of things)
-    traffic, reminding hospital folks that units 1, 9 and 13 are running low and need 
+    traffic, reminding hospital folks that units 1, 9 and 13 are running low and need
     to be charged...
