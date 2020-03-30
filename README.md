@@ -10,7 +10,7 @@
 - Charley
 - Aaron
 - Michael
--Riya
+- Riya
 
 
 ### How to Contact ###
