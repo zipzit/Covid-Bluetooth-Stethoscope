@@ -53,9 +53,9 @@ Mike Vang's question:
 - When working with a patient incubating covid-19 (test positive and can spread it; not familiar with medical jargon), which area around the patient is most dangerous? (I assume the a cone shape in the front of the patient.) And can you determine the shape & size of that area? I assume taking a patients breath from the back and taking a person's SpO2 reading, say from the side, is the safest for HCP's?
 
 Feedback from Brian 3/29/20
-  Mike Vang's notes (addition and correction to these notes are welcomed):
-    - One stethosocope throughout the day could be shared by multiple HCP (healthcare providers)
-      - The ones who goes into the patient's room are more likely nurses than doctors.
+Mike Vang's notes (addition and correction to these notes are welcomed):
+  - One stethosocope throughout the day could be shared by multiple HCP (healthcare providers)
+    - The ones who goes into the patient's room are more likely nurses than doctors.
       - Anyone who needs to listen to a patient's breathing could go into a room.
     - Sterilization lessens if there was one device per patient.
       - Issue: Will scaling for higher number of patients become an issue?
