@@ -351,6 +351,14 @@ Scope:
     Interesting reference:
     https://superuser.com/questions/324469/spectrum-analyzer-that-shows-live-input-from-the-microphone
 
+---Lung Sounds------------------------------------------------------------------
+
+    https://www.youtube.com/watch?v=2NvBk61ngDY
+    Lung sounds (respiratory auscultation sounds)
+    Mar 7, 2018 -- Geeky Medics
+
+    https://geekymedics.com/respiratory-examination-2/
+
 ---3D printed Stethoscope-------------------------------------------------------
 
     3D-Printed stethoscope:
@@ -491,6 +499,24 @@ Scope:
     ausculation - the action of listening to sounds from the heart, lungs, or
     other organs, typically with a stethoscope, as a part of medical diagnosis.
     ED - Emergency Department (?)
+
+---ThinkLabs References---------------------------------------------------------
+
+    Engineering Library and Downloads:
+    https://www.thinklabs.com/user-manuals
+
+    http://thinklabsone.com/AudacityManual/ThinklabsAudacityHelp.html
+    A Free, Open Source, Cross-Platform Audio Editor -- Specially designed for
+    Heart Sound and Lung Sound Visualization and Analysis
+
+    https://www.thinklabs.com/sound-library
+    The Sound Library is a collection recorded on Thinklabs stethoscopes
+    by our user community.  Includes both heart and lung sounds.
+    (oops.. nothing here)
+
+    Instead check out the Thinklabs youtube channel,
+    https://www.youtube.com/playlist?list=PLLKSXV1ibO86qgE2y9cMqNFmh6LfOa8RM
+    Lung Sounds -- 15 videos
 
 ---GrabCad Stuff----------------------------------------------------------------
 
