@@ -1,0 +1,63 @@
+This is a draft of a grant letter to Protocol Labs (PL). PL is sponsoring a grant of USD $20k.
+https://protocollabs.smapply.io/prog/covid-19_open_innovation_grants/
+DEADLINE: April 10, 2020
+
+I don't know how much prototyping will cost but I saw this link in #helpfullinks.
+
+
+GRANT APPLICATION:
+PROJECT SUMMARY:
+This is a project initiated by Dr. Brian Lichtenstein on HelpWithCovid.com. Dr. Lichtenstein desired a very affordable stethoscope that is readily available for healthcare providers (HCP) during this pandemic. A couple features he wanted was Bluetooth capabilities to reduce very-close proximity exposure of HCP to covid-19, wide availability of the design, and a higher quality than generic stethoscopes.
+
+PROBLEM DESCRIPTION:
+One stethoscope is used by multiple HCP's throughout the day. This poses risks such as cross-contamination. Usually, these stethoscopes are cheap and produces poor sound quality. Additionally, such stethoscopes are based off traditional designs that has a bell tube attachments which connects to ear plugs. This design brings HCP's within risky proximity of a patient incubating covid-19 or other contagious diseases.
+
+Higher quality stethoscopes can be expensive therefore not everyone possess one. Some expensive models do include Bluetooth natively.
+
+A few devices that features Bluetooth requires an intermediary device such as smart phone and etc. A pair of Bluetooth enabled ear plugs or headset must connect through the phone in order to hear sounds.
+
+Some designs prove a challenge to effective sterilization.
+
+PROPOSED SOLUTION:
+Our current trajectory is to design a stethoscope that can effectively listen to either heart beats or breathing sounds, amplify the sound which is then played through a speaker. This device will not feature tubes like traditional stethoscopes.
+
+Once this basic design is completed, we may look into adding other features such as Bluetooth and such. The Bluetooth could work directly with Bluetooth headphones and headsets. Inclusion of Bluetooth increases the variety of designs.
+
+EXPECTED OUTCOMES:
+A stethoscope that provides high quality sound for any HCP that needs to listen to a patient.
+Simple to use with lower exposure risk of covid-19 for HCP's.
+Easy and safe to sterilize/sanitize.
+Affordable to institutions and HCP's.
+Donating 90% of proceeds to medical relief organizations.
+Hobbyists could purchase off-the-shelf components to create one.
+
+OPEN LICENSING
+Open source for hobbyist version.
+
+As for the production version, we are unsure and not there yet.
+
+TIMELINE
+4/30/2020
+
+Comment: 
+Mike Vang: They actually meanted deadline. I am not sure what our deadline is. Do we have a more accurate deadline?
+
+REQUESTED AMOUNT:
+USD $10,000
+
+Comment:
+Mike Vang: I am not sure how much money we need. Charley suggested a couple hundred dollars.
+
+PURPOSE OF FUNDS:
+The grant will be used to purchase equipment, supplies and etc. to help us prototype the design and then test the fidelity of the sound produced. The design will be solicited on line with two variations. One design will be for the hobbyist while one will be a production design.
+
+Afterward, we might move forward with adding Bluetooth capability and/or refining base design to increase its quality.
+
+OBSERVATIONS:
+Dr. Lichtenstein noted that many generic stethoscopes are poor quality. Higher grade stethoscopes are very expensive. Many stethoscopes do not feature Bluetooth.
+
+By creating an affordable stethoscope, many HCP can own their own. 
+
+And since the design includes a speaker, an HCP does not need to get closer to a patient that is incubating covid-19 or other infectious disease.
+Mike Vang: Is that too much?
+
