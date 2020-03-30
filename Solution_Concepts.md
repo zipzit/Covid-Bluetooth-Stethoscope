@@ -46,6 +46,9 @@ These solution ideas are mainly to see what sorts of things would work *practica
 - What do doctors currently use for pulse oximetry, and how is it sterilized between patients?
 - Does the Doctor need both oximetry and lung audio info at exactly the same time?
 
+Mike Vang's question:
+- When working with a patient incubating covid-19 (test positive and can spread it; not familiar with medical jargon), which area around the patient is most dangerous? (I assume the a cone shape in the front of the patient.) And can you determine the shape & size of that area? I assume taking a patients breath from the back and taking a person's SpO2 reading, say from the side, is the safest for HCP's?
+
 
 ### Solution Space 1:   Quick and Simple and Dirty - Stethoscope Only ###
 
@@ -62,7 +65,10 @@ Questions:
   - Would the sound level be acceptable in a hospital environment?  Or conversely, would a noisy hospital environment drown out the speaker?
   - Nonetheless, would this be a workable tradeoff for a dirt-simple, cheap solution?
   - What if these were used mainly during intubating, but we had a more traditional stethoscope-type solution for lower-stress procedures?
-  
+
+Mike Vang's comment:
+  The more I think about simplifying an electronic stethoscope, an electronic stethoscope with a speak could be the ideal solution. Another issue I can come up with is can an HPC hear the breathing clearly while donning PPE?
+  Also, a simple electronic stethoscope with a speaker could be v.1 while v.2 could add Bluetooth functionality?
 
 ### Solution Space 2:   Existing Stethoscope Solutions - Stethoscope Only ###
 
@@ -82,6 +88,12 @@ Pros:
 - The most flexible option allowing for selection of different pucks and headphones.
 - It physically exists as a current product.
 - Software development is done.
+
+Cons:
+- Requires ad addition device for use
+  - iPhone, iPad, iPod Touch with iOS 7+ or Android 5.0+ with Bluetooth Low Energy (BLE) support
+  - Headphones connect through device; headphones cannot connect directly to Stemoscope
+- Stemoscope cannot pair
 
 Questions:
   Instead of being sterilized, could it be enclosed in a plastic bag that could be sterilized?  Would this work in a hospital environment?
@@ -116,6 +128,11 @@ Could end up looking something like this, or maybe a more compact puck-shaped so
 
 There are ESP32 microcontroller boards with built-in Bluetooth mastering that could be used, that come with a microphone and battery charging controller.  These could also control the reflective-mode oximeter logic if we go that route.
 
+Mike Vang's comment:
+  I was thinking about oximeter placement. What if the oximeter reader was placed on top of the puck/device?
+  
+  Also, I found an open-source Bluetooth Low Power stack here:
+    https://mynewt.apache.org/
 
 ### Solution Space 4:   Reuse the stethoscope/cup - Stethoscope Only ###
 
@@ -154,6 +171,9 @@ Apparently fingertip/earlobe oximetry is "transmissive mode" oximetry.  "Reflect
 From https://core.ac.uk/download/pdf/81961664.pdf, page 2:
 
 <img src="/images/reflective-pulse-oximetry_circuit.png" data-canonical-src="/images/reflective-pulse-oximetry_circuit.png" width="350" >
+
+Mike Vang's comment:
+  From what I have read so far, accuracy plays a significant role in how effectively a pulse oximeter can read SpO2 levels.  From the literature I have read, I concluded the optimal spots are the hands and/or fingers. A patient could extend their arms to the physician, if they can, either in front or to the side.
 
 ### Other interesting data points:###
   - Cheap bluetooth converters are all over the market that let you plug in a pair of *wired* headphones.  Like [these](https://smile.amazon.com/APEKX-Bluetooth-Headphones-Wireless-Hands-Free/dp/B01MUXYVOA/ref=sr_1_3?crid=8LU8JAFJEWS0&keywords=bluetooth+adapter+headphones&qid=1585470679&sprefix=bluetooth+adapter+head%2Caps%2C211&sr=8-3):
