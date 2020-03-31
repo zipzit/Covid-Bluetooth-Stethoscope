@@ -7,14 +7,14 @@ I don't know how much prototyping will cost but I saw this link in #useful-links
 
 GRANT APPLICATION:
 PROJECT SUMMARY:
-This is a project initiated by Dr. Brian Lichtenstein on HelpWithCovid.com. Dr. Lichtenstein desired a very affordable stethoscope that is readily available for healthcare providers (HCP) during this pandemic. A couple features he wanted was Bluetooth capabilities to reduce very-close proximity exposure of HCP to covid-19, wide availability of the design, and a higher quality than generic stethoscopes.
+This is a project initiated by Dr. Brian Lichtenstein on HelpWithCovid.com. Dr. Lichtenstein is a frontline physician in San Diego, and put out a request for a very affordable wireless stethoscope that could be made readily available for healthcare providers (HCP) during this pandemic. Request features included Bluetooth capabilities to reduce very-close proximity exposure of HCP to patients with Covid-19, wide availability of the design, and a higher quality construction and sound than the low-cost stethoscopes currently in use.
 
 PROBLEM DESCRIPTION:
-One stethoscope is used by multiple HCP's throughout the day. This poses risks such as cross-contamination. Usually, these stethoscopes are cheap and produces poor sound quality. Additionally, such stethoscopes are based off traditional designs that has a bell tube attachments which connects to ear plugs. This design brings HCP's within risky proximity of a patient incubating covid-19 or other contagious diseases.
+Stethoscopes are expensive and difficult to sterilize.  This results in one cheap stethoscope being left with each patient, and that stethoscope is then used by multiple HCP's throughout the day. This use model poses risks such as cross-contamination. These stethoscopes are effectively disposeable - cheap and produce poor sound quality. Additionally, such stethoscopes have short tubes connecting the bell to the ear plugs, forcing HCP's closer than necessary to a patient incubating covid-19 or other contagious diseases.  In addition, standard stethoscope ear plugs are hard to use when the HCP's head is wrapped in a hood and wearing protective gear such as face masks, so an over-the-ear headphone style would be preferable.
 
-Higher quality stethoscopes can be expensive therefore not everyone possess one. Some expensive models do include Bluetooth natively.
+Higher quality stethoscopes can be very expensive, so not all medical professionals possess their own.  Digital stethoscopes available online can be upwards of $500.
 
-A few devices that features Bluetooth requires an intermediary device such as smart phone and etc. A pair of Bluetooth enabled ear plugs or headset must connect through the phone in order to hear sounds.
+A few devices that feature Bluetooth connectivity require an intermediary device such as smart phone or Android device to connect separately with both bluetooth-enabled ear plugs and a headset.
 
 Some designs prove a challenge to effective sterilization.
 
