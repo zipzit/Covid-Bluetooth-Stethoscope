@@ -1,0 +1,23 @@
+---Scheme links-----------------------------------------------------------------
+
+    digikey references:  https://www.digikey.com/  then tools, Design Tools...
+
+    I really, really like Scheme-it for schematics.
+
+    https://www.digikey.com/en/resources/design-tools/schemeit
+    Way easy to share electronic design schematics.  Here is a recent project, that I
+     started for a recent Hackathon challenge.
+     https://www.digikey.com/schemeit/project/battleborni0tsensor-210B4HG30240/
+
+     Digikey saves everything the cloud for you, makes it way easy.
+     Would we consider using such a tool. allows multiple folks to make changes...
+
+---drawing tools----------------------------------------------------------------
+
+    To draw simple boxes, use "Diagram Symbols" --> "Basic Shapes"
+    To draw simple text labels, use "Diagram Symbols" --> "Basic Shapes"
+    To add a full featured Text Box, use Top "Main" Tab, then select "Insert" --> "TextBox"
+    To add wiring touch points, use... "Schematic Symbols"--> "Ports"
+
+    Ground symbol?
+    Schematic Symbols --> Ports
