@@ -568,10 +568,98 @@ Scope:
 
 ---Digital Signal Processing on a DSP32. Possible?------------------------------
 
-    I was thinking about the simple in/out audio box design.  What if we needed DSP 
-    filtering?  Not sure ESP32 is the best choice, but its available and 
-    relatively inexpensive.  
+    I was thinking about the simple in/out audio box design.  What if we needed DSP
+    filtering?  Not sure ESP32 is the best choice, but its available and
+    relatively inexpensive.
 
     Wow.  I'm surprised that this library exists.
     https://github.com/espressif/esp-dsp
     https://hackaday.io/project/166122-esp32-as-bt-receiver-with-dsp-capabilities
+
+---Microphone to Speaker design 101---------------------------------------------
+
+    https://circuitdigest.com/electronic-circuits/simple-microphone-to-speaker-circuit
+    Simple Microphone to Speaker Amplifier Circuit    BySourav Gupta Nov 13, 2018
+        Electret Mic, Opamp, Speaker.. oops. this one is 12v, I'd like to stay in 3.7v
+        to 6 volt range.  Also no volume control. Did we say this was simple?
+
+    Google searching for this stuff we see designs all the way from BJT transistor
+    trains thru OpAmp designs to inexpensive integrated circuit chips with
+    everything already built in.  Charley's guidance is clear. Don't reinvent the
+    wheel.  Existing IC's it is!
+
+    Amplifier chips?
+    http://www.ti.com/audio-ic/amplifiers/speaker-amplifiers/products.html?pqs=paqs&familyid=3419#p2982=Analog%20Input&p1055max=Mono&p2622min=2;2.5&p2622max=3;6&p342=0.047;5
+
+    Dumb system?  Control Interface = hardware, not gpio
+
+---System Requirements - Thoughts-----------------------------------------------
+
+    3 to 5 watts?
+    Juice: 2 to 6v
+    Speaker: 4Ω
+
+    Architecture: Class-AB, Class-D
+    https://www.powersoft-audio.com/en/support/faq-s/113-rack-amps-faqs/1122-what-is-the-difference-between-class-ab-and-class-d-technology
+
+    Closed/Open Loop:  (huh?)
+    Open Loop -- The output assumes one of the two possible states, that is +V(sat)
+         or -V(sat) and the amplifier acts as a switch only. This is used in
+         rare applications like voltage comparator, zero crossing detector, etc..
+         The op-amp works as a high gain amplifier.
+    Closed Loop -- The utility of an op-amp can be greatly increased by providing
+        negative feedback.  The output in this case is not driven into saturation
+        and the circuit behaves in a linear manner.
+
+    (ref: https://www.slideshare.net/GOWRISHANKARRAJU1/slew-rate-open-and-closed-loop-configurations)
+
+---US based electronics suppliers-----------------------------------------------
+
+    Mouser
+    Digikey
+    Newark Electronics
+
+---Microphone references--------------------------------------------------------
+
+    https://www.adafruit.com/product/1063
+    ELECTRET MICROPHONE AMPLIFIER - MAX4466 WITH ADJUSTABLE GAIN
+    20-20KHz electret microphone
+    This is a convenient package with some interesting features. Worth understanding,
+    On the back, we include a small trimmer pot to adjust the gain. You can set
+    the gain from 25x to 125x. That's down to be about 200mVpp (for normal speaking
+    volume about 6" away) which is good for attaching to something that expects
+    'line level' input without clipping, or up to about 1Vpp, ideal for reading
+    from a microcontroller ADC. The output is rail-to-rail so if the sounds gets
+    loud, the output can go up to 5Vpp!
+
+    Using it is simple: connect GND to ground, VCC to 2.4-5VDC. For the best
+    performance, use the "quietest" supply available (on an Arduino, this would
+    be the 3.3V supply). The audio waveform will come out of the OUT pin. The
+    output will have a DC bias of VCC/2 so when its perfectly quiet, the voltage
+    will be a steady VCC/2 volts (it is DC coupled). If the audio equipment you're
+    using requires AC coupled audio, place a 100uF capacitor between the output
+    pin and the input of your device. If you're connecting to an audio amplifier
+    that has differential inputs or includes decoupling capacitors, the 100uF cap
+    is not required.  The output pin is not designed to drive speakers or anything
+    but the smallest in-ear headphones - you'll need an audio amplifier (such as
+    our 3.7W stereo amp) if you want to connect the amp directly to speakers.
+    If you're connecting to a microcontroller pin, you don't need an amplifier
+    or decoupling capacitor - connect the OUT pin directly to the microcontroller
+    ADC pin.
+
+    https://www.adafruit.com/product/987
+    Stereo Amp, Class D.   2 x 3.7W channels into 3 ohm impedance speakers.
+    uses jumper to control gain 6dB default, set 9-18 with jumper. Inputs routed
+    thru 1.0uF capacitor. Output Power: 3.7W at 3Ω, 10% THD, 1.7W at 8Ω, 10% THD,
+    with 5V Supply
+
+---Speakers?--------------------------------------------------------------------
+
+    Soberton 433-1220-ND 4Ω, 0 to 8khz, 92db, $2.46, Rated power: 1.5W, Max power: 300mW 28mm dia, 4.4mm height
+    Soberton 433-1182-ND 4Ω, 102dB efficiency,  $3.32, Rated power: 3W, max power: 4W round speaker, rect frame, 77.2x77.2x21mm
+    Soberton 433-1175-ND 4Ω 0hz to 7kHz, $3.39 rated power: 1W, max 2W, 26.3mm OD x 12.5
+    Soberton 433-1173-ND 2Ω (yup, 2Ω) 0Hz to 20kHz, $3.52 rated power: 1W, max 2W, 26.3mm OD x 12.5
+    Soberton 433-1246-ND 4Ω 0Hz to 10kHz, $3.63, rated power 1W, max: 1.5, 27x20x6.4mm (laptop speaker?)
+    PUI Audio 668-1420-ND, 4Ω 100Hz to 20kHz, $4.23, rated power 2W, max 5W, 70x30.5x24mm rectangular shape.
+
+    I'm thinking the round speakers are probably easier to package.  
