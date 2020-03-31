@@ -318,14 +318,11 @@ Scope:
 
     Design Factors?
         --microphone type MEMS vs Electret Condenser microphone element
-        --bell shape (parabola vs cone)? (see edit note)
-        --Membrane material? (thin plastic sheet, thick plastic sheet, thin steel) (See edit note)
+        --bell shape (parabola vs cone)?
+        --Membrane material? (thin plastic sheet, thick plastic sheet, thin steel)
         --size of bell (big or small)
         --recording test master (what are we listening to?  Anybody have a
         master recording of the chest of someone with pneumonia? )
-        
-        Edit.  Don't reinvent the wheel.  Not necessary.  Use existing designs where ever 
-        possible. 
 
     Response (What's the measure of success?)
         idea: find a master recording of XYZ at a fixed volume level.
@@ -530,8 +527,9 @@ Scope:
     digital stethoscope
     Adriano Ordoz Barissa (Cravinhos, Brazil)
     October 11th, 2017
-    The idea for this product is to make a stethoscope easy to use in order to be used in hospitals and residences.
-    (LBC note.  I sent a note to Adriano thru grabcad, asking for input, perhaps get him to join team. 3/29/2020, 4:30PM PST)
+    The idea for this product is to make a stethoscope easy to use in order to be
+    used in hospitals and residences.  (LBC note.  I sent a note to Adriano thru
+    grabcad, asking for input, perhaps get him to join team. 3/29/2020, 4:30PM PST)
 
 ---Idea-------------------------------------------------------------------------
 
@@ -541,7 +539,33 @@ Scope:
     batteries?)  LoRa band can easily handle that little bit of IoT (internet of things)
     traffic, reminding hospital folks that units 1, 9 and 13 are running low and need
     to be charged...
-    
+
+---ESP32 Testing----------------------------------------------------------------
+
+    https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf
+
+    https://randomnerdtutorials.com/getting-started-with-esp32/
+    https://randomnerdtutorials.com/installing-the-esp32-board-in-arduino-ide-windows-instructions/
+        Example, scan wifi hosts.  Works well.
+    https://create.arduino.cc/projecthub/zipzit/esp32-hello-world-blinky-0c4a16
+
+    Heltec htit-w832
+    https://robotzero.one/heltec-wifi-kit-8/
+    Use Board "Heltec WiFi Kit 32"
+    Examples -- WiFi -- WiFi Scan
+
+    Oled display library: https://github.com/olikraus/u8g2
+    File> Examples > U8g2 > full_buffer > GraphicsTest
+    Doesn't seem compatible with Heltec chip.
+
+    https://www.youtube.com/watch?v=dk-01OpKYuQ
+    Using Heltec ESP32 OLED Wifi Kit
+    Sep 11, 2019 -- Robojax
+        Support:
+        https://robojax.com/learn/arduino/?vid=robojax_ESP32_Heltck_OLED
+        https://github.com/HelTecAutomation/Heltec_ESP32
+
+
 ---Digital Signal Processing on a DSP32. Possible?------------------------------
 
     I was thinking about the simple in/out audio box design.  What if we needed DSP 
