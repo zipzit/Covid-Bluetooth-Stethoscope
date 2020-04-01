@@ -15,3 +15,10 @@
     Energizer Double A Battery
     Russell Watters
     July 13th, 2019
+
+
+---Speaker----------------------------------------------------------------------
+
+    http://www.puiaudio.com/pdf/AS04004PR-R.pdf
+    Pui Audio, 3 watt, 4Ohm speaker, purchased from Digikey
+    

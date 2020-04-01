@@ -760,6 +760,18 @@ Scope:
         FSR = 150Hz  Size: 52mm dia x 28mm
         why?  Different manufacturer, larger size, lower FSR rating.
 
+---PUI Audio - Speaker Mftr-----------------------------------------------------
+
+    puiaudio.com
+    PUI Audio
+    3541 Stop Eight Rd.
+    Dayton, OH 45414
+    P937.415.5901
+    Eaudio@puiaudio.com
+
+    Sound library: http://www.puiaudio.com/resources-sounds.aspx
+    white papers: http://www.puiaudio.com/resources-white-papers.aspx
+
 ---Speaker Self Resonant Frequency----------------------------------------------
 
     https://www.stetron.com/resonant-frequency/
