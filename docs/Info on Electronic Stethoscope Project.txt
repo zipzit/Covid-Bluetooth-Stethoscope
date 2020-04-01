@@ -608,12 +608,28 @@ Scope:
     with 5V Supply  uses MAX98306  Digikey # 1528-1380-ND
 
     Are there other Audio Amplifier Evaluation Boards that will work for us?
+    https://www.digikey.com/products/en/development-boards-kits-programmers/evaluation-boards-audio-amplifiers/789
+    Filter: in stock.  Sort by price, have a nice day.
+
     1528-1492-ND  Adafruit Industries LLC	2.5W CLASS D AUDIO AMPLIFIER  $3.95   Mono IC: PAM8302A
     1528-1696-ND  Adafruit Industries LLC	MAX98357A I2S AMP BREAKOUT BOARD 3.2W $5.95  Mono IC: MAX98357A
         (oops, I2S audio input only, good for I2S Mems microphone, not for Electret)
     1738-1068-ND  DFRobot	3W MINI AUDIO STEREO AMPLIFIER  $5.96  Stereo  IC: PAM8403
+        (DO NOT apply over 5.5V, it damage the chip presently)
     1568-1025-ND  SparkFun Electronics	TPA2005D1 AUDIO AMP MONO 1.4W  $7.95  Mono  IC: TPA2005D1
     1528-1380-ND  Adafruit Industries LLC	AMP AUDIO 3.7W CLASS D  $8.95 Stereo IC: MAX98306
+        https://datasheets.maximintegrated.com/en/ds/MAX98306.pdf
+        Lots of features here, including jumper settings for different gains.
+        Five pin-selectable gains: 6dB, 9dB, 12dB, 15dB and 18dB. Designed for
+        3 ohm speakers (is that an issue?)
+    1528-1193-ND	Adafruit Industries LLC	BREAKOUT STER 2.8W AMP D TS2012	73	$9.95
+        Class D	2-Channel (Stereo)	2.8W x 2 @ 4Ohm	2.5V ~ 5.5V	TS2012	Onboard
+        dip switches for gain settings, comes with input capacitor
+    1528-1381-ND	Adafruit Industries LLC	AMP AUDIO 2.8W CLASS D	49	$9.95
+        Class D	2-Channel (Stereo)	2.8W x 2 @ 4Ohm	2.5V ~ 5.5V	TPA2016D2
+        "I2C control input for gain.  nice for ESP32. Settings are not stored in
+        the chip, so you'll need to adjust any gain & AGC amplification settings
+        every time the amp is powered up."
     1738-1055-ND  DFRobot	386AMP AUDIO AMPLIFIER MODULE 500mW  $14.19 Mono IC: LM386
         ( too small wattage, but the chip is interesting )
 
