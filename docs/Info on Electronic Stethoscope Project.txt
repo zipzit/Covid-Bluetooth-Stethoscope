@@ -676,6 +676,35 @@ Scope:
 
     AdaFruit MAX98357A I²S 3W Class D Amplifier Breakout Board
 
+---Microphone Selection---------------------------------------------------------
+
+    Digikey: https://www.digikey.com/products/en/development-boards-kits-programmers/evaluation-and-demonstration-boards-and-kits/787
+    I started here for the quick and dirty easy to solder and test microphone boards
+    with components already attached.  My initial thought was to obtain one mems
+    microphone and one Electret (nearest the medical white paper dimensions)
+    and move this along.  I was surprised what I found in the dev board stuff here.
+
+    Digi-Key Part Number	Manufacturer	Description	Quantity Available	 Unit Price (USD) 	Function	Utilized IC / Part	Primary Attributes
+    1528-2521-ND	Adafruit Industries LLC	PDM MEMS MICROPHONE BREAKOUT	224	 $4.95 	MEMS Omnidirectional Microphones	MP34DT01-M	-
+    1528-1362-ND	Adafruit Industries LLC	BREAKOUT BD SIL MEMS MIC SPW2430	127	 $4.95 	MEMS Omnidirectional Microphones	SPW2430	Analog Output
+    1528-4346-ND	Adafruit Industries LLC	PDM MICROPHONE BREAKOUT WITH JST	149	 $4.95 	MEMS Omnidirectional Microphones	MP34DT01-M	-
+    1528-1908-ND	Adafruit Industries LLC	SPH0645LM4H I2S MICROPHONE BOARD	84	 $6.95 	MEMS Omnidirectional Microphones	SPH0645LM4H	-
+    1568-1037-ND	SparkFun Electronics	ADMP401 MEMS MICROPHONE	0	 $10.95 	MEMS Omnidirectional Microphones	INMP401	-
+    102-6243-ND	CUI Devices	MEMS MICROPHONE EVAL BOARD	305	 $12.64 	MEMS Omnidirectional Microphones	CMM-2718AB-38308-TR, CMM-2718AT-42308-TR, CMM-4030DB-26354-TR, CMM-4030DT-26354-TR	-
+    102-6242-ND	CUI Devices	ECM MICROPHONE EVAL BOARD	105	 $15.30 	Electret Condenser Microphones	CMC-4013-SMT-TR, CMC-6015-47P, CMM-3312AT-44308-TR, CMR-2747PB-A	-
+
+    That last Electret board in interesting.  Its intended to be split into four
+    parts, three different electret mics and one mems mic.  Might be a good way
+    to test.  3 electret mics are: omnidirectional, noise cancelling and
+    unidirectional.  The mems mic is omnidirectional.
+
+    If I had to guess, I'd suspect we want unidirectional microphone.  Don't
+    really know. It would be fun to test each to understand how each works.
+
+    Microphone search: https://www.digikey.com/products/en/audio-products/microphones/158
+    filters:  On hand, shape = round, type = Electret Condenser & magnetic,
+              Size/Dimension = 9.4 and 9.7mm, (Direction = Unidirectional)
+
 ---Speakers?--------------------------------------------------------------------
 
     (initial sorted via price... that may not have been the best way... See notes below on Freq Self Resonant)
