@@ -617,6 +617,9 @@ Scope:
     1738-1055-ND  DFRobot	386AMP AUDIO AMPLIFIER MODULE 500mW  $14.19 Mono IC: LM386
         ( too small wattage, but the chip is interesting )
 
+    ref notes:
+    https://www.instructables.com/community/What-IC-should-I-use-to-make-a-microphone-to-speak/
+
 ---System Requirements - Thoughts-----------------------------------------------
 
     3 to 5 watts?
@@ -671,14 +674,69 @@ Scope:
     or decoupling capacitor - connect the OUT pin directly to the microcontroller
     ADC pin.
 
+    AdaFruit MAX98357A I²S 3W Class D Amplifier Breakout Board
 
 ---Speakers?--------------------------------------------------------------------
 
+    (initial sorted via price... that may not have been the best way... See notes below on Freq Self Resonant)
     Soberton 433-1220-ND 4Ω, 0 to 8khz, 92db, $2.46, Rated power: 1.5W, Max power: 300mW 28mm dia, 4.4mm height
     Soberton 433-1182-ND 4Ω, 102dB efficiency,  $3.32, Rated power: 3W, max power: 4W round speaker, rect frame, 77.2x77.2x21mm
     Soberton 433-1175-ND 4Ω 0hz to 7kHz, $3.39 rated power: 1W, max 2W, 26.3mm OD x 12.5
     Soberton 433-1173-ND 2Ω (yup, 2Ω) 0Hz to 20kHz, $3.52 rated power: 1W, max 2W, 26.3mm OD x 12.5
     Soberton 433-1246-ND 4Ω 0Hz to 10kHz, $3.63, rated power 1W, max: 1.5, 27x20x6.4mm (laptop speaker?)
     PUI Audio 668-1420-ND, 4Ω 100Hz to 20kHz, $4.23, rated power 2W, max 5W, 70x30.5x24mm rectangular shape.
+    Soberton 433-SP-3616-ND, 4 OHM, 2.5W, 80DB, 190HZ,36MM DI, $5.46, Rated power 2W, Max 3W, 36mm dia x 16.3mm
+    Soberton 433-1176-ND, EXCITER 3W, 4 OHM, 0 to 8kHz, $5.48, Rated power 3W, max 4W,  33MM dia X 12.3MM
+    Soberton 433-SPM-3040L-ND, 4 OHM, $5.73, 0 to 10kH, Rated power 2W, max 3W,  2.5W, 86DB, 40x30x15 plastic enclosure.
+         (unusual simple plastic enclosure. this might work well with battery reloading and simple housing design)
+    PUI Audio, Inc.	668-1359-ND, SPEAKER 4OHM 3W TOP PORT 86DB, rare earth mgnt. 100Hz-20kHz, rated power 3W, max 4W, 40mm dia x 17.5mm
 
     I'm thinking the round speakers are probably easier to package.
+    search terms: shape: (Round, Round with Rect frame, Round with Sq Frame),
+    Power Max (3 to 6 W), Stock = on Hand.
+    Sort by Self Resonant Frequency, smaller is better for us.  See note below.
+
+    https://www.digikey.com/products/en/audio-products/speakers/156?
+
+    There are a whole lot of speakers that seem to work;  Its not clear on what some
+    of these characteristics are:  e.g Frequency Self Resonant (?),
+    does moisture protecting rating matter to us?  Would exciters offer us anything?
+    (hm.. can we use an exciter as an input device?  I know I've taken cheap speakers and
+    used them as microphones and they work. Do exciter speakers offer us anyting?
+    Might be worth a call to the engineers at PUI Audio and find out. See also
+    Surface Transducer note, below )
+
+    I copied info to online spreadsheet, sorted by Frequency Self Resonant.  My #1 choice is
+    668-1359-ND	AS04004PR-R	PUI Audio, Inc.	SPEAKER 4OHM 3W TOP PORT 86DB	3122	$6.71
+        FSR= 180Hz  Size: 40mm dia x 17.5mm
+
+    Backup Speaker Selection:
+    2104-SP520104-1-ND	SP520104-1	DB Unlimited	DYNAMIC SPEAKER	1888	$8.39
+        FSR = 150Hz  Size: 52mm dia x 28mm
+        why?  Different manufacturer, larger size, lower FSR rating.
+
+---Speaker Self Resonant Frequency----------------------------------------------
+
+    https://www.stetron.com/resonant-frequency/
+    In the piston range of a driver (before the cone exhibits oscillations other
+    than those induced by the motion of the voice coil in the magnet), a loudspeaker
+    acts as a high pass filter (HPF). The resonant frequency of a speaker, f0
+    (pronounced: F-naught), is the frequency below which a loudspeaker is
+    increasingly unable to generate sound output for a given input signal.
+
+    https://www.proaudioland.com/news/the-importance-of-a-speakers-resonant-frequency/
+
+    LBC Note:  oops.  I think that means we need to find speaker that are on
+    the low end of Self Resonant Frequency, when we prioritize them for low
+    frequency output.  Wish i'd seen that before, sigh.
+
+---Outside of the box thinking, Surface Transducer------------------------------
+
+    Digikey 1568-1619-ND  SparkFun Electronics $24.95 (oops, only one left)
+
+    Surface transducers give you the awesome power to turn almost any surface into a
+    speaker. They’re essentially just a speaker except instead of a cone, the coil is attached to a pad
+    that conducts the vibration into whatever you press it against. Hook it up to an audio source and
+    press it against the nearest table, wall or cardboard box. You can even put it against your head and
+    play music directly into your skull (the ultimate surround sound).
+    Dimensions: 50mm in diameter, 31mm tall
