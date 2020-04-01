@@ -1,0 +1,17 @@
+---ESP32 Model------------------------------------------------------------------
+
+    https://grabcad.com/library/heltec-wifi-lora-32-shield-1
+    Heltec WiFi LoRa 32 Shield
+    Raphael F. Martins
+    February 3rd, 2020
+    ESP32 / LoRa / WiFi/ Bluetooth/ OLED Display
+    Manufacturer: Heltec
+    SW2018
+
+
+---AA Battery-------------------------------------------------------------------
+
+    https://grabcad.com/library/energizer-double-a-battery-1
+    Energizer Double A Battery
+    Russell Watters
+    July 13th, 2019
