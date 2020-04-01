@@ -21,4 +21,4 @@
 
     http://www.puiaudio.com/pdf/AS04004PR-R.pdf
     Pui Audio, 3 watt, 4Ohm speaker, purchased from Digikey
-    
+    wow. PUI provides cad models. Awesome.
