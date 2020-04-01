@@ -1,0 +1,32 @@
+4/1/2020
+
+This document lists potential off-the-shelf solutions for use. There are products that are commercially readily available out there with potential of 
+meeting the requirements of Dr. Brian Lichtenstein request. This excludes 3M/Littman, Thinklabs products and the Stemoscope.
+
+### Smart App ###
+ The paper Electronic Stethoscope (https://biomedical-engineering-online.biomedcentral.com/articles/10.1186/s12938-015-0056-y/figures/13)
+ lists two smart phone apps called: SensiCardiac and StethoCloud. Doing a quick app search on my iPhone, there 
+ are many stethoscope app available for download and use. On Google Play, there are some apps also. 
+ Keyword search: stethoscope, auscultation.
+ 
+ How this works is that the app with use the smart device's built in mic to listen.
+ 
+ Table of apps reviewed by paper: https://biomedical-engineering-online.biomedcentral.com/articles/10.1186/s12938-015-0056-y/tables/5
+ 
+ App prices may vary on the apps.
+ 
+ Pro:
+ + Apps readily available
+ + Many people carry or possess at least one smart device (iPhone, iPad, iPod Touch, and Android phones)
+ 
+ Con:
+ - Requires a smart device with a built-in mic
+ - Mic placement may not be accurate
+ - Smart devices tend to be personal devices
+ 
+ Notes: An alternative solution could be to use a cheap Android tablet from Wal-Mart and pair it possible with something like 
+ this: https://www.sweetwater.com/store/detail/SmartMic--saramonic-smartmic-mini-condenser-microphone-with-trrs-connector
+ to create a more accurate reading. A SLA/LED/LCD 3D printer could also print a cone for the mic. The tablet could also be placed in an 
+ enclosure for better sterilization options particularly chemical sterilization.
+ 
+ 
