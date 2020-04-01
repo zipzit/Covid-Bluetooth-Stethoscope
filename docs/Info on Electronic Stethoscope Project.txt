@@ -588,10 +588,34 @@ Scope:
     everything already built in.  Charley's guidance is clear. Don't reinvent the
     wheel.  Existing IC's it is!
 
+---Amplifier Chips--------------------------------------------------------------
+
+    There are two ways to go here for a Maker type solution (soldering, no smc soldering).
+    1) Opamp with dip pins in prototype drilled board with discrete components
+    2) AdaFruit type solution with integrated Audio Amp SMC boards on breakout board.
+
     Amplifier chips?
     http://www.ti.com/audio-ic/amplifiers/speaker-amplifiers/products.html?pqs=paqs&familyid=3419#p2982=Analog%20Input&p1055max=Mono&p2622min=2;2.5&p2622max=3;6&p342=0.047;5
 
-    Dumb system?  Control Interface = hardware, not gpio
+    Dumb system?  Control Interface = hardware, not gpio.  What about pseudo discrete
+    gain amounts.  See the jumper on the AdaFruit board.  You would set a jumper once
+    then simple on-off.  Easy Peasy.  Will that work?
+
+    https://www.adafruit.com/product/987     $8.95
+    Stereo Amp, Class D.   2 x 3.7W channels into 3 ohm impedance speakers.
+    uses jumper to control gain 6dB default, set 9-18 with jumper. Inputs routed
+    thru 1.0uF capacitor. Output Power: 3.7W at 3Ω, 10% THD, 1.7W at 8Ω, 10% THD,
+    with 5V Supply  uses MAX98306  Digikey # 1528-1380-ND
+
+    Are there other Audio Amplifier Evaluation Boards that will work for us?
+    1528-1492-ND  Adafruit Industries LLC	2.5W CLASS D AUDIO AMPLIFIER  $3.95   Mono IC: PAM8302A
+    1528-1696-ND  Adafruit Industries LLC	MAX98357A I2S AMP BREAKOUT BOARD 3.2W $5.95  Mono IC: MAX98357A
+        (oops, I2S audio input only, good for I2S Mems microphone, not for Electret)
+    1738-1068-ND  DFRobot	3W MINI AUDIO STEREO AMPLIFIER  $5.96  Stereo  IC: PAM8403
+    1568-1025-ND  SparkFun Electronics	TPA2005D1 AUDIO AMP MONO 1.4W  $7.95  Mono  IC: TPA2005D1
+    1528-1380-ND  Adafruit Industries LLC	AMP AUDIO 3.7W CLASS D  $8.95 Stereo IC: MAX98306
+    1738-1055-ND  DFRobot	386AMP AUDIO AMPLIFIER MODULE 500mW  $14.19 Mono IC: LM386
+        ( too small wattage, but the chip is interesting )
 
 ---System Requirements - Thoughts-----------------------------------------------
 
@@ -647,11 +671,6 @@ Scope:
     or decoupling capacitor - connect the OUT pin directly to the microcontroller
     ADC pin.
 
-    https://www.adafruit.com/product/987
-    Stereo Amp, Class D.   2 x 3.7W channels into 3 ohm impedance speakers.
-    uses jumper to control gain 6dB default, set 9-18 with jumper. Inputs routed
-    thru 1.0uF capacitor. Output Power: 3.7W at 3Ω, 10% THD, 1.7W at 8Ω, 10% THD,
-    with 5V Supply
 
 ---Speakers?--------------------------------------------------------------------
 
@@ -662,4 +681,4 @@ Scope:
     Soberton 433-1246-ND 4Ω 0Hz to 10kHz, $3.63, rated power 1W, max: 1.5, 27x20x6.4mm (laptop speaker?)
     PUI Audio 668-1420-ND, 4Ω 100Hz to 20kHz, $4.23, rated power 2W, max 5W, 70x30.5x24mm rectangular shape.
 
-    I'm thinking the round speakers are probably easier to package.  
+    I'm thinking the round speakers are probably easier to package.
