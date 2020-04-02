@@ -22,3 +22,14 @@
     http://www.puiaudio.com/pdf/AS04004PR-R.pdf
     Pui Audio, 3 watt, 4Ohm speaker, purchased from Digikey
     wow. PUI provides cad models. Awesome.
+
+---Adafruit audio amplifier board-----------------------------------------------
+
+    Double wow.  We're lucky this exists..
+    https://grabcad.com/library/arduino-audio-amp-board-987-1
+    Arduino Audio Amp Board 987
+
+    davidrmillar
+    May 19th, 2016
+    Arduino Audio Amp Board MAX98306. Adafruit 987. This is a SolidWorks 2016
+    Model. IGES and STEP files available.
