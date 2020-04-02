@@ -724,18 +724,24 @@ Scope:
 
 ---CUI Inc Microphone dev board supplier----------------------------------------
 
-    https://www.cui.com/
-    CUI Inc
-    20050 SW 112th Avenue
-    Tualatin, OR 97062
-    1-800-275-4899
+    https://www.cuidevices.com/
+    CUI Devices
+    6405 SW Rosewood St, Ste C
+    Lake Oswego, OR 97035
+    1-877-323-3576
+    Phone: 971-335-3648
 
     Odd. I was looking for info on microphones, but their website only shows power
     related products.  Not sure what that means.  We'll have to call during
     the daytime and ask.  I really hate spec'ing out a product that is no longer
     in production, or is not supported.
 
-    oops.  check out https://www.cuidevices.com/   Its a different website.  
+    oops.  check out https://www.cuidevices.com/   Its a different website.
+
+    mic5 = CMM3312AT-44308-TR (MEMS, Omnidirectional)
+    mic6 = CMR-2747PB-A (Electret, Noise Cancelling)
+    mic7 = CMC-6015-47P (Electret, Unidirectional)
+    mic8 = CMC-4013-SMT-TR (Electret, Omnidirectional)
 
 ---Speakers?--------------------------------------------------------------------
 
