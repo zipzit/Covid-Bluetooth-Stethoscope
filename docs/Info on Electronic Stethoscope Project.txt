@@ -565,6 +565,51 @@ Scope:
         https://robojax.com/learn/arduino/?vid=robojax_ESP32_Heltck_OLED
         https://github.com/HelTecAutomation/Heltec_ESP32
 
+    Arduino IDE, File --> Preferences --> Add https://docs.heltec.cn/download/package_heltec_esp32_index.json
+    tp Additional Board Manager URLs (via button on the right)
+
+    then board --> Board manager --> heltec   and install...
+    oops, https://docs.heltec.cn/download/package_heltec_esp32_index.json = file not found...
+    use http://resource.heltec.cn/download/package_heltec_esp32_index.json
+
+    https://heltec.org/project/wifi-kit-32/
+    https://heltec-automation-docs.readthedocs.io/en/latest/esp32/quick_start.html
+
+    tools --> Board --> Boards Manager, search for Heltec ESP32... install..
+
+    After installation Tools --> Board --> Select Heltec ESP32 Arduino  --> WiFi Kit 32
+
+    Open Arduino IDE, then Select Sketch->Include Library->Manage Libraries... Search Heltec ESP32 and install it.
+
+    great.  Everthing works in the example file.
+
+---Oled Graphics Display--------------------------------------------------------
+
+    How do they create the oled logos?
+    const unsigned char LoRa_Logo_bits[] PROGMEM = { 0x00, 0x00, ...
+    https://arduino-esp8266.readthedocs.io/en/latest/PROGMEM.html
+    https://esp32.com/viewtopic.php?f=13&t=4780
+
+    ref:  https://lastminuteengineers.com/oled-display-arduino-tutorial/
+
+    How do you design things this way?
+
+    https://www.youtube.com/watch?v=Q1iVtLQOZOI
+    How to convert images to Arduino Arrays for use on LCD displays! - Tutorial
+    Mar 19, 2018    Brainy-Bits
+        https://sourceforge.net/projects/lcd-image-converter/
+        This program allows you to create bitmaps and fonts, and transform them
+        to "C" source format for embedded applications.  The transformation of
+        the images to the source code is made by using templates. Therefore, by
+        modifying the templates, you can change the format of the output within
+        certain limits.
+
+    https://learn.sparkfun.com/tutorials/flexible-grayscale-oled-hookup-guide/all
+        https://github.com/sparkfun/BMPtoArray  (python script)
+        This script takes in a bitmap and converts the bitmap into 4-bit grayscale.
+        An array of bytes is generated that can be copy/pasted into a header file.
+
+    https://www.spriters-resource.com/
 
 ---Digital Signal Processing on a DSP32. Possible?------------------------------
 
@@ -742,6 +787,19 @@ Scope:
     mic6 = CMR-2747PB-A (Electret, Noise Cancelling)
     mic7 = CMC-6015-47P (Electret, Unidirectional)
     mic8 = CMC-4013-SMT-TR (Electret, Omnidirectional)
+
+    On Thursday, April 2, 2020, 03:20:59 PM PDT, CUI Devices - Tech Support
+    <techsupport@cuidevices.com> wrote:
+        LB, each of the 4 pieces is a 0.59” x 0.59” square and the board thickness
+        is 0.032”.  Let me know if you need anything else.
+
+        Best Regards,
+        Ryan Smoot
+        Applications Engineer
+        CUI Devices
+        Direct: 971.335.3613
+        Toll Free: 877.323.3576
+        www.cuidevices.com
 
 ---Speakers?--------------------------------------------------------------------
 

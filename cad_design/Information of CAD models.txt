@@ -42,3 +42,6 @@
         CMC-6015-47P MIC7 ECM analog top 6.0 -47 500 (Electret, Unidirectional)
         CMC-4013-SMT-TR MIC8 ECM analog top 4.0 -42 500 (Electret, Omnidirectional)
         (last three #s above indicate dia(mm) Sensitivity(dB) Current (microAmps))
+
+    each of the 4 pieces is a 0.59” x 0.59” square and the board thickness
+    is 0.032”. 
