@@ -721,6 +721,19 @@ Scope:
     filters:  On hand, shape = round, type = Electret Condenser & magnetic,
               Size/Dimension = 9.4 and 9.7mm, (Direction = Unidirectional)
 
+---CUI Inc Microphone dev board supplier----------------------------------------
+
+    https://www.cui.com/
+    CUI Inc
+    20050 SW 112th Avenue
+    Tualatin, OR 97062
+    1-800-275-4899
+
+    Odd. I was looking for info on microphones, but their website only shows power
+    related products.  Not sure what that means.  We'll have to call during
+    the daytime and ask.  I really hate spec'ing out a product that is no longer
+    in production, or is not supported.  
+
 ---Speakers?--------------------------------------------------------------------
 
     (initial sorted via price... that may not have been the best way... See notes below on Freq Self Resonant)
