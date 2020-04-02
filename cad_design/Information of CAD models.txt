@@ -16,7 +16,6 @@
     Russell Watters
     July 13th, 2019
 
-
 ---Speaker----------------------------------------------------------------------
 
     http://www.puiaudio.com/pdf/AS04004PR-R.pdf
@@ -33,3 +32,13 @@
     May 19th, 2016
     Arduino Audio Amp Board MAX98306. Adafruit 987. This is a SolidWorks 2016
     Model. IGES and STEP files available.
+
+---CUI Microphones--------------------------------------------------------------
+
+    https://www.cuidevices.com/
+    I can find CAD models of the mic's but not the prototype board.
+        CMM-3312AT-44308-TR MIC5 MEMS analog top 3.3 -44 80
+        CMR-2747PB-A MIC6 ECM analog top 6.0 -47 500
+        CMC-6015-47P MIC7 ECM analog top 6.0 -47 500
+        CMC-4013-SMT-TR MIC8 ECM analog top 4.0 -42 500
+        (last three #s above indicate dia(mm) Sensitivity(dB) Current (microAmps))

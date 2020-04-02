@@ -6,12 +6,15 @@
 
 - Dr. Brian
 - Meghana
-- LB 
+- LB
 - Charley
 - Aaron
 - Michael
 - Riya
-
+- David
+- Arkady
+- Raunak
+- Nick
 
 ### How to Contact ###
 We are using a Discord server for team communication - if you want access to it e-mail Charley Lucas - charley@zerosquared.io and I will send you an invite.
@@ -19,7 +22,7 @@ We are using a Discord server for team communication - if you want access to it 
 
 
 ### Description ###
- 
+
 I (Brian) am a frontline physician (hospitalist) that is seeing increasing volumes of patients at our facilities. PPE supplies are becoming increasingly precious and we expect we will need to mitigate PPE and equipment waste and develop new options for protection of our healthcare workforce.
 
 One major item that is not discussed regularly on the news are disposable stethoscopes and pulse oximetry. In resource-rich countries, a patient on contact isolation will have a dedicated "disposable" stethoscope during their hospital admission. These are typically poor quality and of limited utility. They are also quite short -- resulting in close physical proximity to an ill patient, which increases risk of droplet contamination on PPE and individuals.

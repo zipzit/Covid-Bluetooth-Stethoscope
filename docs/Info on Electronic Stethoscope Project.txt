@@ -661,6 +661,7 @@ Scope:
     Mouser
     Digikey
     Newark Electronics
+    Arrow Electronics
 
 ---Microphone references--------------------------------------------------------
 
@@ -732,7 +733,9 @@ Scope:
     Odd. I was looking for info on microphones, but their website only shows power
     related products.  Not sure what that means.  We'll have to call during
     the daytime and ask.  I really hate spec'ing out a product that is no longer
-    in production, or is not supported.  
+    in production, or is not supported.
+
+    oops.  check out https://www.cuidevices.com/   Its a different website.  
 
 ---Speakers?--------------------------------------------------------------------
 
