@@ -44,4 +44,8 @@
         (last three #s above indicate dia(mm) Sensitivity(dB) Current (microAmps))
 
     each of the 4 pieces is a 0.59” x 0.59” square and the board thickness
-    is 0.032”. 
+    is 0.032”.
+
+---Bourns Potentiometer Volume Adj----------------------------------------------
+
+    https://www.bourns.com/resources/design-tools/engineering-files-list?Folder=PTR90

@@ -21,3 +21,7 @@
 
     Ground symbol?
     Schematic Symbols --> Ports
+
+    Left hand menu selection disappeared?  Make sure you clear the search..
+    https://forum.digikey.com/t/scheme-it-part-symbols-missing-after-doing-search/444
+    Check URL:  https://www.digikey.com/schemeit/project/
