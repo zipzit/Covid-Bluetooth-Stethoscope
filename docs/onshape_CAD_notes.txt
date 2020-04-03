@@ -1,0 +1,75 @@
+---Imports?---------------------------------------------------------------------
+
+    What is best format for importing references to Onshape?  Clearly
+    xxx.SLDPRT format fails.
+
+    e.g.
+    aa_battery.SLDPRT failed to translate:
+    Imported file contains no translatable geometry.   <--- Huh?
+
+    https://cad.onshape.com/help/Content/uploadfiles.htm
+    https://cad.onshape.com/help/Content/translation.htm   <--- Start the journey here.
+
+    Non-CAD files that are able to be imported into Onshape include:
+        .pdf
+        .mp4
+        .png
+        .jpg/jpeg
+        .svg
+        .gif
+        .txt
+        .md
+
+    Onshape automatically imports and translates these CAD file formats for parts
+    and assemblies, including wire bodies and sketch curves.
+
+    Part files
+    Parasolid B-rep (.x_t or .x_b) from v10 to v32.1.157
+        Parasolid is the Onshape preferred import format.
+    Parasolid mesh (.xmt_txt or .xmt_bin) from v28 to v29 (view and reference meshes only, unable to edit a mesh)
+    ACIS (.sat) up to R21, 2018 1.0
+    STEP (.stp or .step) AP203 and AP214 (geometry only)
+    IGES (.igs or .iges) up to 5.3
+    CATIA v4 from 4.15 to 4.24 (via an Assembly .zip file)
+    CATIA v5 from R7 to R27 (v5-6R2017)
+    CATIA v5 R29 (v5-6R2019)
+    CATIA v6 R2010x to R2013x, R2015x, R2016X
+    SOLIDWORKS (.sldprt) 1999 to 2019                           <--- Really?  Doesn't seem to work for me...
+    Inventor 9 up to 2019
+    Pro/ENGINEER, Creo from Pro/E 2000i to Creo Parametric 6.0
+    JT (.jt) up to 10
+    Rhino (.3dm)
+    STL (.stl) (view and reference meshes only, unable to edit a mesh)
+    OBJ (.obj) (view and reference meshes only; unable to edit a mesh)
+    NX UG15.0 through NX12.0.2.9
+    NX1847, latest version NX 1847.2400, and NX1851
+
+    Solid Edge (.par and .psm) 10 through 2019
+    Importing Solid Edge sheet metal files (.psm) will not result in sheet metal models in Onshape. You have the ability to reference imported faces in the Sheet metal model and use the Thicken option to create an Onshape sheet metal model.
+
+    Assembly files
+    Parasolid B-rep (.x_t or .x_b) from v10 to v32.1.157
+
+    ACIS (.sat) up to R21, 2018 1.0
+    STEP (.stp or .step) AP203 and AP214 (geometry only)
+    CATIA v4 from 4.15 to 4.24 (via a .zip file)
+
+    CATIA v5 from R7 to R27 (v5-6R2017) (via a .zip file)
+    CATIA v5 R29 (v5-6R2019)
+
+    CATIA v6 R2010x to R2013x, R2015x, R2016X (via a .zip file)
+    SOLIDWORKS as Pack & Go .zip files from 1999 to 2019 (via a .zip file)
+    Inventor (.iam) 9 up to 2019 (via a .zip file)
+
+    Pro/ENGINEER, Creo from Pro/E 2000i to Creo Parametric 6.0 (via a .zip file)
+    JT (.jt) up to 9.0
+    Rhino (.3dm)
+    NX UG15.0 through NX12.0.2.9 (via a .zip file)
+    NX1847, latest version NX 1847.2400, and NX1851
+
+    Solid Edge 10 through 2019 (via a .zip file)
+    For all assembly files, you must place all parts and the assembly in a zip file and import the zip file into an Onshape document. The zip file name must match the name of the top-level assembly. For more information, see Importing Files.
+
+    Drawing files
+    AutoCAD (.dwg) up to 2018
+    DXF (.dxf) up to 2013
