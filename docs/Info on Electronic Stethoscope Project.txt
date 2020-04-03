@@ -680,7 +680,23 @@ Scope:
 
     ref notes:
     https://www.instructables.com/community/What-IC-should-I-use-to-make-a-microphone-to-speak/
+    
+---Volume adjustment, Analog Design---------------------------------------------
 
+    Oops. Missed this first time thru.  In the AdaFruit data sheet for the 
+    audio amp, there is a note on pg. 8 of 15 
+    "For volume control, a dual 50K audio taper pot can be wired in series 
+    with the inputs as shown"  
+    
+    ref: AdaFruit audio amp 3w dev board uses MAX98306 chip.pdf
+    
+    Obviously with a mono speaker in/out we don't really need the dual pots.  
+    Search criteria at Digikey:  in Stock, Logarithmetic, value 50K, sort by price.
+    But wait.. I do see some pots that include an on/off switch built in.  Either 
+    push on/off or rotate to power off. That would help us greatly.  Need a bit more 
+    research here.  In the meantime I have access to linear 50K pots that will work 
+    in testing until phase 2 delivery of parts from Digikey...
+    
 ---System Requirements - Thoughts-----------------------------------------------
 
     3 to 5 watts?
