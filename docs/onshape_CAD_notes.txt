@@ -10,6 +10,34 @@
 
     Where is the measuring tape icon?
 
+    https://cad.onshape.com/help/Content/measure-ps.htm
+    The Onshape Measure tool is available in Part Studios, for sketches and parts,
+    and in Assemblies for parts and assemblies. The Measure tool appears automatically
+    in the bottom right corner of the interface after a selection is made in Part
+    Studios or Assemblies, (shown below, in a screenshot from Onshape's desktop
+    application).
+
+    The Measure tool in Onshape, as opposed to other CAD systems, is an automatic
+    action rather than a specific tool. Because it is not a selectable tool, you
+    do not need to search in the toolbar in order to use it.
+
+---WTF?-------------------------------------------------------------------------
+
+    From the folder view, click on a part.
+
+    Sometimes the part opens up as a 3D image.  Cool.
+
+    Sometimes there is a popup box in text stating the part name,
+    Parasolid File
+    File size: X Mb
+    uploaded date / time
+    Update button, Download button
+
+    How does that work?  Why does same action on a .x_t file result in two
+    dramatically different responses?
+
+    How do we get to the 3d view of the part?
+
 
 ---Imports?---------------------------------------------------------------------
 
