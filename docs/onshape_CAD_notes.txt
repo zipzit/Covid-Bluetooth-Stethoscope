@@ -1,3 +1,16 @@
+---Where do you ask questions about the software?-------------------------------
+
+    https://forum.onshape.com/discussions
+
+---How do you rotate an assembly?-----------------------------------------------
+
+    I hate that I can't see the top of the part in the selection tree.
+
+--How do you measure stuff?-----------------------------------------------------
+
+    Where is the measuring tape icon?
+
+
 ---Imports?---------------------------------------------------------------------
 
     What is best format for importing references to Onshape?  Clearly
@@ -25,7 +38,7 @@
 
     Part files
     Parasolid B-rep (.x_t or .x_b) from v10 to v32.1.157
-        Parasolid is the Onshape preferred import format.
+        Parasolid is the Onshape preferred import format.       <--- This is working!!!
     Parasolid mesh (.xmt_txt or .xmt_bin) from v28 to v29 (view and reference meshes only, unable to edit a mesh)
     ACIS (.sat) up to R21, 2018 1.0
     STEP (.stp or .step) AP203 and AP214 (geometry only)
@@ -45,7 +58,9 @@
     NX1847, latest version NX 1847.2400, and NX1851
 
     Solid Edge (.par and .psm) 10 through 2019
-    Importing Solid Edge sheet metal files (.psm) will not result in sheet metal models in Onshape. You have the ability to reference imported faces in the Sheet metal model and use the Thicken option to create an Onshape sheet metal model.
+    Importing Solid Edge sheet metal files (.psm) will not result in sheet metal
+    models in Onshape. You have the ability to reference imported faces in the
+    Sheet metal model and use the Thicken option to create an Onshape sheet metal model.
 
     Assembly files
     Parasolid B-rep (.x_t or .x_b) from v10 to v32.1.157
