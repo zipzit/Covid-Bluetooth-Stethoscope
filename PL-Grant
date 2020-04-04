@@ -10,7 +10,7 @@ PROJECT SUMMARY:
 This is a project initiated by Dr. Brian Lichtenstein on HelpWithCovid.com. Dr. Lichtenstein is a frontline physician in San Diego, and put out a request for a very affordable wireless stethoscope that could be made readily available for healthcare providers (HCP) during this pandemic. Request features included Bluetooth capabilities to reduce very-close proximity exposure of HCP to patients with Covid-19, wide availability of the design, and a higher quality construction and sound than the low-cost stethoscopes currently in use.
 
 PROBLEM DESCRIPTION:
-Stethoscopes are expensive and difficult to sterilize.  This results in one cheap stethoscope being left with each patient, and that stethoscope is then used by multiple HCP's throughout the day. This use model poses risks such as cross-contamination. These stethoscopes are effectively disposeable - cheap and produce poor sound quality. Additionally, such stethoscopes have short tubes connecting the bell to the ear plugs, forcing HCP's closer than necessary to a patient incubating covid-19 or other contagious diseases.  In addition, standard stethoscope ear plugs are hard to use when the HCP's head is wrapped in a hood and wearing protective gear such as face masks, so an over-the-ear headphone style would be preferable.
+Stethoscopes are difficult to sterilize and good quality ones are expensive.  This results in one cheap stethoscope being left with each patient, and that stethoscope is then used by multiple HCP's throughout the day. This use model poses risks such as cross-contamination. These stethoscopes are effectively disposeable - cheap and produce poor sound quality. Additionally, such stethoscopes have short tubes connecting the bell to the ear plugs, forcing HCP's closer than necessary to a patient incubating covid-19 or other contagious diseases.  In addition, standard stethoscope ear plugs are hard to use when the HCP's head is wrapped in a hood and wearing protective gear such as face masks, so an over-the-ear headphone style would be preferable.
 
 Higher quality stethoscopes can be very expensive, so not all medical professionals possess their own.  Digital stethoscopes available online can be upwards of $500.
 
@@ -21,7 +21,9 @@ Some designs prove a challenge to effective sterilization.
 PROPOSED SOLUTION:
 Our current trajectory is to design a stethoscope that can effectively listen to either heart beats or breathing sounds, amplify the sound which is then played through a speaker. This device will not feature tubes like traditional stethoscopes.
 
-Once this basic design is completed, we may look into adding other features such as Bluetooth and such. The Bluetooth could work directly with Bluetooth headphones and headsets. Inclusion of Bluetooth increases the variety of designs.
+Once this basic design is completed, we may look into adding other features such as Bluetooth and such. The Bluetooth could work directly with Bluetooth headphones and headsets.
+
+It is our hope that this open design can be easily produced by many people particularly those in the healthcare and medical industry.
 
 EXPECTED OUTCOMES:
 A stethoscope that provides high quality sound for any HCP that needs to listen to a patient.
@@ -34,7 +36,7 @@ Hobbyists could purchase off-the-shelf components to create one.
 OPEN LICENSING
 Open source for hobbyist version.
 
-As for the production version, we are unsure and not there yet.
+If we somehow found a manufacturer willing to manufacture our design, we might pursue a production model design. We are not there yet.
 
 TIMELINE
 4/30/2020
