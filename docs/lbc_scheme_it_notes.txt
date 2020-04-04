@@ -26,4 +26,6 @@
     https://forum.digikey.com/t/scheme-it-part-symbols-missing-after-doing-search/444
     Check URL:  https://www.digikey.com/schemeit/project/
 
-    How do you rename elements?
+    How do you rename elements?  Ans:  Highlight the element, you will see a
+    yellow circle.  click on that. Notice the info on the right margin.  Only items
+    clicked will be displayed.  

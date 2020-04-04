@@ -209,6 +209,9 @@ Scope:
     I was actually looking for server space.. and with current project scope that's
     unnecessary.
 
+    Figma.com (great place to design a website...)  Design collaboration tool
+    for teams to build software.  Not sure its a perfect match for a hardware team.
+
 ---Blood Oxygen level measurement?----------------------------------------------
 
     https://en.wikipedia.org/wiki/Pulse_oximetry
@@ -914,6 +917,30 @@ Scope:
     the low end of Self Resonant Frequency, when we prioritize them for low
     frequency output.  Wish i'd seen that before, sigh.
 
+---White Paper on Stethoscope---------------------------------------------------
+
+    Discord note from bamboo, 4/3/2020 at 9:20 PM
+    Not sure if folks have seen this paper.
+    https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5757962/
+        2018 Jan 4
+        Digital stethoscope: technology update
+        Supreeya Swarup and Amgad N Makaryus
+
+    Charley Lucas - Woodinville WA 4/4/2020 at 12:25 AM
+    That paper led me to this 24-page analysis of electronic stethoscopes...  it's
+    mostly telehealth related, but they've done some consistent measurements
+    across a whole range of different stethoscopes (one costs $2700!), so if we
+    try to follow their model we can compare with those.
+
+    http://telehealthtechnology.org/toolkit/electronic-stethoscopes/
+        TTAC
+        Electronic Stethoscopes
+
+    bamboo, 4/4/2020 at 1:21 AM
+    I thought this one was also good.  Just more background info.
+    https://www.ippt.pan.pl/Repository/o5918.pdf
+        "Sound differences between electronic and acoustic stethoscopes"
+
 ---Outside of the box thinking, Surface Transducer------------------------------
 
     Digikey 1568-1619-ND  SparkFun Electronics $24.95 (oops, only one left)
@@ -924,3 +951,30 @@ Scope:
     press it against the nearest table, wall or cardboard box. You can even put it against your head and
     play music directly into your skull (the ultimate surround sound).
     Dimensions: 50mm in diameter, 31mm tall
+
+---Premade containers?----------------------------------------------------------
+
+    Opportunities here include:
+        Reduced requirement for a 3D printer.
+        Ease of disinfect process
+        Ease of changing batteries
+    Risks?
+        Will this work for sound pickup / transmission ?
+        Need to find inexpensive, readily available containers.
+
+    Medical / Pill Jars?
+    Rubbermaid Blister Pack Containers?
+    Small metal paint cans?
+        https://www.amazon.com/Cornucopia-Metal-6-Pack-Unlined-Quarter/dp/B082DM7FZX/ref=sr_1_2
+        SIZE: 2.25 inch tall x 2.5 inch diameter
+    Other containers?
+        https://catalog.uline.com/Spring-Summer-US-2020/585/
+        https://www.uline.com/Product/Detail/S-9934/Jars/Clear-Round-Wide-Mouth-Plastic-Jars-4-oz-White-Cap
+        4 oz container, 2" id, 2.72" tall, $0.46 each (clear), $.40 ea opaque, 36 to a case.
+            https://www.uline.com/PDF/RS-14506-SPFR.pdf
+        3 oz container, 2" dia, 2.13" overall height,
+            https://www.uline.com/PDF/RS-17034-SPFR.pdf
+        2 oz container, 1.875" dia x 1.87" height.  $0.39ea , 48 to a case
+            https://www.uline.com/PDF/RS-12752-SPFR.pdf
+        6 oz container, 2.5" dia x 2.75" height,  $0.48 ea, 36 to a case.
+            https://www.uline.com/PDF/RS-14507-SPFR.pdf
