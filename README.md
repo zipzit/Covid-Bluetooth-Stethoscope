@@ -15,6 +15,11 @@
 - Arkady
 - Raunak
 - Nick
+- Christopher
+- Brian
+- June
+- HengLiang
+- Greg
 
 ### How to Contact ###
 We are using a Discord server for team communication - if you want access to it e-mail Charley Lucas - charley@zerosquared.io and I will send you an invite.
