@@ -101,14 +101,21 @@
     https://forum.onshape.com/discussion/3962/solidworks-assembly-import-organising-parts
 
     LBC note.  I wasted HOURS struggling with this stuff.
-    
+
     1) uploading an assembly from SolidWorks loses all mating info.
     2) If you do the Pack & Go + other stuff, the info will arrive in OnShape with everything in the correct location.
     3) Pick the biggest part, fix it in location, then group everything to the fixed base.
+       Fix and Group locks the component parts in place, good enough for govt work.
     4) And here is the important step.  In OnShape, when you import a subassembly,
     ensure that you are using the tab called Assemblies and NOT Part Studio
     (why that isn't the default is beyond me...)  If you import a subassembly
     while the Part Studio is highlighted all the components reset to center, a total mess.
+
+---How do you update assemblies?------------------------------------------------
+
+    Wow, they make this way easy.  There is a round blue button.
+    "Update All References to the Latest Version"  Its on the upper left of the
+    top menu bar.  
 
 ---Imports?---------------------------------------------------------------------
 
