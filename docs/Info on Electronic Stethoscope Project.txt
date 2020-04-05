@@ -636,6 +636,10 @@ Scope:
     everything already built in.  Charley's guidance is clear. Don't reinvent the
     wheel.  Existing IC's it is!
 
+    Interesting reference:
+    http://www.electronoobs.com/eng_circuitos_tut13_1.php
+    check out the boost converter to the amp circuit (3.7v --> 12vdc)
+
 ---Amplifier Chips--------------------------------------------------------------
 
     There are two ways to go here for a Maker type solution (soldering, no smc soldering).
@@ -978,3 +982,8 @@ Scope:
             https://www.uline.com/PDF/RS-12752-SPFR.pdf
         6 oz container, 2.5" dia x 2.75" height,  $0.48 ea, 36 to a case.
             https://www.uline.com/PDF/RS-14507-SPFR.pdf
+
+    What's the difference between polypropylene vs polystyrene?
+    Both are offered from Uline.  Polystyrene is clear, polypropylene is translucent white.
+    I wonder how the polystyrene will accommodate drilled holes?
+    Will polystyrene accommodate stress from volume potentiometer? 

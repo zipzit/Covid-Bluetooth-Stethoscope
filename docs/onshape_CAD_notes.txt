@@ -5,12 +5,14 @@
 ---How do you rotate an assembly?-----------------------------------------------
 
     I hate that I can't see the top of the part in the selection tree.
+    e.g. the microphone board is stored upside down.
 
 --How do you measure stuff?-----------------------------------------------------
 
     Where is the measuring tape icon?
 
     https://cad.onshape.com/help/Content/measure-ps.htm
+
     The Onshape Measure tool is available in Part Studios, for sketches and parts,
     and in Assemblies for parts and assemblies. The Measure tool appears automatically
     in the bottom right corner of the interface after a selection is made in Part
@@ -38,6 +40,75 @@
 
     How do we get to the 3d view of the part?
 
+    ans.  Turns out the upload of the file had a problem.  And when there
+    is a problem that OnShape doesn't like, you get that text popup.  You have to
+    watch the notifications.  There was one there that said
+    "Translation completed with errors
+    Speaker AS04004PR-R.x_t was translated with errors.
+    The following 2 surface(s) failed validation and have been removed:
+    2 unnamed - number of faults:8"
+
+    The errors were in the original cad reference, but I don't see the errors
+    at all in Solidworks.  I do note, conversion to .x_b is more resilient
+    to the issue than .x_t files.
+
+---Import assemblies without losing mating relationships------------------------
+
+    https://www.onshape.com/cad-blog/tech-tip-importing-assemblies
+
+    Importing your assembly into Onshape is easy, but it’s very important to
+    choose one of the supported formats that include the assembly as well as
+    all the parts. This is important because with most CAD systems, the assembly
+    file does not contain the parts. For an up-to-date list of supported formats,
+    check out Onshape Help. At the time of this blog post, the supported file
+    formats for importing assemblies are:
+        Parasolid
+        ACIS
+        STEP
+        IGES
+        SolidWorks Pack and Go zip files
+        JT
+        Rhino
+    These are formats that contain the assembly and all the parts in one file.
+    To import your assembly into Onshape, simply click the “Import Document files”
+    command from the Documents page and select the appropriate file.
+
+    When importing, you have an option to import the assembly with the “Y Axis Up”
+    (which is common in many traditional CAD systems), and the option to “Import
+    file to Part Studios only” (flatten). This will import your assembly and all
+    of its parts into a single Part Studio.
+
+    One last note for SolidWorks users: To import a SolidWorks assembly, first
+    use the Pack and Go command in SolidWorks and the option to “Save to Zip file.”
+
+    Whoa..,. the Solidworks --> pack and go, save as .zip works really well.
+    The assembly arrives with the pieces in the right location, but that's just
+    temporary.  The mating relationships do NOT exist. When you grab the part
+    to slide it to a different location, only individual parts translate.
+
+    https://forum.onshape.com/discussion/2046/migrating-projects-from-solidworks-to-onshape-what-gets-lost-and-needs-fixing-by-hand
+    It turns out that my file has hundreds of parts in it which are all in the
+    right places, however each individual component pulls apart when I click and
+    drag it rather than moving as a rigid assembly.  The assembly is missing all
+    the mates.
+
+    According to the Help feedback person: "Unfortunately the only system capable
+    of fully reading in SolidWorks' mates is SolidWorks. We're exploring the
+    ability to bring them in properly, but that functionality is a long way off."
+
+    Ugh.  See note from philip_thomas.  this is way ugly. yeech.  bleeeeth. ouch.
+
+    https://forum.onshape.com/discussion/3962/solidworks-assembly-import-organising-parts
+
+    LBC note.  I wasted HOURS struggling with this stuff.
+    
+    1) uploading an assembly from SolidWorks loses all mating info.
+    2) If you do the Pack & Go + other stuff, the info will arrive in OnShape with everything in the correct location.
+    3) Pick the biggest part, fix it in location, then group everything to the fixed base.
+    4) And here is the important step.  In OnShape, when you import a subassembly,
+    ensure that you are using the tab called Assemblies and NOT Part Studio
+    (why that isn't the default is beyond me...)  If you import a subassembly
+    while the Part Studio is highlighted all the components reset to center, a total mess.
 
 ---Imports?---------------------------------------------------------------------
 
@@ -111,8 +182,52 @@
     NX1847, latest version NX 1847.2400, and NX1851
 
     Solid Edge 10 through 2019 (via a .zip file)
-    For all assembly files, you must place all parts and the assembly in a zip file and import the zip file into an Onshape document. The zip file name must match the name of the top-level assembly. For more information, see Importing Files.
+    For all assembly files, you must place all parts and the assembly in a zip
+    file and import the zip file into an Onshape document. The zip file name must
+    match the name of the top-level assembly. For more information, see Importing
+    Files.
 
     Drawing files
     AutoCAD (.dwg) up to 2018
     DXF (.dxf) up to 2013
+
+---OnShape Discussion Forum-----------------------------------------------------
+
+    https://forum.onshape.com/discussions
+
+---How do you make an element translucent?--------------------------------------
+
+    https://forum.onshape.com/discussion/4766/part-transparency
+
+    You can make entire assembly transparent by selecting Translucent option
+    (near navigation icon)
+
+    Also you can make all parts other than one part transparent using Isolate
+    option by right clicking on particular part
+
+    To make one part transparent,you can change the transparency of particular
+    part in part studio it self.
+
+    you can change the transparency of the part in the parts studio and then it
+    will also be transparent in the assembly. To edit the transparency of the
+    part in the part studio, right-click on the part name or the part itself and
+    select 'Edit appearance'.
+
+---Learning Pathways------------------------------------------------------------
+
+    https://learn.onshape.com/    <--  Start here
+    https://learn.onshape.com/learn/dashboard
+
+    https://learn.onshape.com/learn/learning-path/introduction-to-cad
+    Introduction to CAD -- Explore key concepts involved in modeling parts and
+    assemblies in a feature-based parametric CAD system.
+
+        https://learn.onshape.com/learn/course/introduction-to-parametric-feature-based-cad/what-is-cad/what-is-cad
+        https://learn.onshape.com/learn/course/introduction-to-parametric-feature-based-cad/what-is-cad/parametric-feature-based-cad
+        https://learn.onshape.com/learn/course/introduction-to-parametric-feature-based-cad/what-is-cad/spatial-reasoning
+        https://learn.onshape.com/learn/course/introduction-to-parametric-feature-based-cad/what-is-cad/self-check-spatial-reasoning
+        https://learn.onshape.com/learn/course/introduction-to-parametric-feature-based-cad/onshape-documents/onshape-interface-1
+        https://learn.onshape.com/learn/course/introduction-to-parametric-feature-based-cad/onshape-documents/self-check-document-page-interface
+        https://learn.onshape.com/learn/course/introduction-to-parametric-feature-based-cad/onshape-documents/onshape-documents
+        https://learn.onshape.com/learn/course/introduction-to-parametric-feature-based-cad/onshape-documents/document-tab-types
+        https://learn.onshape.com/learn/course/introduction-to-parametric-feature-based-cad/self-check/self-check-introduction-to-feature-based-cad

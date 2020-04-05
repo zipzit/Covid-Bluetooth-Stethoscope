@@ -1,0 +1,19 @@
+I'm relatively new to OnShape.  I'm working with a team of folks on a volunteer Covid-19 volunteer project .  We're open source and this seems a great opportunity to learn and use the platform.   I understand from this posting (and comment from philip_thomas ) that importing assemblies from Solidworks is problematic.  I understand and I can work with that.
+
+Subassembly created in Solidworks and imported to OnShape
+Solidworks: Pack and Go, Zip, Flatten, arrives with all mating info as described.
+in Onshape, fix big part (electronic perf board), add mates (a microphone element), group pieces together.
+Part looks good, pieces react as expected. You can spin the microphone but you can't translate it in any axis. That's fine.
+Part looks like this:
+
+
+
+Now go to create a final assy.  There will be lots of parts and components here.  Import the Microphone/perfboard subassembly.   This didn't work out so well.  Even though the mate info was created within OnShape, its all gone again.  Am I doing this right?
+
+
+Ouch.  Many thanks for any assistance you might offer in understanding how to create (and keep) mates within subassemblies within OnShape. Note, here is our open source folder for the project.  And anyone interested in volunteering a little bit of (CAD) time, we always welcome volunteers.
+
+thanks, LB
+
+
+Your discussion will appear after it is approved.
