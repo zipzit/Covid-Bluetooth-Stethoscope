@@ -28,4 +28,26 @@
 
     How do you rename elements?  Ans:  Highlight the element, you will see a
     yellow circle.  click on that. Notice the info on the right margin.  Only items
-    clicked will be displayed.  
+    clicked will be displayed.
+
+---Large Dev kit boards?--------------------------------------------------------
+
+    What's the best way to identify pinouts for large dev kit boards,
+    e.g. ESP32, Raspberry Pi, etc...
+
+    Best way is to find a pinout image on the internet.  Save that.  Open up
+    your favorite image program, and carefully crop the image to just beyond
+    the board boundaries.  Import that image into the scheme-it screen from the
+    top menu, towards the right, "Insert --> Image".
+
+    Scale the image up or down until it makes sense.  Be careful with the scaling,
+    the corner selects do NOT lock image aspect ratio, sigh. Try to get the pins to 
+    line up with the grid lines as best you can.
+
+    You have to do one more trick to make that work.  You have to all little
+    wire connector tic marks to each pin location.  Those tic marks are located
+    on the left hand menu Custom Symbols --> Symbol Primitives --> Pin Right or
+    pin left or pin top or pin bottom.  Drag and drop the little tick mark pin
+    to the right location on the edge of your image.  After you place the pins
+    its easy to do the wire routing.  Note the wire will only make a connection
+    to one side of the pin, that's why pin left vs pin right matters.

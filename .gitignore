@@ -5,3 +5,8 @@ CUI letter2.txt
 
 // Solidworks working files
 ~$*.sld*
+
+// reference white papers
+Andres_et_al*.pdf
+Erteal_et_al*.pdf
+Ghahramanifar_2018*.pdf
