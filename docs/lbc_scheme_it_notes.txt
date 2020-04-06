@@ -30,6 +30,14 @@
     yellow circle.  click on that. Notice the info on the right margin.  Only items
     clicked will be displayed.
 
+---Object labeling--------------------------------------------------------------
+
+    On the right hand margin of Scheme-it, there is a right pull out arrow.  This
+    is the object properties viewer.  For any indidual object selected on the
+    screen, there are properties.  The properties with check mark are displayed
+    on screen. If you want to hide a property "Mik18", click the check box off.
+    You can also insert custom titles from there. 
+
 ---Large Dev kit boards?--------------------------------------------------------
 
     What's the best way to identify pinouts for large dev kit boards,
@@ -41,7 +49,7 @@
     top menu, towards the right, "Insert --> Image".
 
     Scale the image up or down until it makes sense.  Be careful with the scaling,
-    the corner selects do NOT lock image aspect ratio, sigh. Try to get the pins to 
+    the corner selects do NOT lock image aspect ratio, sigh. Try to get the pins to
     line up with the grid lines as best you can.
 
     You have to do one more trick to make that work.  You have to all little
