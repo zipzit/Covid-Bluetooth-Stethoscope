@@ -995,6 +995,10 @@ Scope:
            assembly.  $1.88 each.  Digikey PN: CKN10836-ND  Mfgr PN: PS-32C02-F NS
            The function is good for us, the mounting is horrible.  No go.
 
+    Digikey, Switches, Rocker Switches,
+    Filter for "In Stock" and Switch Function = "Mom-Off-Mom",
+    then sort by price.
+
 ---GliaX Open Source Stethoscope------------------------------------------------
 
     https://github.com/GliaX/Stethoscope
@@ -1002,7 +1006,49 @@ Scope:
     Models here:
     https://www.thingiverse.com/thing:2826304
 
-    London, Ontario tarek@tarek.org https://glia.org
+    London, Ontario
+    Tarek Loubani
+    tarek@tarek.org
+    https://glia.org
+
+    White paper:
+    https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0193087
+
+    Research article on the GilaZ Open Source Stethoscope.
+
+    And the magic words from that paper...
+
+    Numerous groups have previously attempted to standardize methods to determine
+    the efficacy of acoustic stethoscope models[2,16–20], but currently no accepted
+    standardized modality exists. Consequently, the performance of any acoustic
+    stethoscope is little more than the manufacturer’s claim or the subjective
+    opinion of the user. Some groups have attempted to objectively compare acoustic
+    stethoscope models and currently two competing methods of measuring frequency
+    response exist. The first method uses air coupling to transmit frequencies[2–4,16,17]
+    while the other uses a phantom to simulate vibrations of the chest wall[19,21,22].
+    These methods allow investigators to quantitatively compare the sensitivity
+    of a stethoscope model compared with another.
+
+    Acoustic transfer
+
+    The frequency response of Glia model stethoscopes, compared with the Littmann
+    Cardiology III, was determined using an experimental setup modeled from a
+    phantom-based frequency response setup previously described[19]. A latex
+    balloon filled with 2 L (2000 g) of water was used as a phantom and each
+    stethoscope was applied to the surface by hand. Phantom excitations were
+    supplied by an external vibrating speaker which was placed in contact with
+    the balloon and sound was played at 86 Hz intervals between 0 and 5000 Hz
+    (white noise) for 15 seconds. The output of each stethoscope was recorded by
+    a microphone which was placed in a silicon tube attached to the stethoscope
+    head for spectral analysis. Spectral analyses such as these have been used
+    successfully in the past to analyze breath sounds recorded from individuals
+    with lung pathology[40]. The simplicity of this design was intended to allow
+    other users to validate our design independently.
+
+    Gosh, I think that means we can obtain a quantifiable measurement between our
+    different design proposals.  And that is really great news.  Anybody have an
+    exciter speaker (blue tooth box you set on a desk, and the whole desk vibrates
+    with your audio output?)  
 
 ---FabLab 3xD open source Stethoscope-------------------------------------------
 
