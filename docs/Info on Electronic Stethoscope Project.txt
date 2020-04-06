@@ -986,4 +986,18 @@ Scope:
     What's the difference between polypropylene vs polystyrene?
     Both are offered from Uline.  Polystyrene is clear, polypropylene is translucent white.
     I wonder how the polystyrene will accommodate drilled holes?
-    Will polystyrene accommodate stress from volume potentiometer? 
+    Will polystyrene accommodate stress from volume potentiometer?
+
+---Switches for Smart Amp?------------------------------------------------------
+
+    This is way harder then it should be.
+    	   inexpensive three way momentary switch, with three pushbuttons in the
+           assembly.  $1.88 each.  Digikey PN: CKN10836-ND  Mfgr PN: PS-32C02-F NS
+           The function is good for us, the mounting is horrible.  No go.
+
+---Open Source Stethoscope------------------------------------------------------
+
+    https://github.com/GliaX/Stethoscope
+
+    Models here:
+    https://www.thingiverse.com/thing:2826304
