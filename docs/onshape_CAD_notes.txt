@@ -52,6 +52,18 @@
     at all in Solidworks.  I do note, conversion to .x_b is more resilient
     to the issue than .x_t files.
 
+---Cut a section in a 3d part?--------------------------------------------------
+
+    https://forum.onshape.com/discussion/6217/how-to-create-a-section-view-of-a-part
+    To turn on section view you can click 'Turn section view on' in the view menu
+    (the view menu is on the right side just below the axis indicators)
+
+---How do you export a document from OnShape to local computer?-----------------
+
+    https://www.onshape.com/cad-blog/import-export-onshape
+
+    open the the part document. go to the bottom head tab.   right click, then export 
+
 ---Import assemblies without losing mating relationships------------------------
 
     https://www.onshape.com/cad-blog/tech-tip-importing-assemblies
@@ -115,7 +127,7 @@
 
     Wow, they make this way easy.  There is a round blue button.
     "Update All References to the Latest Version"  Its on the upper left of the
-    top menu bar.  
+    top menu bar.
 
 ---Imports?---------------------------------------------------------------------
 

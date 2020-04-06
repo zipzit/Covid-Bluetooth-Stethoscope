@@ -995,9 +995,15 @@ Scope:
            assembly.  $1.88 each.  Digikey PN: CKN10836-ND  Mfgr PN: PS-32C02-F NS
            The function is good for us, the mounting is horrible.  No go.
 
----Open Source Stethoscope------------------------------------------------------
+---GliaX Open Source Stethoscope------------------------------------------------
 
     https://github.com/GliaX/Stethoscope
 
     Models here:
     https://www.thingiverse.com/thing:2826304
+
+    London, Ontario tarek@tarek.org https://glia.org
+
+---FabLab 3xD open source Stethoscope-------------------------------------------
+
+    https://www.youmagine.com/designs/stethoscope-chestpiece
