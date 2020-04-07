@@ -18,7 +18,7 @@ To create stethoscope designs that reduce the risk of infection during use and c
 
 Current digital stethoscopes on the market start at $300-$500, and can go as high as $2700/unit. We are working towards the units being effectively disposable, to the point where if a hospital *had* to assign one to each patient and then throw it away when done it wouldn’t be a financial hardship.
 
-In designing several different models we are targeting different price points and are able to deliver the simplest design fast. 
+In designing several different models we are targeting different price points and are able to deliver the simplest design fast.
 
 ## Our solutions
 
@@ -26,7 +26,7 @@ In order to reduce close physical contact between patient and medical profession
 
 This project is developing rapidly and constantly evolving. We are starting with the simple amplifier + speaker, then moving to the Bluetooth design. All designs are intended to be constructed by anyone with some basic electronics knowledge and a soldering iron, and possibly access to a 3D printer.
 
-Costs to build are very rough estimates. Our goal is to 
+Costs to build and timeframes for prototypes are very rough estimates.
 
 ### "Quick-and-dirty" speaker puck (~10USD, prototypes expected mid-April)
 
