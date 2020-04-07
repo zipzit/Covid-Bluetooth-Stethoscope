@@ -28,7 +28,7 @@ This project is developing rapidly and constantly evolving. We are starting with
 
 Costs to build and timeframes for prototypes are very rough estimates.
 
-### "Quick-and-dirty" speaker puck (~10USD, prototypes expected mid-April)
+### "Quick-and-dirty" speaker puck (~10USD, prototypes expected mid April)
 
 The simplest possible design doesn’t use a headset at all - simply a single unit with a cup/microphone, a AA-battery-powered amplifier, and a speaker. We’re currently in the prototyping stage for this using off-the-shelf electronic components that anyone should be able to order online.  If possible, we would like to use existing containers - reusing standard pill bottles for instance - to avoid having to 3D-print a housing.
 
@@ -66,6 +66,6 @@ Some skills we are particularly in need of:
 * All-rounders!
 * Manufacturers/distributors who think they could help
 
-If you’re interested, please join through the HelpWithCovid website, and add us as a project you are interested in.  This will generate a message to us, and we can add you to the GitHub and you can join our Discord channel.
+If you’re interested, please join through our [HelpWithCovid](https://helpwithcovid.com/projects/252-bluetooth-stethoscope-pulse-oximeter) page, and add us as a project you are interested in.  This will generate a message to us, and we can add you to the GitHub and you can join our Discord channel.
 
 Thank you for reading this, and hope to see you soon!
