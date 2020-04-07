@@ -62,15 +62,19 @@ Understand which microphone makes the most sense for us
 
 #### #Prototype_phase_one_#1
  - PUI speaker
+ - 50K pot
  - Adafruit audio amp (4.5v input power)
  - MIC5, no hockey puck cone  (target 2.0v supply power, min=1.6v, max=3.6v)
+ - vary speaker volume via pot?  Results?
  - Vary audio input voltage from 3v to 6v.  What happens?  Take notes...
  - Vary mic power, results?
 
 #### #Prototype_phase_one_#2
  - PUI speaker
+ - 50K pot
  - Adafruit audio amp (4.5v input power)
  - MIC6, no hockey puck cone  (target audio amp Vdd as mic supply power, min=2.0v, max=10v)
+ - vary speaker
  - Vary audio input voltage from 3v to 6v.  What happens?  Take notes...
  - Vary mic power, results?
 
@@ -87,3 +91,8 @@ Understand which microphone makes the most sense for us
  - MIC8, no hockey puck cone  (target audio amp Vdd as mic supply power, min=2.0v, max=10v)
  - Vary audio input voltage from 3v to 6v.  What happens?  Take notes...
  - Vary mic power, results?
+
+#### #Prototype_phase_one_#5
+ - Pick one of the above systems.  
+ - Play with different potentiometers (10KΩ, 50KΩ, 100KΩ), Results?
+ - Vary audio amp voltage, test potentiometers again. Results? 
