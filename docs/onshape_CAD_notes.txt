@@ -7,6 +7,9 @@
     I hate that I can't see the top of the part in the selection tree.
     e.g. the microphone board is stored upside down.
 
+    Ans. When you import from SolidWorks, check the box to make Y axis up.
+    See other notes below regarding importing content from Solidworks to OnShape 
+
 --How do you measure stuff?-----------------------------------------------------
 
     Where is the measuring tape icon?
@@ -62,7 +65,7 @@
 
     https://www.onshape.com/cad-blog/import-export-onshape
 
-    open the the part document. go to the bottom head tab.   right click, then export 
+    open the the part document. go to the bottom head tab.   right click, then export
 
 ---Import assemblies without losing mating relationships------------------------
 

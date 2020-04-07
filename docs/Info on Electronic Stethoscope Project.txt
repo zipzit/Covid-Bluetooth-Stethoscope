@@ -1031,7 +1031,7 @@ Scope:
 
     Acoustic transfer
 
-    The frequency response of Glia model stethoscopes, compared with the Littmann
+    The frequency response of Glia model stethoscopes, compared with the Littman
     Cardiology III, was determined using an experimental setup modeled from a
     phantom-based frequency response setup previously described[19]. A latex
     balloon filled with 2 L (2000 g) of water was used as a phantom and each
@@ -1048,7 +1048,7 @@ Scope:
     Gosh, I think that means we can obtain a quantifiable measurement between our
     different design proposals.  And that is really great news.  Anybody have an
     exciter speaker (blue tooth box you set on a desk, and the whole desk vibrates
-    with your audio output?)  
+    with your audio output?)
 
 ---FabLab 3xD open source Stethoscope-------------------------------------------
 

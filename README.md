@@ -24,8 +24,6 @@
 ### How to Contact ###
 We are using a Discord server for team communication - if you want access to it e-mail Charley Lucas - charley@zerosquared.io and I will send you an invite.
 
-
-
 ### Description ###
 
 I (Brian) am a frontline physician (hospitalist) that is seeing increasing volumes of patients at our facilities. PPE supplies are becoming increasingly precious and we expect we will need to mitigate PPE and equipment waste and develop new options for protection of our healthcare workforce.
