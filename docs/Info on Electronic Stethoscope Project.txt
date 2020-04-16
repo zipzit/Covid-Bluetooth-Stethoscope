@@ -1053,3 +1053,17 @@ Scope:
 ---FabLab 3xD open source Stethoscope-------------------------------------------
 
     https://www.youmagine.com/designs/stethoscope-chestpiece
+
+---ESP32 Power Off Info---------------------------------------------------------
+
+    From: Ruthvik Bandaru
+    https://lastminuteengineers.com/esp32-sleep-modes-power-consumption/
+
+---Existing Electronic Stethoscope----------------------------------------------
+
+    From: Ganesh
+    https://stethome.com/
+
+---Onshape Cad info on Covid Projects-------------------------------------------
+
+    https://www.onshape.com/covid-19-support#participating-projects
