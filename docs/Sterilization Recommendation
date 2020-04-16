@@ -7,7 +7,7 @@ Chemicals:
     Here is a link about electronic sterilization using EtO/EO or ethylene oxide: https://www.steris-ast.com/techtip/considerations-eo-processing-devices-containing-electronic-components/
     It has a checklist that determines if a device should or should not go through EO sterilization.
 
-  EtO gas presents the danger of ignition. Probably a no-go.
+  EtO gas presents the danger of ignition.
 From Harry Thaman: "I know that 70% EtOH in water and low percent H2O2 in water (I forget what exactly but can look it up) both sterilize effectively.
 Dry heat can also work if it penetrates effectively but I don't know if your device is robust against any of those
 Another option might be a ziplock bag of some sort so the device is never exposed to a patient or visa versa
@@ -61,3 +61,21 @@ https://www.industrialspec.com/images/files/plastics-sterilization-compatibility
 
 Sterilization of an Electronic Medical Device
 https://www.researchgate.net/publication/267791789_Sterilization_of_an_Electronic_Medical_Device
+
+Sterilization of Electronics with Embedded Batteries
+https://cleanhospital.com/wp-content/uploads/2020/02/Application-Note-40-Sterilization-of-Electronics-with-Embedded-Batteries-REV-05-2019.pdf
+Chlorine dioxide sterilization does not negatively impact electronics with batteries. Summary states that "EtO and VPHP are noted as
+excellent choices for electronic medical devices that do not include batteries. Other methods
+might require electronics to be modified specifically for exposure."
+
+Sterilization methods and impact on electronics in medical devices
+https://www.eetimes.com/sterilization-methods-and-impact-on-electronics-in-medical-devices/
+
+Auto-sterilization of electronic and hand held devices
+https://www.researchgate.net/publication/302824255_Auto-sterilization_of_electronic_and_hand_held_devices
+
+MEDICAL DEVICE STERILIZATION METHODS AND INFORMATION
+https://www.maximintegrated.com/en/design/technical-documents/app-notes/5/5068.html
+
+Medical Device Sterilization
+https://cleanhospital.com/medical-device-sterilization/

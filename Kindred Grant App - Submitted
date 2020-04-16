@@ -1,7 +1,7 @@
-This is a draft grant proposal to Kindred.io.
+Puck Stehtscope Design
 https://kindred.computable.io/covid
 
-We are working on a stethoscope project that was initially started by This is a project initiated by Dr. Brian Lichtenstein on HelpWithCovid.com. Dr. Lichtenstein is a frontline physician in San Diego, and put out a request for a very affordable wireless stethoscope that could be made readily available for healthcare providers (HCP) during this pandemic. Desired features included Bluetooth capabilities to reduce very-close proximity exposure of HCP to patients with Covid-19, wide availability of the design, and a higher quality construction and sound than the low-cost stethoscopes widely in use.
+We are working on a stethoscope project that was initiated by Dr. Brian Lichtenstein on HelpWithCovid.com. Dr. Lichtenstein is a frontline physician in San Diego, and put out a request for a very affordable wireless stethoscope that could be made readily available for healthcare providers (HCP) during this pandemic. Desired features included Bluetooth capabilities to reduce very-close proximity exposure of HCP to patients with Covid-19, wide availability of the design, and a higher quality construction and sound than the low-cost stethoscopes widely in use.
 
 You can find the page here: https://helpwithcovid.com/projects/252-bluetooth-stethoscope-pulse-oximeter
 Our github is here: https://github.com/zipzit/Covid-Bluetooth-Stethoscope
@@ -10,7 +10,7 @@ PROBLEM:
 Dr. Lichtenstein says that stethoscopes bring a healthcare provider (HCP) dangerously close to a person incubating covid-19. And one stethoscope is used by multiple HCP's throughout the day creating the risk of cross-contamination. The stethoscopes that are available to HCP's are either cheap, producing poor sound quality, or very expensive with better sound quality. When a HCP wears personal protective equipment (PPE), using a stethoscope can get complicated. In addition, sterilization can become difficult.
 
 PROPOSED SOLUTION:
-Our current base design is a stethoscope that can effectively listen to either heart beats or breathing sounds (20 Hz to 2 kHz), amplify the sound which is then played through a speaker. Our initially design is for an assembly that could be housed within a puck enclosure. This device will not feature tubes, binaurals and ear tips like traditional stethoscopes.
+Our current base design is a stethoscope that can effectively listen to either heart beats and/or breathing sounds (20 Hz to 2 kHz), amplify the sound which is then played through a speaker. Our initially design is for an assembly that could be housed within a puck enclosure. This device will not feature tubes, binaurals and ear tips like traditional stethoscopes.
 
 We are simultaneously looking into the inclusion of Bluetooth. The devices that we are aware of are neither natively Bluetooth or require an intermediary device i.e. smart phone used in listening. Dr. Lichtenstein ultimately desires a native Bluetooth device that any Bluetooth earplugs can connect with. The Bluetooth improvement can reduce the difficulty in listening to a patient's heart rate and/or breathing while fully dressed in PPE.
 
@@ -37,11 +37,8 @@ From here, we may seek to further refine the device particularly adding Bluetoot
 REQUESTED AMOUNT:
 USD $5,000
 
-Comment:
-Mike Vang's comment: Reward is between USD $3,000 to USD $5,000.
-
 PURPOSE OF FUNDS:
-The grant will be used to purchase parts, supplies and etc. to help us prototype the design and then test the fidelity of the sound produced. The final open source design will be solicited online.
+The grant will be used to purchase parts, supplies and etc. to help us progress through three production cycles from an analog stethoscope puck that features an mic/speak to a version that features a DSP and then finally arrive to a version that features Bluetooth. The next cycle will build on the last one. We will move through each development cycle by prototyping, field testing and then releasing open source designs to the general public.
 
 We may also seek to produce a production model design for mass production.
 
