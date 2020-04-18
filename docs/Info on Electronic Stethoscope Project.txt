@@ -1067,3 +1067,21 @@ Scope:
 ---Onshape Cad info on Covid Projects-------------------------------------------
 
     https://www.onshape.com/covid-19-support#participating-projects
+
+---Notes on Solidworks Speaker Grill--------------------------------------------
+
+    Add holes for speaker grill in nice pattern:
+
+    https://help.solidworks.com/2018/english/SolidWorks/sldworks/HIDD_DVE_VENT.htm
+
+    https://blogs.solidworks.com/solidworksblog/2012/08/solidworks-fill-pattern.html
+
+---Potentiometer Knobs----------------------------------------------------------
+
+    https://www.thingiverse.com/tag:potentiometer_knob
+    https://www.thingiverse.com/thing:2329397
+        MP Select Mini V2 - Replacement Knob
+        by makerboz May 18, 2017
+    https://grabcad.com/library?query=potentiometer%20knob
+    https://www.thingiverse.com/thing:199414
+        
