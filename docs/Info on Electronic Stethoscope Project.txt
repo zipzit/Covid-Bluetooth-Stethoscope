@@ -1076,6 +1076,23 @@ Scope:
 
     https://blogs.solidworks.com/solidworksblog/2012/08/solidworks-fill-pattern.html
 
+    WTF?  The vent cannot be created due to failed geometry.  The normal vector
+    from the center of the vent sketch must: intersect the face where you are
+    placing the vent.  Penetrate INTO the selected face to calculate the vent
+    depth.  
+
+---Screwboss in 3d printed parts?-----------------------------------------------
+
+    http://infocenter.3dsystems.com/bestpractices/mjp-best-practices/projet-mjp-2500/fastening-screws-and-injection-molded-bosses
+    https://blog.adafruit.com/2014/11/27/adding-screw-threads-to-3dp/
+    https://all3dp.com/2/3d-printing-threads-and-screws-all-you-need-to-know/
+
+    https://www.reddit.com/r/3Dprinting/comments/bq6cy9/3d_printed_screw_holes/
+    https://www.thingiverse.com/thing:3639095
+
+    Screws of interest:  17/32 19mm long, major dia 4.7mm, minor dia = 3.0mm
+    lets try 3.6mm for hole id?
+
 ---Potentiometer Knobs----------------------------------------------------------
 
     https://www.thingiverse.com/tag:potentiometer_knob
@@ -1084,4 +1101,9 @@ Scope:
         by makerboz May 18, 2017
     https://grabcad.com/library?query=potentiometer%20knob
     https://www.thingiverse.com/thing:199414
-        
+
+---Potentiometer Mounting-------------------------------------------------------
+
+    Hole I.D. = 7.5mm
+    Material Thickness at mounting (to ensure best strength, all threads used)
+    = 2.6mm thick
