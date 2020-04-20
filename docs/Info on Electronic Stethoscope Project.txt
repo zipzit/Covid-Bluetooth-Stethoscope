@@ -1031,7 +1031,7 @@ Scope:
 
     Acoustic transfer
 
-    The frequency response of Glia model stethoscopes, compared with the Littmann
+    The frequency response of Glia model stethoscopes, compared with the Littman
     Cardiology III, was determined using an experimental setup modeled from a
     phantom-based frequency response setup previously described[19]. A latex
     balloon filled with 2 L (2000 g) of water was used as a phantom and each
@@ -1048,8 +1048,62 @@ Scope:
     Gosh, I think that means we can obtain a quantifiable measurement between our
     different design proposals.  And that is really great news.  Anybody have an
     exciter speaker (blue tooth box you set on a desk, and the whole desk vibrates
-    with your audio output?)  
+    with your audio output?)
 
 ---FabLab 3xD open source Stethoscope-------------------------------------------
 
     https://www.youmagine.com/designs/stethoscope-chestpiece
+
+---ESP32 Power Off Info---------------------------------------------------------
+
+    From: Ruthvik Bandaru
+    https://lastminuteengineers.com/esp32-sleep-modes-power-consumption/
+
+---Existing Electronic Stethoscope----------------------------------------------
+
+    From: Ganesh
+    https://stethome.com/
+
+---Onshape Cad info on Covid Projects-------------------------------------------
+
+    https://www.onshape.com/covid-19-support#participating-projects
+
+---Notes on Solidworks Speaker Grill--------------------------------------------
+
+    Add holes for speaker grill in nice pattern:
+
+    https://help.solidworks.com/2018/english/SolidWorks/sldworks/HIDD_DVE_VENT.htm
+
+    https://blogs.solidworks.com/solidworksblog/2012/08/solidworks-fill-pattern.html
+
+    WTF?  The vent cannot be created due to failed geometry.  The normal vector
+    from the center of the vent sketch must: intersect the face where you are
+    placing the vent.  Penetrate INTO the selected face to calculate the vent
+    depth.  
+
+---Screwboss in 3d printed parts?-----------------------------------------------
+
+    http://infocenter.3dsystems.com/bestpractices/mjp-best-practices/projet-mjp-2500/fastening-screws-and-injection-molded-bosses
+    https://blog.adafruit.com/2014/11/27/adding-screw-threads-to-3dp/
+    https://all3dp.com/2/3d-printing-threads-and-screws-all-you-need-to-know/
+
+    https://www.reddit.com/r/3Dprinting/comments/bq6cy9/3d_printed_screw_holes/
+    https://www.thingiverse.com/thing:3639095
+
+    Screws of interest:  17/32 19mm long, major dia 4.7mm, minor dia = 3.0mm
+    lets try 3.6mm for hole id?
+
+---Potentiometer Knobs----------------------------------------------------------
+
+    https://www.thingiverse.com/tag:potentiometer_knob
+    https://www.thingiverse.com/thing:2329397
+        MP Select Mini V2 - Replacement Knob
+        by makerboz May 18, 2017
+    https://grabcad.com/library?query=potentiometer%20knob
+    https://www.thingiverse.com/thing:199414
+
+---Potentiometer Mounting-------------------------------------------------------
+
+    Hole I.D. = 7.5mm
+    Material Thickness at mounting (to ensure best strength, all threads used)
+    = 2.6mm thick

@@ -7,6 +7,9 @@
     I hate that I can't see the top of the part in the selection tree.
     e.g. the microphone board is stored upside down.
 
+    Ans. When you import from SolidWorks, check the box to make Y axis up.
+    See other notes below regarding importing content from Solidworks to OnShape
+
 --How do you measure stuff?-----------------------------------------------------
 
     Where is the measuring tape icon?
@@ -62,7 +65,7 @@
 
     https://www.onshape.com/cad-blog/import-export-onshape
 
-    open the the part document. go to the bottom head tab.   right click, then export 
+    open the the part document. go to the bottom head tab.   right click, then export
 
 ---Import assemblies without losing mating relationships------------------------
 
@@ -250,3 +253,16 @@
         https://learn.onshape.com/learn/course/introduction-to-parametric-feature-based-cad/onshape-documents/onshape-documents
         https://learn.onshape.com/learn/course/introduction-to-parametric-feature-based-cad/onshape-documents/document-tab-types
         https://learn.onshape.com/learn/course/introduction-to-parametric-feature-based-cad/self-check/self-check-introduction-to-feature-based-cad
+
+---Having a terrible time working with assemblies-------------------------------
+
+    --Items stored as fix, group assemblies, imported as assemblies, break into
+      components during drag and drop operations. Ugh.
+    --Planar mate doesn't seem to be working correctly.  it looks like two parts
+      that mate can have one and only one mate command.  The Fastened mate is
+      pretty handy, and there is no similar command in Solidworks. With a single
+      mate, things are working okay.
+    --Zoom all is way too hard to find.  Needs to be a top level Mouse click, NOT KEYSTROKE commands.
+      Found it!  right click anywhere on the screen.  You get the choice of Isometric or Zoom to fit.
+      Perfect.  My faith is restored. hallelujah..
+    --The section revolve thing was not performed on the 16 oz cup, not sure why not.
