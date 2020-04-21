@@ -377,6 +377,63 @@ Scope:
     How does a stethoscope work?
     https://www.scientificamerican.com/article/bring-science-home-stethoscope/ (kids basic info)
 
+    https://www.ahajournals.org/doi/pdf/10.1161/01.CIR.34.5.899
+    Stethoscope Acoustics
+        II. Transmission and Filtration Patterns
+        By PAuL Y. ERTEL, M.D., MERLE LAWRENCE, PH.D.,
+        RICHARD K. BROWN, PH.D., AND AARON M. STERN, M.D.
+        mention: Laennec wooden stethoscope of 1819. This is a straight rigid tube
+        33.5 cm long with a bore diameter of 8 mm. It terminates in a shallow bell
+        4.0 cm in diameter.
+
+    https://www.maximintegrated.com/en/design/technical-documents/tutorials/4/4694.html
+    INTRODUCTION TO DIGITAL STETHOSCOPES AND ELECTRICAL COMPONENT SELECTION CRITERIA
+    By: John DiCristina
+        A stethoscope must be most sensitive to cardiac sound in the 20Hz to 400Hz
+        range and to pulmonary sound in the 100Hz to 1200Hz range. Note that the
+        frequency ranges vary by manufacturer, and the DSP algorithms filter out
+        sound beyond these optimal ranges.
+
+    https://wiki.ece.cmu.edu/ddl/index.php/Stethoscope_opportunity
+        (this looks like an engineering class project.  Lots of ideas there.)
+
+    https://bmedesign.engr.wisc.edu/projects/file/?fid=2177
+    UNIVERSITY OF WISCONSIN – MADISON: DEPARTMENT OF BIOMEDICAL ENGINEERING
+    Electronic Stethoscope -- Fall 2011
+
+    https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4496820/
+    https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4496820/pdf/12938_2015_Article_56.pdf
+    The electronic stethoscope
+    Shuang Leng, Ru San Tan, Kevin Tshun Chuan Chai, Chao Wang, Dhanjoo Ghista,
+    and Liang Zhongcorresponding author
+        •• Thinklabs’ Rhythm 32 inventor, Clive Smith uses an electromagnetic diaphragm with
+        a conductive inner surface to form a capacitive sensor. This diaphragm responds to
+        sound waves identically to a conventional acoustic stethoscope, with changes in an
+        electric field replacing changes in air pressure. This preserves the sound of an acoustic
+        stethoscope with the benefits of amplification
+
+    https://www.machinedesign.com/automation-iiot/article/21837541/the-stethoscope-gets-a-smart-iot-upgrade
+    The Stethoscope Gets a “Smart” IoT Upgrade -- Engineers at John Hopkins University
+    integrate AI, acoustics, and noise-canceling technology to modernize this
+    humble medical device.
+    Carlos Gonzalez     FEB 19, 2019
+        The smart scope has an external microphone that records ambient sounds.
+        The system uses active and adaptive acoustics to remove those sounds, in
+        real time, from the digitized audio signal transmitted to the users ears.
+
+    https://www.worthview.com/stethoscope-amplify-sound/
+    Most of the times the rubes are made of rubber or any material that can create
+    multiple reflections for the sound wave. When the sound wave vibrates the
+    flat surface, it is directed to the rubber tube of the stethoscope. Then,
+    the wave reflects inside the tube and travel to the ear tips. The direction
+    is important to give accurate sound. The quality of rubber will determine
+    the quality of sound the doctor gets through the ear tips.
+
+    The high-pitch sounds directly vibrate to the flat disc of the diaphragm.
+    However, the low-pitch sound uses the inside wave reflection through the bell.
+    It picks the sound from the artery’s movement and moves outward to vibrate
+    the bell. Then, it is directed to the tube and thus, the sound is amplified.
+
     https://en.wikipedia.org/wiki/Stethoscope
     oops. --> Rappaport and Sprague designed a new stethoscope in the 1940s, which
     became the standard by which other stethoscopes are measured, consisting of
@@ -1079,7 +1136,7 @@ Scope:
     WTF?  The vent cannot be created due to failed geometry.  The normal vector
     from the center of the vent sketch must: intersect the face where you are
     placing the vent.  Penetrate INTO the selected face to calculate the vent
-    depth.  
+    depth.
 
 ---Screwboss in 3d printed parts?-----------------------------------------------
 
@@ -1096,6 +1153,7 @@ Scope:
 ---Potentiometer Knobs----------------------------------------------------------
 
     https://www.thingiverse.com/tag:potentiometer_knob
+    https://www.thingiverse.com/tag:volume_knob
     https://www.thingiverse.com/thing:2329397
         MP Select Mini V2 - Replacement Knob
         by makerboz May 18, 2017
@@ -1107,3 +1165,91 @@ Scope:
     Hole I.D. = 7.5mm
     Material Thickness at mounting (to ensure best strength, all threads used)
     = 2.6mm thick
+
+    soldering aid?
+    https://forum.digikey.com/t/does-digikey-sell-a-0-1-pin-socket-connector-set/6235
+
+    These will likely work:
+    https://www.digikey.com/product-detail/en/molex/5600230448/WM16315CT-ND/6702303
+    https://www.molex.com/pdm_docs/sd/5600230448_sd.pdf
+
+    Dupont Connectors
+    https://www.plusivo.com/home/31-plusivo-dupont-connector-kit.html
+
+---Audio Filters----------------------------------------------------------------
+
+    https://en.wikipedia.org/wiki/Audio_filter
+    https://en.wikipedia.org/wiki/Low-pass_filter
+
+    https://www.electronics-tutorials.ws/filter/filter_2.html
+        Passive Low Pass Filter
+
+    https://www.electronics-tutorials.ws/filter/filter_5.html
+        Active Low Pass Filter
+
+    http://www.dspguide.com/filtexam.htm
+    The Scientist and Engineer's Guide to Digital Signal Processing
+        By Steven W. Smith, Ph.D.
+
+        See image of an analog low-pass filter
+        6 pole Chebyshev, 6% ripple, 1.0kHz cutoff
+
+    http://www.dspguide.com/ch3/4.htm
+        Figure 3-8 shows a common building block for analog filter design, the
+        modified Sallen-Key circuit. This is named after the authors of a 1950s
+        paper describing the technique. The circuit shown is a two pole low-pass
+        filter that can be configured as any of the three basic types. Table 3-1
+        provides the necessary information to select the appropriate resistors
+        and capacitors. For example, to design a 1 kHz, 2 pole Butterworth filter,
+        Table 3-1 provides the parameters: k1 = 0.1592 and k2 = 0.586. Arbitrarily
+        selecting R1 = 10K and C = 0.01uF (common values for op amp circuits), R
+        and Rf can be calculated as 15.95K and 5.86K, respectively. Rounding
+        these last two values to the nearest 1% standard resistors, results in
+        R = 15.8K and Rf = 5.90K All of the components should be 1% precision or
+        better.
+
+        The particular op amp use isn't critical, as long as the unity gain frequency
+        is more than 30 to 100 times higher than the filter's cutoff frequency.
+        This is an easy requirement as long as the filter's cutoff frequency is
+        below about 100 kHz.
+
+---OPAmp Design Notes-----------------------------------------------------------
+
+    Op Amp gain of 100 which is 100x input signal. That would be 40 db amplification.
+
+    Gain = 1 + Rf/Rin
+    https://en.wikipedia.org/wiki/Gain_(electronics)
+
+    How can I add gain to a Sallen-Key filter?
+    https://electronics.stackexchange.com/questions/74877/gain-in-sallen-key-filter
+
+    http://www.ti.com/lit/an/sloa024b/sloa024b.pdf
+    Texas Instruments -- Analysis of the Sallen-Key Architecture
+
+
+
+---ESP32 and Audio--------------------------------------------------------------
+
+    https://www.youtube.com/watch?v=SCAKQsGt9wI
+    ESP32 .WAV File Playback | PAM8302 Audio Amplifier
+    Sep 22, 2019    ACROBOTIC
+
+    https://www.hackster.io/julianfschroeter/stream-your-audio-on-the-esp32-2e4661
+    Julian -- Published March 6, 2018 © GPL3+
+        Stream Your Audio on the ESP32
+        Use the ESP32 to play audio data from a custom stream.
+
+---Voltage Regulator------------------------------------------------------------
+
+    For analog design, quick and dirty, a simple voltage divider is a choice.
+    downside? loss of voltage minimum when batteries start to die.
+
+    voltage regulator?
+    https://en.wikipedia.org/wiki/Voltage_regulator
+    A simple linear voltage regulator should do the trick.
+    Filter: In Stock, Thru Pin, 2V thru 2.5v.  Sort by price.
+    MCP1700-2502E/TO-ND     MCP1700-2502E/TO	Microchip Technology	IC REG LINEAR 2.5V 250MA TO92-3  $0.37
+
+---Electronics References-------------------------------------------------------
+
+    The Art of Electronics, by Paul Horowitz and Winfield Hill

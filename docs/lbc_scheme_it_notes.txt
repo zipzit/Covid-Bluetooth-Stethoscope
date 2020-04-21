@@ -33,10 +33,10 @@
 ---Object labeling--------------------------------------------------------------
 
     On the right hand margin of Scheme-it, there is a right pull out arrow.  This
-    is the object properties viewer.  For any indidual object selected on the
+    is the object properties viewer.  For any individual object selected on the
     screen, there are properties.  The properties with check mark are displayed
     on screen. If you want to hide a property "Mik18", click the check box off.
-    You can also insert custom titles from there. 
+    You can also insert custom titles from there.
 
 ---Large Dev kit boards?--------------------------------------------------------
 
