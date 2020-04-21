@@ -1226,6 +1226,38 @@ Scope:
     http://www.ti.com/lit/an/sloa024b/sloa024b.pdf
     Texas Instruments -- Analysis of the Sallen-Key Architecture
 
+    https://www.electronics-tutorials.ws/filter/sallen-key-filter.html
+        Pretty easy to understand description of what's going on...
+
+    https://en.wikipedia.org/wiki/Sallen%E2%80%93Key_topology
+        Lots of links to online tools to help out with design on this stuff.
+
+    http://sim.okawa-denshi.jp/en/OPseikiLowkeisan.htm
+        Sallen-Key Low-pass Filter Design Tool
+        This page is a web application that design a Sallen-Key low-pass filter.
+        Use this utility to simulate the Transfer Function for filters at a given
+        frequency, damping ratio ζ, Q or values of R and C. The response of the
+        filter is displayed on graphs, showing Bode diagram, Nyquist diagram,
+        Impulse response and Step response.
+
+    Reminder:
+        y = log-base-a (x)
+        So that --> a^y = x
+
+        e.g.
+        log-base-10(10^7) = 7
+
+    If we want a total voltage gain of 100..
+
+    current Adafruit amp max = 18db = 20Log-base-10 (Vout/Vin)
+    Vout/Vin ==> 7.94
+
+    We want 100!     100/7.94 = 12.6
+    db = 20 Log-base-10(12.6) = 22db
+    18db + 22db = 40db
+
+    Can we get a multiple stage Sallen-Key filter to provide 22db of gain at the
+    input to the audio amp?
 
 
 ---ESP32 and Audio--------------------------------------------------------------
@@ -1243,6 +1275,8 @@ Scope:
 
     For analog design, quick and dirty, a simple voltage divider is a choice.
     downside? loss of voltage minimum when batteries start to die.
+
+    https://en.wikipedia.org/wiki/Voltage_regulator#Linear_regulators
 
     voltage regulator?
     https://en.wikipedia.org/wiki/Voltage_regulator
