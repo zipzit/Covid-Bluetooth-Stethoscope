@@ -1187,6 +1187,11 @@ Scope:
     https://www.electronics-tutorials.ws/filter/filter_5.html
         Active Low Pass Filter
 
+    https://www.analog.com/media/en/training-seminars/tutorials/MT-222.pdf
+        Sallen-Key Filters
+        by Hank Zumbahlen,
+        Analog Devices, Inc.
+
     http://www.dspguide.com/filtexam.htm
     The Scientist and Engineer's Guide to Digital Signal Processing
         By Steven W. Smith, Ph.D.
@@ -1212,6 +1217,20 @@ Scope:
         is more than 30 to 100 times higher than the filter's cutoff frequency.
         This is an easy requirement as long as the filter's cutoff frequency is
         below about 100 kHz.
+
+    Q-Factor
+        https://en.wikipedia.org/wiki/Q_factor
+        Q factor is a dimensionless parameter that describes how underdamped an
+        oscillator or resonator is. It is defined as the ratio of the peak energy
+        stored in the resonator in a cycle of oscillation to the energy lost per
+        radian of the cycle.  Higher Q indicates a lower rate of energy loss and
+        the oscillations die out more slowly. A pendulum suspended from a
+        high-quality bearing, oscillating in air, has a high Q, while a pendulum
+        immersed in oil has a low one. Resonators with high quality factors have
+        low damping, so that they ring or vibrate longer.
+
+        For an electrically resonant system, the Q factor represents the effect
+        of electrical resistance.
 
 ---OPAmp Design Notes-----------------------------------------------------------
 
@@ -1239,6 +1258,67 @@ Scope:
         frequency, damping ratio ζ, Q or values of R and C. The response of the
         filter is displayed on graphs, showing Bode diagram, Nyquist diagram,
         Impulse response and Step response.
+        http://sim.okawa-denshi.jp/en/Fkeisan.htm
+        http://sim.okawa-denshi.jp/en/OPstool.php
+        (max gain appears to be limited, based on Q factor or Damping Ratio)
+        Damping ratio of 1, max gain is 15.
+        Q factor of 0.707, max gain is approx 1.5.
+        First stage Gain = 15,
+            R1 = 75kΩ
+            R2 = 10kΩ
+            R3 = 13kΩ
+            R4 = 180kΩ
+            C1 = 0.0015uF
+            C2 = 0.022uF
+        Second Stage Gain = 17.8/15.0 = 1.19
+            R1 = 16kΩ
+            R2 = 33kΩ
+            R3 = 43kΩ
+            R4 = 8.2kΩ
+            C1 = 0.0068uF
+            C2 = 0.0068uF
+
+    https://www.youtube.com/watch?v=RexQOQnNmjc
+        Sallen-Key 101: Gain and Attenuation
+        Jun 23, 2014    Analog Devices, Inc.
+        If you are going to add gain and you have a multistage filter, add the
+        gain in the first stage...
+
+    https://www.youtube.com/watch?v=DEV7l66D6Ys
+        Filtering 101: Multi Pole Filters with Sallen-Key
+        Jul 13, 2011    Analog Devices, Inc.
+
+    https://www.youtube.com/watch?v=DUC389esZdM
+        Filtering 101: Sallen-Key vs. Multiple Feedback
+        Jun 23, 2014    Analog Devices, Inc.
+
+    https://www.youtube.com/watch?v=FGbm4HUzUwk
+        66. Low Pass Active Filters
+        Jan 9, 2018    The Offset Volt
+        59:43, long video, but seems well done.
+        This guy sounds like Mr. Rogers, welcome to the neighborhood
+        Filter review: Bessel, Butterworth, Chebyshev, Elliptic
+        Butterworth, flat response, but, phase issues that affect audio signals.  Not recommended.
+
+    https://blog.bliley.com/filter-typology-face-off-a-closer-look-at-the-top-4-filter-types
+
+    http://www.tedpavlic.com/teaching/osu/ece327/lab7_proj/lab7_proj_procedure.pdf
+        good notes within this document
+        As you will see, Butterworth filters have maximally flat amplitude response
+        in the passband. Unfortunately, they have two major drawbacks.
+        --Poor Roll-off: Butterworth high-frequency roll-off is shallow, which means
+          that high-frequency signals are not greatly attenuated. To remedy this,
+          our power amplifier has provide an additional high-frequency pole.
+        --Poor Phase Response: Butterworth low-pass filters have extremely poor
+          phase response near the corner frequency. The non-linear phase response
+          delays some frequencies more than others. The result is that inputs with
+          significant high-frequency components are distorted on the output because
+          their higher-frequency components are re-combined out of phase.
+        Together, fast inputs to your circuit may be significantly distorted after
+        smoothing.
+
+    https://tools.analog.com/en/filterwizard/
+        Analog Filter Wizard
 
     Reminder:
         y = log-base-a (x)
@@ -1251,13 +1331,35 @@ Scope:
 
     current Adafruit amp max = 18db = 20Log-base-10 (Vout/Vin)
     Vout/Vin ==> 7.94
+    current Adafruit amp max = 15db = 20Log-base-10 (Vout/Vin)
+    Vout/Vin ==> 5.62
 
-    We want 100!     100/7.94 = 12.6
+
+    We want 100!     100/7.94 = 12.6        100/5.62 = 17.8
     db = 20 Log-base-10(12.6) = 22db
+    (i.e. we need this much pre-amp gain to get V/V Gain of 100)
     18db + 22db = 40db
+    db = 20 Log-base-10(17.8) = 25db
+    18db + 25db = 43db
 
     Can we get a multiple stage Sallen-Key filter to provide 22db of gain at the
     input to the audio amp?
+
+    OpAmp Slew Rate?
+        https://forum.digikey.com/t/suitable-slew-rate-in-op-amp-circuit-design/641
+        Slew rate reflects the output voltage conversion rate of the Op amp. In
+        other words, it shows how fast the Op amp can respond to a rapid change
+        of input level.
+
+    Here's an interesting dev board from digikey.
+    https://github.com/sparkfun/OpAmp_Breakout-LMV358/tree/V_1.6
+    1568-1278-ND  BOB-09816	SparkFun Electronics	SPARKFUN OPAMP BREAKOUT - LMV358	$5.50000
+
+    https://www.digikey.com/products/en/integrated-circuits-ics/linear-amplifiers-instrumentation-op-amps-buffer-amps/687
+    OpAmp sort: On hand, Mounting Type: thru-hole, Voltage - Supply, Single/Dual (range 1v ~6v and all combos of that...)
+    MCP6002-E/P-ND   MCP6002-E/P	Microchip Technology
+    IC OPAMP GP 2 CIRCUIT 8DIP	$0.36000
+    http://ww1.microchip.com/downloads/en/DeviceDoc/MCP6001-1R-1U-2-4-1-MHz-Low-Power-Op-Amp-DS20001733L.pdf
 
 
 ---ESP32 and Audio--------------------------------------------------------------
@@ -1287,3 +1389,7 @@ Scope:
 ---Electronics References-------------------------------------------------------
 
     The Art of Electronics, by Paul Horowitz and Winfield Hill
+
+    https://www.analog.com/en/education/education-library/practical-design-techniques-sensor-signal-conditioning.html
+        Practical Design Techniques for Sensor Signal Conditioning, 1999
+        Edited by Walt Kester, Analog Devices, 1999, ISBN-0-916550-20-6.
