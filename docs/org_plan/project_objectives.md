@@ -7,7 +7,7 @@ Our current focus is on prototyping our concept ideas and making sure they work 
 
 Our primary "product" is the open-source designs and documentation needed to construct, program, and test devices that can be provided to medical professionals.
 
-A secondary goal may be to souce and provide development kits to makerspaces or individuals that can construct and test devices before donation.
+A secondary goal may be to source and provide development kits to makerspaces or individuals that can construct and test devices before donation.
 
 Below are details on the problems, goals, and current designs:
 
@@ -71,6 +71,8 @@ This will build on the knowledge we gather about microphones and speakers and ho
 We have been working with two different ESP32 development boards - the ESP32-LoRa, and the ESP32 Lyra-T Mini:
 
 Using the Lyra-T Mini we have constructed a prototype which uses a microphone inside a standard stethoscope bell and broadcasts via bluetooth to a standard bluetooth-enabled speaker.  Heart sounds appear clear and audible though a Bose Soundlink bluetooth speaker, we need more work to determine if we can reproduce decent sound quality with an onboard speaker.  The Lyra-T Mini is approximately $22/unit and has extra on-board audio codecs and ADCs.
+
+<img src="/images/bt_prototype_1.jpg" data-canonical-src="/images/bt_prototype_1.jpg" width="400" >
 
 Using the LoRa, we have tested that we can pair reliably with most standard bluetooth devices, and recover the connection if one side of the link is reset.  We have modified the Espressif-provided open-source software to do this.  The LoRa has also had issues with the I2S DMA ADC operating while bluetooth is functional.  We filed a support ticket with Espressif and they have been responsive and provided a fix.  The LoRa is slightly cheaper and smaller than the Lyra-T and comes with an onboard screen.  We would like this board as a development option, but it would require adding an addition codec/ADC chip - likely the ES8388, which is approximately $.90. 
 
