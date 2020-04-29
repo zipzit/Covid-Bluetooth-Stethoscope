@@ -5,7 +5,7 @@ Currently all work on the Covid-19 Bluetooth Stethoscope project is remote, with
 If we acquire and distribute materials to makerspaces or volunteers we will take measures to minimize contact and package materials safely.
 
 
-# Stethoscope designs
+## Stethoscope designs
 
 For stethoscope designs themselves, our primary safety concern is sterilization.  Our ideal solution is to have a durable, smooth-sided housing that is sealed and can be easily sterilizeable with current practices - disinfectant solution and/or UV light.  If that isn't possible due to necessary openings like a speaker grill or rough 3D-printed material, then devices can be placed in a ziploc bag that can be sterilized or discarded between uses provided audio quality is sufficient. 
 

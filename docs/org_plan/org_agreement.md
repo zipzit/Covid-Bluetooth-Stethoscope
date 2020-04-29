@@ -10,14 +10,14 @@ The current grant agreement with Protocol Labs specifies that the Stethoscope pr
 
 The current project coordinators are:
 
-Dr. Brian L
-Charley L
-J.B. C
-Aaron R
-Michael V
+Dr. Brian L\
+Charley L\
+L.B. C\
+Aaron R\
+Michael V\
 
 (Full contact information is provided in the Google spreadsheet)
 
-My suggestion is that for the time being, invoice disbursements be approved by any three project coordinators.
--Charley
+My suggestion is that for the time being, invoice disbursements be approved by any three project coordinators.\
+-Charley\
 4/29/2020
