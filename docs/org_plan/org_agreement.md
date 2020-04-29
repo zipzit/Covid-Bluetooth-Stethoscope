@@ -14,7 +14,7 @@ Dr. Brian L\
 Charley L\
 L.B. C\
 Aaron R\
-Michael V\
+Michael V
 
 (Full contact information is provided in the Google spreadsheet)
 
