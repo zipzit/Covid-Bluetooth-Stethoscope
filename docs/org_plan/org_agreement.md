@@ -20,7 +20,7 @@ The current grant agreement with Protocol Labs specifies:
 
 6. This letter pertains only to the Contribution identified in this letter and should not be construed as a commitment or pledge, either explicit or implied, of any future contributions to Grantee. It is expressly understood by the parties that this letter relates to a contribution and is not a contract between the parties for services or guaranteed payment. Accordingly, Protocol Labs may, in its sole discretion, postpone or cancel any installment payment, or all future installment payments, contemplated under this agreement.
 
-Though stipulation #2 specifies software, regarding hardware, any designs the Project produce will be provided to the public under an open-source license.
+Though stipulation #2 specifies software, regarding hardware, any designs the Project produces will be provided to the public under an open-source license.
 
 The current project coordinators are:
 
