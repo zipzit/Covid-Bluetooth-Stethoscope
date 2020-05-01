@@ -1,6 +1,6 @@
 These solution ideas are mainly to see what sorts of things would work *practically* in a hospital environment.
 
-### Problems with current disposable-stethoscope solution: ###
+### Problems with current stethoscope solution: ###
   - Stethoscopes are expensive and hard to disinfect, resulting in a situation where cheap, disposable stethoscopes are often left with
       a single patient for the duration of their stay (in developed countries). 
   - Disposable stethoscopes are low-quality (poorer sound).
@@ -18,17 +18,14 @@ These solution ideas are mainly to see what sorts of things would work *practica
   Mike Vang's notes from 3/29/20 meeting:
   - Pick up sound range between 20Hz to 1kHz.
   
-### Conjectures (need clarification/correction): ###
-  - A small microphone/transmitter puck that could be taped to the patient while they are being intubated frees up one of the doctors' hands.
-
-
-### Constraints: ###
+### Design constraints: ###
+  - Allows the medical professional to maintain at least arm-length distance, and be easy to use while intubating.
   - Relatively inexpensive.  Such as, in the range where parts of the device(s) that come in contact with the patient
     are effectively disposable.
   - Easily sterilizeable, or be placed in a container/wrapping that is easily sterilizeable while still functioning.
-  - Durable with a long battery life.
+  - Durable, able to handle many sterilization cycles without degrading.
+  - A battery life sufficient to handle a 10-hour shift.
   - Dead simple to configure, as few failure points as possible.
-  - Maximizes the distance from the patient, and/or minimizes the amount of time spent near the patient.
 
 ### Other: ###
 - If something works or doesn't work in the hospital setting currently, there's probably a really good reason for it.
