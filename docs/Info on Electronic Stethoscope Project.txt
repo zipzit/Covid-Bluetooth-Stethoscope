@@ -1002,6 +1002,96 @@ Scope:
     https://www.ippt.pan.pl/Repository/o5918.pdf
         "Sound differences between electronic and acoustic stethoscopes"
 
+    https://www.ahajournals.org/doi/pdf/10.1161/01.CIR.34.5.889
+    Stethoscope Acoustics
+        I. The Doctor and His Stethoscope
+        By PAUL Y. ERTEL, M.D., MERLE LAWRENCE, PH.D.,
+        RICHARD K. BROWN, PH.D., AND AARON M. STERN, M.D.
+
+    -- This paper is generally focused on measuring performance.
+    -- "Controversy has long existed as to whether the mechanical stethoscope is
+       capable of amplifying sound. Data from both the objective and the subjective
+       studies indicate that it can amplify. However, amplification was found to
+       be uneven in all instruments in which it did occur. The regularity of
+       amplification peaks occuring through the test frequency range suggests that
+       these peaks reflect standing waves within the lumen of the stethoscope.
+       These occur when the length of a stethoscope matches quarter-wave lengths
+       of the sounds passing through it. This results in reinforcement, commonly
+       called "resonance peaks." Other factors may be involved, and specific
+       studies must be carried out with instruments of constant length before
+       this concept can be validated."
+
+    https://www.sciencedirect.com/science/article/abs/pii/0002870351901561?via%3Dihub
+    The effects of tubing bore on stethoscope efficiency
+    Maurice B.Rappaport, E.E.    Howard B.Sprague, M.D.
+    -- Our data showed that below about 100 cycles per second, the efficiency is
+       not affected materially by tubing length. From about 100 cycles per second
+       to 1,000 cycles per second, tubing length exhibits a considerable effect
+       upon stethoscope efficiency; that is, the efficiency decreases with increased
+       tubing length. We concluded that the changes in the efficiency of an acoustic
+       stethoscope which are caused by varying the length of the tubing, although
+       not given any consideration by stethoscope users, produce an effect upon
+       the quality of the heart sounds and the ability to hear low-intensity murmurs of
+       medium and high frequency. For example, at 200 cycles per second there is a 15
+       decibel attenuation of the sounds when two rubber tubes, each 26 inches long
+       (commercial stethoscope tubing, with a caliber of 3/16 inch), are substituted for
+       two similar tubes 3 inches in length. The sound is about eight times as loud in
+       the short tubing system. This attenuation occurs in the region where the lowintensity,
+       high-pitched basal diastolic murmurs are present, and every possible
+       increase in efficiency in this region is of utmost value.
+       Our analysis also indicated that the auscultatory sound
+    -- Our analysis also indicated that the auscultatory sound pressure variations
+       at the ear, produced by the motion of the skin or Bakelite diaphragm, are inversely
+       proportional to the internal volume of the stethoscope, so that an infinitely
+       small volume would theoretically exhibit a maximum variation in pressure,
+       which, in turn, would manifest itself as a sound of maximum intensity. The
+       skin diaphragm effect is produced when the open bell chest piece is placed on the
+       surface of the chest, and the Bakelite diaphragm effect is produced by means of
+       the Bowles chest piece. Obviously, therefore, the tubing, according to this form
+       of reasoning, should be as short as possible and the caliber as small as possible.
+       Also, the wall of the tubing should be sufficiently rigid for maximum efficiency,
+       for any wall motion reduces the effective pressure variation transmitted to the
+       observer’s ear.
+    -- We also indicated that a factor that must be taken into consideration is the
+       frictional resistance offered to the air column by the walls of the rubber tubing.
+       That is, the efficiency of a stethoscope decreases as the resistance to the pressure
+       variations is increased; the resistance is increased as the caliber is decreased.
+       In eliminating the resistance component, we have still to consider that the greater
+       the volume, the less the efficiency.
+
+    https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6076413/pdf/12938_2018_Article_540.pdf
+    https://biomedical-engineering-online.biomedcentral.com/track/pdf/10.1186/s12938-018-0540-2
+    Sound diferences between electronic and acoustic stethoscopes
+        Lukasz J. Nowak and Karolina M. Nowak
+
+    https://jidc.org/index.php/journal/article/view/24423717/985
+    Stethoscope disinfection campaign in a Nigerian teaching hospital: results of a before-and-after study
+    Chigozie J. Uneke
+
+    https://biomedical-engineering-online.biomedcentral.com/track/pdf/10.1186/s12938-015-0056-y
+    The electronic stethoscope
+        Shuang Leng, Ru San Tan, Kevin Tshun Chuan Chai, Chao Wang, Dhanjoo Ghista and Liang Zhong
+
+    https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4864738/pdf/mbp-21-178.pdf
+    Comparison of stethoscope bell and diaphragm, and of stethoscope tube length,
+    for clinical blood pressure measurement
+        Chengyu Liua,c, Clive Griffithsa, Alan Murraya and Dingchang Zhenga
+
+    https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1017790/pdf/brheartj00363-0111.pdf
+    A NEW DIAPHRAGMATIC STETHOSCOPE
+        C. R. Burch and J. P. P. Stock (1961)
+
+    https://academic.oup.com/eurheartj/article/37/47/3536/2844988
+    The 200th anniversary of the stethoscope: Can this low-tech device survive
+    in the high-tech 21st century?
+    Ivan Bank1,2, Hubert W. Vliegen3, and Albert V.G. Bruschke
+
+    https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5783442/pdf/abc-109-06-0606.pdf
+    Lung Ultrasound: The Cardiologists' New Friend
+        Marcelo Haertel Miglioranza, Antonio Carlos Sobral Sousa, Caroline de Souza Costa Araujo,
+        Marcos Antonio Almeida-Santos,  Luna Gargani
+
+
 ---Outside of the box thinking, Surface Transducer------------------------------
 
     Digikey 1568-1619-ND  SparkFun Electronics $24.95 (oops, only one left)
@@ -1070,6 +1160,9 @@ Scope:
 
     White paper:
     https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0193087
+    Validation of an effective, low cost, Free/open access 3D-printed stethoscope
+        Alexander Pavlosky, Jennifer Glauche, Spencer Chambers, Mahmoud Al-Alawi,
+        Kliment Yanev, Tarek Loubani
 
     Research article on the GilaZ Open Source Stethoscope.
 
@@ -1106,6 +1199,70 @@ Scope:
     different design proposals.  And that is really great news.  Anybody have an
     exciter speaker (blue tooth box you set on a desk, and the whole desk vibrates
     with your audio output?)
+
+    From: https://github.com/GliaX/Stethoscope/blob/master/testing/Stethoscope_Validation.md
+    In the above topology, the balloon contains 2L of water (2000g), acoustic
+    input is supplied via a pair of Monster DNA headphones and sounds were
+    recorded using a Hama microphone. Audacity was used to create a 15 second
+    audio clip of white noise which was played through the setup with the output
+    of each stethoscope being recorded for spectral analysis. The spectrum produced
+    by each stethoscope model was then compared to that of the Littmann Cardiology
+    III. These plots are shown below...
+
+    https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5851543/
+    Validation of an effective, low cost, Free/open access 3D-printed stethoscope
+    There are a lot of valuable links at the end of this paper.
+
+    Other related notes and thoughts:
+    https://github.com/GliaX/Stethoscope/issues/51
+    -- I've found that the diaphragm should have a thickness of around 0.7-0.9 mm
+       and should be made of a relatively hard plastic material for optimal
+       performance. I ended up using a A4 paper folder from here:
+       https://www.jula.se/catalog/hem-och-hushall/kontor/kontorsmaterial/document-storage/mapp-001996/
+
+    https://github.com/GliaX/Stethoscope/issues/37
+    -- If you can get a hold of X Ray film, that should be about the right thickness
+       that was used in the very first stethoscopes. If you have a littmann diaphragm
+       available to you, you can cut it and use it as a standard to compare.
+    -- as for attaching the membrane, you should be able to just drop it into the
+       printed ring and friction-fit the head into it. I haven't seen or encountered
+       anything to suggest otherwise.
+
+    https://github.com/GliaX/Stethoscope/issues/33
+    -- ...nowhere do I see the diameter of the Diaphragm.  Is it supposed to sit
+       inside the lip on the top of the head ?  Does it extend to the inner edge
+       of the ring ?  Should it be glued to the lip, or does it need to have some
+       play between the lip and the ring ?
+    -- Short answer: 40mm diameter. (Apparently early versions had a rubber
+       o-ring under the membrane...)
+
+    https://github.com/GliaX/Stethoscope/issues/28
+    -- Slot in O-ring
+    -- https://www.theoringstore.com/index.php?main_page=index&cPath=367_98
+    -- Here, they call them "Square Orings also known as Tetraseals® or lathe-cut rings - Buna-N -Duro 70".
+    -- https://www.ecstuning.com/b-genuine-porsche-parts/thermostat-o-ring/94410692908/
+    -- https://agenaastro.com/ahs-o-ring-2.html
+
+    Alternate Version:   https://www.thingiverse.com/thing:2895115
+    -- My stethoscope has rounder edges for improved patient comfort, as well as
+       easier build plate removal.
+    -- I widened the "spring" to reduce clamping pressure in the users ears.
+       There are two models of the spring. I'd print the non-tight one first. It
+       should be great for most people.
+    -- I redesigned the chest piece in two versions.  One that is low profile with
+       no supports.  One that adds a finger button to allow it to be easily held
+       between the fingers Both chest pieces have rounded sound channels to reduce
+       obstructions for better sound transfer.
+    -- Diaphragm: 40mm diameter cut from a report cover with approx 0.35mm plastic sheet
+    -- I have designed the chest piece so that the membrane (report cover) is
+       held in place by pressure from the TOP and BOTTOM, NOT the sides! Make sure
+       that when you cut the diaphragm out, it drops in to the ring without forcing
+       it in. If you force it, it will per-tension the diaphragm and reduce it's
+       sensitivity. It should drop in to the ring and then the ring gets squeezed
+       down on to the chest piece. The diaphragm should lay completely flat with
+       no bulges at all.
+
+    Alternate Version:  https://www.thingiverse.com/thing:577507
 
 ---FabLab 3xD open source Stethoscope-------------------------------------------
 
@@ -1361,6 +1518,17 @@ Scope:
     IC OPAMP GP 2 CIRCUIT 8DIP	$0.36000
     http://ww1.microchip.com/downloads/en/DeviceDoc/MCP6001-1R-1U-2-4-1-MHz-Low-Power-Op-Amp-DS20001733L.pdf
 
+---Capacitor notes--------------------------------------------------------------
+
+    Ceramic or Aluminum Electrolytic or Film or Tantalum or Aluminum Polymer...
+
+    use the generic rule that if it is under 1uF go with ceramic, over iuF get electrolytic.
+
+    https://electronics.stackexchange.com/questions/70545/film-or-ceramic-capacitors-for-op-amp-feedback-bw-limit
+
+    https://www.digikey.com/products/en/capacitors/ceramic-capacitors/60
+    Filter: In Stock Filter: mounting type - Thru Hole
+
 
 ---ESP32 and Audio--------------------------------------------------------------
 
@@ -1393,3 +1561,78 @@ Scope:
     https://www.analog.com/en/education/education-library/practical-design-techniques-sensor-signal-conditioning.html
         Practical Design Techniques for Sensor Signal Conditioning, 1999
         Edited by Walt Kester, Analog Devices, 1999, ISBN-0-916550-20-6.
+
+---Microphone pickup using hoses and nipples?-----------------------------------
+
+    hose?
+    GliaX Stethoscope hose:
+    40cm - 50cm Silicone 13mm (preferred) or 12mm OD, 8mm ID, 50 durometer
+    8MM I.D X 13MM O.D NGP60 Clear Translucent Silicone Hose Pipe Tubing (USD$7.34/meter)
+
+    LBC notes:
+    I have 6.5mm ID stiff poly hose / 9.6mm O.D.
+    I have 8.5mm id soft clear vinyl hose
+
+---Battery Holder---------------------------------------------------------------
+
+    Wow, Digikey has lots and lots of parts here... including springs and contacts,
+    so a shaped battery holder is totally possible.
+
+    https://www.digikey.com/products/en/battery-products/battery-holders-clips-contacts/86?k=battery%20holders
+    three cell AA holder = $1.61
+    There are a ton of clips and springs available there to design your own.
+
+---DIY Boards-------------------------------------------------------------------
+
+    https://oshpark.com/
+
+    Er, wait.. if we do a custom board, why bother with Adafruit class d audio amp?
+    can we find something we can solder?
+
+    how to?
+
+    https://www.youtube.com/watch?v=_3jFsNffzxQ
+    How to Make a Custom PCB - Part 1 - Making the Schematic
+    Jun 27, 2016        Circuit Basics
+
+    https://www.youtube.com/watch?v=g4iiekExXak
+    How to Make a Custom PCB - Part 2 - Making the PCB
+    Jun 27, 2016        Circuit Basics
+        https://www.circuitbasics.com/make-custom-pcb/
+
+
+---hand soldering?--------------------------------------------------------------
+
+    https://jeelabs.org/book/1513c/
+    Soldering a TSSOP chip by hand
+
+    https://forum.sparkfun.com/viewtopic.php?t=18125
+    TIPS FOR SOLDERING SSOP PINS
+
+    https://www.digikey.com/products/en/integrated-circuits-ics/linear-amplifiers-audio/742
+    thru pin?  (not likely for 3v to 6v power)
+    Supplier Device Package: X-SOP, X-MSOP, X-SOIC, X-VSSOP, X-Multiwatt, PowerSSO-X, X-TSSOP, X-HTSSOP
+    filter parameters:
+    voltage Supply:
+    in stock: check
+    View Prices at: 1
+
+    Alternatives, toaster oven (reflow), Hot plate reflow.
+
+---Fritzing---------------------------------------------------------------------
+
+    Breadboard Layout?
+    https://fritzing.org/home/
+
+    Fritzing is an open-source hardware initiative that makes electronics accessible
+    as a creative material for anyone. We offer a software tool, a community website
+    and services in the spirit of Processing and Arduino, fostering a creative
+    ecosystem that allows users to document their prototypes, share them with
+    others, teach electronics in a classroom, and layout and manufacture professional
+    pcbs.
+
+    https://fritzing.org/download/
+    They are asking for a donation of $9 for each download.
+
+    https://github.com/fritzing/fritzing-app
+    https://github.com/fritzing/fritzing-app/wiki
