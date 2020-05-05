@@ -1,13 +1,13 @@
 ## Project objectives
 
-This project was created by Dr. Brian L, a frontline doctor in San Diego, because of problems he was facing using standard stethoscopes while utilizing full-body PPE gear.  Our goal is simply to rectify these problems with cheap, easily-constructed designs that can be assembled and donated by the maker community.
+This project was created by Dr. Brian L, a frontline doctor in San Diego, because of problems he was facing using standard stethoscopes while utilizing full-body PPE gear.  Our goal is simply to rectify these problems with cheap, easily-constructed open-source hardware designs that can be quickly distributed, assembled and donated by the maker community.
 
 ## Current objectives
-Our current focus is on prototyping our concept ideas and making sure they work well enough to become a development platform.  Once they do, we will create a bill of materials and documentation and make them available to volunteer developers and makerspaces.  We may possibly batch-order parts that could be made into development kits that could be sent to maker spaces or individuals, possibly including basic electronic equipment (soldering irons, etc) for developers unable to access tools currently.
+Our current focus is on prototyping our proof of concept and making sure these devices work well enough to become a development platform.  Once they do, we will finalize a bill of materials, instruction videos and assembly documentation and make them available to volunteer developers and our networks of makerspaces, hackerspaces and fablabs for distributed production.  We plan to batch-order components and assemble development kits that will be sent to makerspaces or individuals, with the possibility of including low cost electronics equipment (soldering irons, etc) for developers without access to these tools.
 
-Our primary "product" is the open-source designs and documentation needed to construct, program, and test devices that can be provided to medical professionals.
+Our primary "product" is the open-source hardware designs and supporting documentation needed to construct, program, and test devices that can be provided to medical professionals.
 
-A secondary goal may be to source and provide development kits to makerspaces or individuals that can construct and test devices before donation.
+A secondary goal may be to source and provide development kits to our networks of makerspaces, hackerspaces and fablabs or individuals that can program, assemble and test devices before distribution to their local hospitals.
 
 Below are details on the problems, goals, and current designs:
 
