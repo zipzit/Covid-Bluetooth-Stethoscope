@@ -19,6 +19,8 @@ It currently looks similar to this, with the addition of a screen:
 
 ### Software:  ###
   - Our fork of the ESP-IDF source:  [GitHub](https://github.com/admiralmaggie/esp32_bt_escope)
+  - Espressif ESP-IDF and Getting Started Guides:  [GitHub](https://github.com/espressif/esp-idf/blob/master/README.md)
+  - TODO:  Tutorial documentation
   
 ### Hardware Development ###
   - Would like to find a cost-effective way to acquire quality stethoscope bells without having to sacrifice entire stethoscopes.
@@ -26,10 +28,12 @@ It currently looks similar to this, with the addition of a screen:
   - The MEMS microphone doesn't actually fit inside the cut-off stethoscope tube, so is held on with electrical tape and hot glue.  Need to find a durable solution that allows a more integrated "wand" design, similar to this - a larger tube, a smaller microphone, a connector or shrink tubing:
   
     <img src="/docs/devkit/images/devkit_wand_concept_1.png" data-canonical-src="/docs/devkit/images/devkit_wand_concept_1.png" width="400">
+  - Creating additional "wands" with different microphones for testing.
 
 ### Software Development ###
   - Need to port the U8glibv2 Arduino library to ESP-IDF for running the display, or find an existing port:  [GitHub](https://github.com/olikraus/u8g2)
   - Need to find or develop code to interface with the rotary encoder.
+  - Digital signal processing development to mimic the high-frequency filtering characteristics of a stethoscope tube.
 
 ### Notes ###
   - Any ESP32 board with the ESP-WROOM-32 chip should work.
