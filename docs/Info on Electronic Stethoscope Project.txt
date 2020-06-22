@@ -465,6 +465,15 @@ Scope:
 
     See also https://en.wikipedia.org/wiki/Pinard_horn
 
+    https://uberdoco.com/blogs/news/stethoscope-bell-vs-diaphragm-a-comprehensive-comparison
+    The bell is highly sensitive to low-frequency sounds. These are easily picked
+    on the skin surface of the person being examined. The Diaphragm is sensitive
+    to both low and high-frequency sounds. However, it is designed to filter out
+    low-frequency sounds making it more sensitive to high-frequency sounds. The
+    high-frequency sounds are amplified as the waves vibrate against the stiff
+    membrane. This allows accuracy and clarity in the transmission of sound from
+    the chest piece to the tubing and finally into your ears.
+
 ---Stemoscope-------------------------------------------------------------------
 
     https://www.stemoscope.com/
@@ -1263,6 +1272,10 @@ Scope:
        no bulges at all.
 
     Alternate Version:  https://www.thingiverse.com/thing:577507
+
+    Stethoscope Head Design details?
+        Start with source_files\scad\stethoscope_head\lib\printed\stethoscope_head.rb
+        It looka like Ruby pushes content into SCAD.
 
 ---FabLab 3xD open source Stethoscope-------------------------------------------
 
